@@ -22,3 +22,10 @@ Along with this, append to rule 6. "Quantities" ( %quantities)
 aswell as that, add rule 6.1 "Ducks" (%ducks)
 > Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
 
+<a name='3'/>
+
+## #3
+
+Append to 5.3.1 (%passing-and-failing-proposals):
+> Improperly carrying out a proposal is a rule violation.
+
