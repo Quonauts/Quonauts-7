@@ -22,6 +22,7 @@
     * [**2.1. #general**](#general-channel)
     * [**2.2. #rules**](#rules-channel)
     * [**2.3. #proposals**](#proposals-channel)
+    * [**2.4. #polls**](#polls-channel)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -170,4 +171,12 @@ The <#679771790506983509> channel contains this rules document.
 ### <a name='proposals-channel'/> #proposals
 
 The <#679771801773277357> channel is governed by [%proposals].
+
+### <a name='polls-channel'/> #polls
+
+A poll is a means of gathering the opinions of players on an issue. Players may conduct a poll by providing any necessary detail and posting a question in the <#679771811004809282> game channel.
+
+Players may vote in favor of a poll by reacting to the poll with 👍. Players may vote against a poll by reacting to the poll with 👎.
+
+The player that posted a poll may edit it freely, as long as such edits do not change the meaning/intent of any existing reactions to the poll.
 
