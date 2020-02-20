@@ -24,6 +24,7 @@
     * [**2.3. #proposals**](#proposals-channel)
     * [**2.4. #polls**](#polls-channel)
     * [**2.5. #transactions**](#transactions-channel)
+* [**3. Roles**](#roles)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -184,4 +185,8 @@ The player that posted a poll may edit it freely, as long as such edits do not c
 ### <a name='transactions-channel'/> #transactions
 
 The <#679774549273084061> channel may be used to modify quantities, but only as the game rules allow quantities to be changed.
+
+## <a name='roles'/> Roles
+
+The game rules govern roles that have effect within the game.
 
