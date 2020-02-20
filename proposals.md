@@ -113,11 +113,11 @@ When this proposal passes, immediately start the first royal election.
 
 ## #11
 
-Create a channel named #the-land and append 
+Create a channel named #the-land, add the following rule under %channels (%land-channel):
 > Players must announce their movement through The Land in #the-land, and their announcements must match their actual movements.
->  
+and append
 > 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.
-to %land-movement.
+to %land.
 
 <a name='12'/>
 
