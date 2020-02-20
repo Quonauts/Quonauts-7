@@ -56,7 +56,7 @@ and add another rule under %land (%land-generation).
 
 <a name='7'/>
 
-## #7 — Passed
+## #7
 
 Amend Rule 6 (%quantities);
 > Quantities may be traded and exchanged in ways specifically allowed by the rules.
