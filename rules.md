@@ -25,11 +25,11 @@
     * [**2.4. #polls**](#polls-channel)
     * [**2.5. #transactions**](#transactions-channel)
 * [**3. Roles**](#roles)
-* [**4. Rule offender**](#rule-offender)
-* [**5. Activity**](#activity)
-* [**6. Proposals**](#proposals)
-    * [**6.1. Proposal content**](#proposal-content)
-    * [**6.2. Conflict resolution**](#conflict-resolution)
+    * [**3.1. Rule offender**](#rule-offender)
+* [**4. Activity**](#activity)
+* [**5. Proposals**](#proposals)
+    * [**5.1. Proposal content**](#proposal-content)
+    * [**5.2. Conflict resolution**](#conflict-resolution)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -177,7 +177,7 @@ The <#679771790506983509> channel contains this rules document.
 
 ### <a name='proposals-channel'/> #proposals
 
-The <#679771801773277357> channel is governed by [**6. Proposals**](#proposals).
+The <#679771801773277357> channel is governed by [**5. Proposals**](#proposals).
 
 ### <a name='polls-channel'/> #polls
 
@@ -195,7 +195,7 @@ The <#679774549273084061> channel may be used to modify quantities, but only as 
 
 The game rules govern roles that have effect within the game.
 
-## <a name='rule-offender'/> Rule offender
+### <a name='rule-offender'/> Rule offender
 
 Any player which has 1 or more strikes gains the "Rule offender" role. Rule offenders may not perform any game actions; i.e. they may not participate in the game. After 24 hours, a players strike count will decrease by 1 if above 0. If a players strike count is 0, the role will be removed.
 
