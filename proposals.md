@@ -130,3 +130,12 @@ This proposal conflicts with #10
 
 > There is no way for a Player to gain additional votes.
 
+<a name='13'/>
+
+## #13
+
+Replace %the-end with:
+> The game ends if a player has won.
+Replace %winning with:
+> A player can win the game if a rule says so. A proposal cannot directly lead to a player winning. The game cannot be won by more than one player. If according to a rule two or more players win at the same time, that rule does not apply.
+
