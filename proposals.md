@@ -42,3 +42,15 @@ Add a new rule 9 after rule 8 called "Despotism" with the following content:
 
 If this proposal passes, nothing happens.
 
+<a name='6'/>
+
+## #6
+
+Add a new rule (%land);
+> The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.
+> 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.
+add a rule under %land (%land-movement);
+> Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their coordinates.
+and add another rule under %land (%land-generation).
+> By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.
+
