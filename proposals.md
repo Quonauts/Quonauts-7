@@ -61,3 +61,18 @@ and add another rule under %land (%land-generation).
 Amend Rule 6 (%quantities);
 > Quantities may be traded and exchanged in ways specifically allowed by the rules.
 
+<a name='8'/>
+
+## #8
+
+Add a new rule, "Purchase" (%purchase) (%quantities);
+> A Purchase is a transaction of any two quantities between any two players.
+
+> A Purchase must be agreed on by both Players to be Complete. Quantities cannot be exchanged until after a Purchase is Complete.
+
+> Any Purchase in which the Quantities being exchanged is not explicitly stated before the Purchase is Complete is invalid.
+
+> > Any Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is invalid.
+
+> A Complete Purchase cannot be revoked or undone in any way.
+
