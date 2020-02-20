@@ -1,0 +1,13 @@
+{
+	"channel": 679771790506983509,
+	"rules": {
+		"root": {
+			"tag": "root",
+			"title": null,
+			"content": null,
+			"parent_tag": null,
+			"child_tags": [],
+			"message_ids": []
+		}
+	}
+}
