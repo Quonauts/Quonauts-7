@@ -35,6 +35,7 @@
     * [**5.3. Closing proposals**](#closing-proposals)
         * [**5.3.1. Passing and failing proposals**](#passing-and-failing-proposals)
     * [**5.4. Editing proposals**](#editing-proposals)
+* [**6. Quantities**](#quantities)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -264,4 +265,20 @@ When a player passes a proposal, that player must carry out the effects of that 
 ### <a name='editing-proposals'/> Editing proposals
 
 A player may edit a proposal they have submitted if that proposal is open for voting and has no votes cast by players other than its author.
+
+## <a name='quantities'/> Quantities
+
+A quantity is a named property with a numerical value for each player.
+
+By default any unique quantity added to the game:
+
+* applies to all players.
+* is instantiated at zero.
+* must always be an integer.
+* must never have a negative value.
+* cannot be traded or exchanged.
+
+The following quantities exist:
+
+* **Strike**: The number of rule violations a player has committed.
 
