@@ -6,6 +6,7 @@
     * [**1.1. Accuracy**](#accuracy)
     * [**1.2. Precedence**](#precedence)
     * [**1.3. Disallowed by default**](#disallowed-by-default)
+    * [**1.4. Rule violations**](#rule-violations)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -26,4 +27,8 @@ In the case of a contradiction between clauses, the following criteria are to be
 ### <a name='disallowed-by-default'/> Disallowed by default
 
 Unless explicitly stated in the rules, all game actions are forbidden.
+
+### <a name='rule-violations'/> Rule violations
+
+A rule violation is a game action that is not permitted by the rules. Resolving a rule violation is the process of reversing the immediate effects of that rule violation (not including any indirect effects permitted in reaction to the rule violation) to the extent that it is possible.
 
