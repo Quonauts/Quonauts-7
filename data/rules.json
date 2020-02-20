@@ -102,7 +102,7 @@
 		"editing-proposals": {
 			"tag": "editing-proposals",
 			"title": "Editing proposals",
-			"content": "A player may edit a proposal they have submitted if that proposal is open for voting and has no votes cast by players other than its author.",
+			"content": "A player may edit a proposal they have submitted if that proposal is open for voting and has no votes cast by players other than its author.\n\nThe author of a proposal or the player passing a proposal may choose to add or remove whitespace and fix typos or grammer mistakes, as long as the meaning of the proposal remains unchanged. Clarifications or additional details should always be added by a new proposal.",
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [

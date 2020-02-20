@@ -5,10 +5,12 @@
 			"n": 1,
 			"author": 309787486278909952,
 			"content": "Append to rule 5.4 \"Editing proposals\":\n\n> The author of a proposal, or the player passing the proposal may choose to add or remove whitespace and fix typos or grammar mistakes as needed so long as the meaning of the proposal remains unchanged. Clarifications or additional details should always be added a new proposal.\n\n(stolen from Lukalot in Quonauts 6, I'd meant to put that in initial)",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 680014537466052675,
 			"votes": {
 				"309787486278909952": 1,
+				"364562317645709336": 1,
+				"474286909636476939": 1,
 				"474424490382589952": 1
 			},
 			"timestamp": 1582198499
@@ -20,10 +22,212 @@
 			"status": "voting",
 			"message_id": 680022456647680024,
 			"votes": {
+				"261243340752814085": 1,
 				"309787486278909952": 1,
+				"330678593904443393": -1,
+				"364562317645709336": -1,
+				"427589146295664667": 1,
+				"474286909636476939": -1,
 				"474424490382589952": 1
 			},
 			"timestamp": 1582200387
+		},
+		{
+			"n": 3,
+			"author": 364562317645709336,
+			"content": "Append to 5.3.1 (%passing-and-failing-proposals):\n> Improperly carrying out a proposal is a rule violation.",
+			"status": "failed",
+			"message_id": 680039406513422375,
+			"votes": {
+				"309787486278909952": 0,
+				"364562317645709336": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1582204428
+		},
+		{
+			"n": 4,
+			"author": 157917281337212929,
+			"content": "Add a new rule 9 after rule 8 called \"Despotism\" with the following content:\n> All players who voted \ud83d\udc4d  for the Proposal that created this rule, while that Proposal was Open, are Nobles. All other players are not Nobles. Not-Nobles are also known as Peasants. Nobles can react to an Open Proposal authored by a Peasant with a \ud83d\udd25 to Fail and Close that Proposal. Peasants cannot vote \ud83d\udc4e on an Open Proposal authored by a Noble.",
+			"status": "voting",
+			"message_id": 680074862257373187,
+			"votes": {
+				"157917281337212929": 1,
+				"309787486278909952": 0,
+				"330678593904443393": 1,
+				"364562317645709336": -1,
+				"427589146295664667": -1,
+				"474286909636476939": -1,
+				"512645502253400064": 0
+			},
+			"timestamp": 1582212882
+		},
+		{
+			"n": 5,
+			"author": 364562317645709336,
+			"content": "If this proposal passes, nothing happens.",
+			"status": "voting",
+			"message_id": 680089643005509668,
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": -1,
+				"364562317645709336": 1,
+				"474286909636476939": 1,
+				"512645502253400064": -1
+			},
+			"timestamp": 1582216406
+		},
+		{
+			"n": 6,
+			"author": 364562317645709336,
+			"content": "Add a new rule (%land);\n> The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.\n> 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.\nadd a rule under %land (%land-movement);\n> Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their coordinates.\nand add another rule under %land (%land-generation).\n> By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.",
+			"status": "voting",
+			"message_id": 680094463464439828,
+			"votes": {
+				"157917281337212929": 1,
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 0,
+				"364562317645709336": 1,
+				"474286909636476939": 1,
+				"512645502253400064": 1
+			},
+			"timestamp": 1582217555
+		},
+		{
+			"n": 7,
+			"author": 261243340752814085,
+			"content": "Amend Rule 6 (%quantities);\n> Quantities may be traded and exchanged in ways specifically allowed by the rules.",
+			"status": "voting",
+			"message_id": 680110221032554568,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"364562317645709336": 1,
+				"474286909636476939": 1
+			},
+			"timestamp": 1582221312
+		},
+		{
+			"n": 8,
+			"author": 261243340752814085,
+			"content": "Add a new rule, \"Purchase\" (%purchase) (%quantities);\n\nThis proposal depends on #7\n\n> A Purchase is a voluntary transaction of any two quantities between any two Players.\n\n> A Purchase must be agreed on by both Players performing the Purchase to be Complete.\n\n> Once a purchase is Complete, the Quantities must be exchanged according to the agreement.\n\n> A Complete Purchase cannot be revoked or undone in any way.\n\n> An Invalid Purchase does not allow an exchange.\n\n> Any Purchase in which the Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.\n\n> Any Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.",
+			"status": "voting",
+			"message_id": 680114388027572247,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1
+			},
+			"timestamp": 1582222305
+		},
+		{
+			"n": 9,
+			"author": 309787486278909952,
+			"content": "This proposal depends on #2.\n\nAppend to rule 6 \"Quantities\":\n> * **Point**\n\nAppend to rule 5.3.1 \"Passing and failing proposals\":\n> If a proposal passes, the author and the player who passed it gain one point. The author also gains points equal to their number of ducks.",
+			"status": "voting",
+			"message_id": 680117493758427285,
+			"votes": {
+				"261243340752814085": -1,
+				"309787486278909952": 1,
+				"364562317645709336": -1,
+				"474286909636476939": -1
+			},
+			"timestamp": 1582223046
+		},
+		{
+			"n": 10,
+			"author": 330678593904443393,
+			"content": "Add a new rule: %monarch\n> One player carries the title of \"Monarch\" (or \"King\" or \"Queen\", if preferred), chosen by election (see %royal-election). The monarch's vote on a proposal counts twice. If the monarch becomes inactive or one of their proposals fails, they are forced to either pass on their title voluntarily or abdicate, which means they immediately loses this title of monarch and a new election happens to elect a new king. The monarch may pass on their title to another active player voluntarily any time.\nAdd a subrule %royal-election:\n> A new king is chosen by poll, with all active players as candidates (unless they explicitly declare not to candidate). The conditions for ending the election are similar to proposals:\n> * 48 hours have passed since start of the poll\n> * all active players have cast a vote\n> * one candidate has gained an absolute majority of votes\n> If one of these occur, the election is immediately over and no more votes may be cast in the poll. If then one player has the most votes, they become the new monarch. Otherwise, a new election begins.\nWhen this proposal passes, immediately start the first royal election.",
+			"status": "voting",
+			"message_id": 680155365580734490,
+			"votes": {
+				"261243340752814085": -1,
+				"309787486278909952": -1,
+				"330678593904443393": 1,
+				"364562317645709336": 1,
+				"474286909636476939": 1
+			},
+			"timestamp": 1582232075
+		},
+		{
+			"n": 11,
+			"author": 364562317645709336,
+			"content": "Create a channel named #the-land, add the following rule under %channels (%land-channel):\n> Players must announce their movement through The Land in #the-land, and their announcements must match their actual movements.\nand append\n> 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.\nto %land.",
+			"status": "voting",
+			"message_id": 680161298998231087,
+			"votes": {
+				"309787486278909952": 1,
+				"474286909636476939": 1
+			},
+			"timestamp": 1582233490
+		},
+		{
+			"n": 12,
+			"author": 261243340752814085,
+			"content": "Add a new rule, \"Equality\" (%equality);\nThis proposal conflicts with #10\n\n> All Players have exactly one vote for every proposal.\n\n> There is no way for a Player to gain additional votes.",
+			"status": "voting",
+			"message_id": 680161932354912316,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": -1,
+				"474286909636476939": 0
+			},
+			"timestamp": 1582233641
+		},
+		{
+			"n": 13,
+			"author": 330678593904443393,
+			"content": "Replace %the-end with:\n> The game ends if a player has won.\nReplace %winning with:\n> A player can win the game if a rule says so. A proposal cannot directly lead to a player winning. The game cannot be won by more than one player. If according to a rule two or more players win at the same time, that rule does not apply.",
+			"status": "voting",
+			"message_id": 680162120339423244,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"364562317645709336": 1,
+				"474286909636476939": 1
+			},
+			"timestamp": 1582233686
+		},
+		{
+			"n": 14,
+			"author": 309787486278909952,
+			"content": "A duck-free alternative.\n\nCreate a new quantity called \"point\" and append to rule 6 (%quantities):\n> * **Point**: The number of points a player has.",
+			"status": "voting",
+			"message_id": 680163785230909456,
+			"votes": {
+				"261243340752814085": -1,
+				"309787486278909952": 1
+			},
+			"timestamp": 1582234083
+		},
+		{
+			"n": 15,
+			"author": 309787486278909952,
+			"content": "Remove from rule 1.2 (%precedence):\n> 2. If one clause is negative while the other is positive, the negative clause takes precedence.",
+			"status": "voting",
+			"message_id": 680164818191515736,
+			"votes": {
+				"261243340752814085": -1,
+				"309787486278909952": 1,
+				"364562317645709336": -1
+			},
+			"timestamp": 1582234329
+		},
+		{
+			"n": 16,
+			"author": 309787486278909952,
+			"content": "Append to section 1.8 (%glossary):\n> * **Limited scope** (of two rules): The rule that applies in the least situations, having the most constraints.",
+			"status": "voting",
+			"message_id": 680166177854586885,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1
+			},
+			"timestamp": 1582234653
 		}
 	]
 }
