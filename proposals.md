@@ -155,3 +155,10 @@ Create a new quantity called "point" and append to rule 6 (%quantities):
 Remove from rule 1.2 (%precedence):
 > 2. If one clause is negative while the other is positive, the negative clause takes precedence.
 
+<a name='16'/>
+
+## #16
+
+Append to section 1.8 (%glossary):
+> * **Limited scope** (of two rules): The rule that applies in the least situations, having the most constraints.
+
