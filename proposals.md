@@ -24,7 +24,7 @@ aswell as that, add rule 6.1 "Ducks" (%ducks)
 
 <a name='3'/>
 
-## #3
+## #3 — Failed
 
 Append to 5.3.1 (%passing-and-failing-proposals):
 > Improperly carrying out a proposal is a rule violation.
