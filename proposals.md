@@ -66,15 +66,22 @@ Amend Rule 6 (%quantities);
 ## #8
 
 Add a new rule, "Purchase" (%purchase) (%quantities);
-> A Purchase is a transaction of any two quantities between any two players.
 
-> A Purchase must be agreed on by both Players to be Complete. Quantities cannot be exchanged until after a Purchase is Complete.
+This proposal depends on #7
 
-> Any Purchase in which the Quantities being exchanged is not explicitly stated before the Purchase is Complete is invalid.
+> A Purchase is a voluntary transaction of any two quantities between any two Players.
 
-> > Any Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is invalid.
+> A Purchase must be agreed on by both Players performing the Purchase to be Complete.
+
+> Once a purchase is Complete, the Quantities must be exchanged according to the agreement.
 
 > A Complete Purchase cannot be revoked or undone in any way.
+
+> An Invalid Purchase does not allow an exchange.
+
+> Any Purchase in which the Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.
+
+> Any Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.
 
 <a name='9'/>
 
