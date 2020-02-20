@@ -36,3 +36,9 @@ Append to 5.3.1 (%passing-and-failing-proposals):
 Add a new rule 9 after rule 8 called "Despotism" with the following content:
 > All players who voted 👍  for the Proposal that created this rule, while that Proposal was Open, are Nobles. All other players are not Nobles. Not-Nobles are also known as Peasants. Nobles can react to an Open Proposal authored by a Peasant with a 🔥 to Fail and Close that Proposal. Peasants cannot vote 👎 on an Open Proposal authored by a Noble.
 
+<a name='5'/>
+
+## #5
+
+If this proposal passes, nothing happens.
+
