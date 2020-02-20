@@ -25,6 +25,7 @@
     * [**2.4. #polls**](#polls-channel)
     * [**2.5. #transactions**](#transactions-channel)
 * [**3. Roles**](#roles)
+* [**4. Rule offender**](#rule-offender)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -189,4 +190,8 @@ The <#679774549273084061> channel may be used to modify quantities, but only as 
 ## <a name='roles'/> Roles
 
 The game rules govern roles that have effect within the game.
+
+## <a name='rule-offender'/> Rule offender
+
+Any player which has 1 or more strikes gains the "Rule offender" role. Rule offenders may not perform any game actions; i.e. they may not participate in the game. After 24 hours, a players strike count will decrease by 1 if above 0. If a players strike count is 0, the role will be removed.
 
