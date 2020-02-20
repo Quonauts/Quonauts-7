@@ -26,6 +26,7 @@
     * [**2.5. #transactions**](#transactions-channel)
 * [**3. Roles**](#roles)
 * [**4. Rule offender**](#rule-offender)
+* [**5. Activity**](#activity)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -194,4 +195,8 @@ The game rules govern roles that have effect within the game.
 ## <a name='rule-offender'/> Rule offender
 
 Any player which has 1 or more strikes gains the "Rule offender" role. Rule offenders may not perform any game actions; i.e. they may not participate in the game. After 24 hours, a players strike count will decrease by 1 if above 0. If a players strike count is 0, the role will be removed.
+
+## <a name='activity'/> Activity
+
+All players that have taken some game action in the preceding 72 hours are active players. All other players are inactive players.
 
