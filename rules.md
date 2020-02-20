@@ -18,6 +18,7 @@
         * [**1.7.3. Lists**](#lists)
         * [**1.7.4. Formatting**](#formatting)
     * [**1.8. Glossary**](#glossary)
+* [**2. Channels**](#channels)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -150,4 +151,8 @@ The definitions for terms listed here take precedence over their normal English 
 * **Section**: A part of the rules which is contained under one header, not including any subsections.
 * **Subsection**: A section of the rules which is contained under another section.
 * **Clause**: A single statement in the rules
+
+## <a name='channels'/> Channels
+
+The game rules govern only messages and reactions in the "Quonauts 7" category of the Discord server. Each subsection of this rule section corresponds to a game channel; as these subsections are created, renamed, or reordered, game channels must be created/renamed/reordered accordingly.
 
