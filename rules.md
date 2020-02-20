@@ -8,6 +8,7 @@
     * [**1.3. Disallowed by default**](#disallowed-by-default)
     * [**1.4. Rule violations**](#rule-violations)
         * [**1.4.1. Errors**](#errors)
+        * [**1.4.2. Rule violation polls**](#rule-violation-polls)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -38,4 +39,20 @@ A rule violation is a game action that is not permitted by the rules. Resolving 
 An error is a rule violation made by a player either mistakenly or through ignorance. If a player causes a rule violation and is able to resolve the error, they may do so.
 
 If a player resolves an error within 24 hours of making that error, and the resolution of the error leaves the game state in such fashion that it is as if the error had never occurred, no punitive action can be taken against the player.
+
+#### <a name='rule-violation-polls'/> Rule violation polls
+
+If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has violated the rules, then the accusing player may conduct a poll (called a "rule violation poll") to determine whether the accused player has violated the rules.
+
+In conducting a rule violation poll, the accusing player must describe which sections or clauses of the rules were violated and what illegal game action was taken by the accused player. Players should vote in favor of this poll only if they agree that the accused player violated the rules as described.
+
+Any vote in such a poll cast by the accused player is not counted.
+
+A rule violation poll must be available for voting for at least 24 hours before any action may be taken as a result.
+
+A rule violation poll may not be started more than 7 days after the potential rule violation.
+
+For any potential rule violation, only one rule violation poll may be conducted.
+
+If a rule violation poll passes, then the accused player is now convicted of violating the rules as described in the poll and the rule violation must be resolved, if it has not already.
 
