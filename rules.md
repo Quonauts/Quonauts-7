@@ -11,6 +11,7 @@
         * [**1.4.2. Rule violation polls**](#rule-violation-polls)
         * [**1.4.3. Punitive action**](#punitive-action)
     * [**1.5. Timezones**](#timezones)
+    * [**1.6. Bots**](#bots)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -73,4 +74,8 @@ If a punitive action poll passes, then the convicted player gains one strike.
 ### <a name='timezones'/> Timezones
 
 Unless otherwise specified, all times and dates are specified with respect to UTC.
+
+### <a name='bots'/> Bots
+
+Certain game functions may be performed automatically by automated "bots"; the behavior of such bots is not governed by the rules, and any function that bots may perform should be feasible, even if inconvenient, to do manually.
 
