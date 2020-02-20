@@ -109,3 +109,13 @@ Add a subrule %royal-election:
 > If one of these occur, the election is immediately over and no more votes may be cast in the poll. If then one player has the most votes, they become the new monarch. Otherwise, a new election begins.
 When this proposal passes, immediately start the first royal election.
 
+<a name='11'/>
+
+## #11
+
+Create a channel named #the-land and append 
+> Players must announce their movement through The Land in #the-land, and their announcements must match their actual movements.
+>  
+> 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.
+to %land-movement.
+
