@@ -37,6 +37,7 @@
     * [**5.4. Editing proposals**](#editing-proposals)
 * [**6. Quantities**](#quantities)
 * [**7. Winning**](#winning)
+* [**8. The end**](#the-end)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -286,4 +287,8 @@ The following quantities exist:
 ## <a name='winning'/> Winning
 
 The game cannot be won.
+
+## <a name='the-end'/> The end
+
+The game does not end.
 
