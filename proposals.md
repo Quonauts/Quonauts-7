@@ -119,3 +119,14 @@ Create a channel named #the-land and append
 > 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.
 to %land-movement.
 
+<a name='12'/>
+
+## #12
+
+Add a new rule, "Equality" (%equality);
+This proposal conflicts with #10
+
+> All Players have exactly one vote for every proposal.
+
+> There is no way for a Player to gain additional votes.
+
