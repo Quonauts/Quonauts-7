@@ -54,3 +54,10 @@ add a rule under %land (%land-movement);
 and add another rule under %land (%land-generation).
 > By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.
 
+<a name='7'/>
+
+## #7
+
+Amend Rule 6 (%quantities);
+> Quantities may be traded and exchanged in ways specifically allowed by the rules.
+
