@@ -76,3 +76,15 @@ Add a new rule, "Purchase" (%purchase) (%quantities);
 
 > A Complete Purchase cannot be revoked or undone in any way.
 
+<a name='9'/>
+
+## #9
+
+This proposal depends on #2.
+
+Append to rule 6 "Quantities":
+> * **Point**
+
+Append to rule 5.3.1 "Passing and failing proposals":
+> If a proposal passes, the author and the player who passed it gain one point. The author also gains points equal to their number of ducks.
+
