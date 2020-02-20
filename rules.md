@@ -32,6 +32,7 @@
         * [**5.1.1. Conflict resolution**](#conflict-resolution)
         * [**5.1.2. Dependency resolution**](#dependency-resolution)
     * [**5.2. Voting on proposals**](#voting-on-proposals)
+    * [**5.3. Closing proposals**](#closing-proposals)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -240,4 +241,13 @@ Each player may cast one vote on each open proposal.
 Players may vote for or against a proposal. Players may also explicitly abstain from voting.
 
 A player may change their vote on an open proposal at any time.
+
+### <a name='closing-proposals'/> Closing proposals
+
+Any player may close an open proposal if one or more of the following conditions is met:
+
+* The proposal is at least 48 hours (2 days) old.
+* All active players have cast a vote on the proposal.
+* A majority of active players have voted in favour of the proposal.
+* A majority of active players have voted against the proposal.
 
