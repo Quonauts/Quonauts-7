@@ -1,4 +1,17 @@
 {
 	"channel": 679771801773277357,
-	"proposals": []
+	"proposals": [
+		{
+			"n": 1,
+			"author": 309787486278909952,
+			"content": "Append to rule 5.4 \"Editing proposals\":\n\n> The author of a proposal, or the player passing the proposal may choose to add or remove whitespace and fix typos or grammar mistakes as needed so long as the meaning of the proposal remains unchanged. Clarifications or additional details should always be added a new proposal.\n\n(stolen from Lukalot in Quonauts 6, I'd meant to put that in initial)",
+			"status": "voting",
+			"message_id": 680014537466052675,
+			"votes": {
+				"309787486278909952": 1,
+				"474424490382589952": 1
+			},
+			"timestamp": 1582198499
+		}
+	]
 }

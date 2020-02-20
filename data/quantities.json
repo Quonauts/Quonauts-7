@@ -1,1 +1,8 @@
-{}
+{
+	"strike": {
+		"name": "strike",
+		"aliases": [],
+		"players": {},
+		"default_value": 0
+	}
+}

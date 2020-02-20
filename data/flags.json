@@ -4,5 +4,5 @@
 	"allow_vote_multi": false,
 	"auto_upload": true,
 	"logs_channel_id": 608440178939265024,
-	"player_activity_cutoff": 24
+	"player_activity_cutoff": 72
 }
