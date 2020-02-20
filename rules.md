@@ -17,6 +17,7 @@
         * [**1.7.2. Headers and tags**](#headers-and-tags)
         * [**1.7.3. Lists**](#lists)
         * [**1.7.4. Formatting**](#formatting)
+    * [**1.8. Glossary**](#glossary)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -135,4 +136,18 @@ From [GitHub's "Mastering Markdown" document](https://guides.github.com/features
 * Strikethrough
 
 Additionally, square brackets `[]` containing a tag will be converted into links to another rule section; e.g. `[%rule-tag]`. Discord mentions (@username, @role, and #channel) may be used, however they are not readable in GitHub-flavored markdown.
+
+### <a name='glossary'/> Glossary
+
+The definitions for terms listed here take precedence over their normal English meanings, however any terms defined in a specific section of the rules override these in the section in which they are defined and any subsections of that section. A section may also define terms for use in the whole document.
+
+* **The Game**: The instance of Nomic which is governed by this rules document.
+* **Game Action**: A game action is any message or reaction in a game channel or any other manipulation of game channels or quantities which are part of the game.
+* **Game State**: A specific arrangement of all game rules, proposals, polls, votes and quantities.
+* **Game Channel**: A game channel is any text or voice channel listed in the "Quonauts 7" channel category of the Discord server.
+* **Player**: Any participant of the game.
+* **The Rules**: The rules of the game, which are described by this document.
+* **Section**: A part of the rules which is contained under one header, not including any subsections.
+* **Subsection**: A section of the rules which is contained under another section.
+* **Clause**: A single statement in the rules
 
