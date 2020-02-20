@@ -2,7 +2,7 @@
 
 <a name='1'/>
 
-## #1
+## #1 — Passed
 
 Append to rule 5.4 "Editing proposals":
 
