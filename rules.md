@@ -29,8 +29,8 @@
 * [**4. Activity**](#activity)
 * [**5. Proposals**](#proposals)
     * [**5.1. Proposal content**](#proposal-content)
-    * [**5.2. Conflict resolution**](#conflict-resolution)
-    * [**5.3. Dependency resolution**](#dependency-resolution)
+        * [**5.1.1. Conflict resolution**](#conflict-resolution)
+    * [**5.2. Dependency resolution**](#dependency-resolution)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -220,7 +220,7 @@ If a proposal describes a modification to the rules, it must unambiguously speci
 
 If a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.
 
-### <a name='conflict-resolution'/> Conflict resolution
+#### <a name='conflict-resolution'/> Conflict resolution
 
 If multiple proposals describe the modification or addition of sections, paragraphs, or sentences to the same part of the rules, conflicts should be resolved based on the age of the proposal, such that the newer proposal's effect overrides the older one's. For example, if proposal #10 adds a new section "A" to the bottom of the rules, and proposal #11 adds a new section "B" to the bottom of the rules, and both proposals pass, then regardless of which proposal passed first, section "B" will appear below section "A" in the rules.
 
