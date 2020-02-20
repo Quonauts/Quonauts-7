@@ -139,3 +139,12 @@ Replace %the-end with:
 Replace %winning with:
 > A player can win the game if a rule says so. A proposal cannot directly lead to a player winning. The game cannot be won by more than one player. If according to a rule two or more players win at the same time, that rule does not apply.
 
+<a name='14'/>
+
+## #14
+
+A duck-free alternative.
+
+Create a new quantity called "point" and append to rule 6 (%quantities):
+> * **Point**: The number of points a player has.
+
