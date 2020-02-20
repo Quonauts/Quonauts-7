@@ -21,6 +21,7 @@
 * [**2. Channels**](#channels)
     * [**2.1. #general**](#general-channel)
     * [**2.2. #rules**](#rules-channel)
+    * [**2.3. #proposals**](#proposals-channel)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -165,4 +166,8 @@ Players may freely converse in the <#679771779589341218> channel.
 ### <a name='rules-channel'/> #rules
 
 The <#679771790506983509> channel contains this rules document.
+
+### <a name='proposals-channel'/> #proposals
+
+The <#679771801773277357> channel is governed by [%proposals].
 
