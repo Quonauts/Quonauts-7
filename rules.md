@@ -27,6 +27,7 @@
 * [**3. Roles**](#roles)
 * [**4. Rule offender**](#rule-offender)
 * [**5. Activity**](#activity)
+* [**6. Proposals**](#proposals)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -174,7 +175,7 @@ The <#679771790506983509> channel contains this rules document.
 
 ### <a name='proposals-channel'/> #proposals
 
-The <#679771801773277357> channel is governed by [%proposals].
+The <#679771801773277357> channel is governed by [**6. Proposals**](#proposals).
 
 ### <a name='polls-channel'/> #polls
 
@@ -199,4 +200,12 @@ Any player which has 1 or more strikes gains the "Rule offender" role. Rule offe
 ## <a name='activity'/> Activity
 
 All players that have taken some game action in the preceding 72 hours are active players. All other players are inactive players.
+
+## <a name='proposals'/> Proposals
+
+Proposals can be made by posting them to the <#679771801773277357> game channel.
+
+The first proposal is numbered #1 and each subsequent proposal's number is increased by 1. Deleted proposals retain their number.
+
+A proposal is either open or closed. When it is first submitted a proposal is open. A closed proposal is either passed or failed. When a player closes a proposal, they must either pass it or fail it.
 
