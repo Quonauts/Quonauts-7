@@ -7,6 +7,7 @@
     * [**1.2. Precedence**](#precedence)
     * [**1.3. Disallowed by default**](#disallowed-by-default)
     * [**1.4. Rule violations**](#rule-violations)
+        * [**1.4.1. Errors**](#errors)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -31,4 +32,10 @@ Unless explicitly stated in the rules, all game actions are forbidden.
 ### <a name='rule-violations'/> Rule violations
 
 A rule violation is a game action that is not permitted by the rules. Resolving a rule violation is the process of reversing the immediate effects of that rule violation (not including any indirect effects permitted in reaction to the rule violation) to the extent that it is possible.
+
+#### <a name='errors'/> Errors
+
+An error is a rule violation made by a player either mistakenly or through ignorance. If a player causes a rule violation and is able to resolve the error, they may do so.
+
+If a player resolves an error within 24 hours of making that error, and the resolution of the error leaves the game state in such fashion that it is as if the error had never occurred, no punitive action can be taken against the player.
 
