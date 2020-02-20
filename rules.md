@@ -30,7 +30,8 @@
 * [**5. Proposals**](#proposals)
     * [**5.1. Proposal content**](#proposal-content)
         * [**5.1.1. Conflict resolution**](#conflict-resolution)
-    * [**5.2. Dependency resolution**](#dependency-resolution)
+        * [**5.1.2. Dependency resolution**](#dependency-resolution)
+    * [**5.2. Voting on proposals**](#voting-on-proposals)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -224,11 +225,19 @@ If a proposal describes the creation of a new rule section, it must specify its 
 
 If multiple proposals describe the modification or addition of sections, paragraphs, or sentences to the same part of the rules, conflicts should be resolved based on the age of the proposal, such that the newer proposal's effect overrides the older one's. For example, if proposal #10 adds a new section "A" to the bottom of the rules, and proposal #11 adds a new section "B" to the bottom of the rules, and both proposals pass, then regardless of which proposal passed first, section "B" will appear below section "A" in the rules.
 
-### <a name='dependency-resolution'/> Dependency resolution
+#### <a name='dependency-resolution'/> Dependency resolution
 
 A proposal may state that it depends on other proposals. If a proposal's dependencies fail, then the proposal dependent on them also fails.
 
 A proposals may amend an existing proposal. If a proposal A amends an existing proposal B, then the amendment has no effect if B fails. If A and B both pass, then the result of proposal B is undone or modified according to proposal A. The content of proposal B, however, does not change.
 
 A proposal may also state incompatible proposals, in which case the later proposal will fail if any proposal it is incompatible proposal on is passed.
+
+### <a name='voting-on-proposals'/> Voting on proposals
+
+Each player may cast one vote on each open proposal.
+
+Players may vote for or against a proposal. Players may also explicitly abstain from voting.
+
+A player may change their vote on an open proposal at any time.
 
