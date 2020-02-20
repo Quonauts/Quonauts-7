@@ -268,6 +268,8 @@ When a player passes a proposal, that player must carry out the effects of that 
 
 A player may edit a proposal they have submitted if that proposal is open for voting and has no votes cast by players other than its author.
 
+The author of a proposal or the player passing a proposal may choose to add or remove whitespace and fix typos or grammer mistakes, as long as the meaning of the proposal remains unchanged. Clarifications or additional details should always be added by a new proposal.
+
 ## <a name='quantities'/> Quantities
 
 A quantity is a named property with a numerical value for each player.
