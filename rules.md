@@ -36,6 +36,7 @@
         * [**5.3.1. Passing and failing proposals**](#passing-and-failing-proposals)
     * [**5.4. Editing proposals**](#editing-proposals)
 * [**6. Quantities**](#quantities)
+* [**7. Winning**](#winning)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -281,4 +282,8 @@ By default any unique quantity added to the game:
 The following quantities exist:
 
 * **Strike**: The number of rule violations a player has committed.
+
+## <a name='winning'/> Winning
+
+The game cannot be won.
 
