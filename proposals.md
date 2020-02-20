@@ -88,3 +88,17 @@ Append to rule 6 "Quantities":
 Append to rule 5.3.1 "Passing and failing proposals":
 > If a proposal passes, the author and the player who passed it gain one point. The author also gains points equal to their number of ducks.
 
+<a name='10'/>
+
+## #10
+
+Add a new rule: %monarch
+> One player carries the title of "Monarch" (or "King" or "Queen", if preferred), chosen by election (see %royal-election). The monarch's vote on a proposal counts twice. If the monarch becomes inactive or one of their proposals fails, they are forced to either pass on their title voluntarily or abdicate, which means they immediately loses this title of monarch and a new election happens to elect a new king. The monarch may pass on their title to another active player voluntarily any time.
+Add a subrule %royal-election:
+> A new king is chosen by poll, with all active players as candidates (unless they explicitly declare not to candidate). The conditions for ending the election are similar to proposals:
+> * 48 hours have passed since start of the poll
+> * all active players have cast a vote
+> * one candidate has gained an absolute majority of votes
+> If one of these occur, the election is immediately over and no more votes may be cast in the poll. If then one player has the most votes, they become the new monarch. Otherwise, a new election begins.
+When this proposal passes, immediately start the first royal election.
+
