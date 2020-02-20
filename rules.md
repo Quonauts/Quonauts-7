@@ -14,6 +14,7 @@
     * [**1.6. Bots**](#bots)
     * [**1.7. Style conventions**](#style-conventions)
         * [**1.7.1. Content**](#content)
+        * [**1.7.2. Headers and tags**](#headers-and-tags)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -96,4 +97,12 @@ Any player may edit the rules to conform to these style conventions. Edits made 
 * Each paragraph or list element must be shorter than 1000 characters.
 * Rules may not contain invisible characters besides newlines, normal spaces, and (in special cases) tabs. Non-ASCII characters should be used sparingly.
 * Double quotes should be preferred instead of single quotes. ASCII-compatible straight quotes should be used instead of "smart" quotes.
+
+#### <a name='headers-and-tags'/> Headers and tags
+
+* Each section must have a header and a tag.
+* Headers must use [sentence case](https://en.wiktionary.org/wiki/sentence_case), and must be a short, succinct word or phrase (not a complete sentence) describing the section.
+* A section tag must be a string of text begin with a lowercase letter, end with either a lowercase letter or a number, and may contain only lowercase letters `a`-`z`, digits `0`-`9`, and hyphens `-`.
+* A rule's tag should resemble its header.
+* Tags must be unique; no two rule sections may have the same tag.
 
