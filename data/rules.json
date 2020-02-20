@@ -8,7 +8,85 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680006536935768134
+				680012666622050325
+			]
+		},
+		"activity": {
+			"tag": "activity",
+			"title": "Activity",
+			"content": "All players that have taken some game action in the preceding 72 hours are active players. All other players are inactive players.",
+			"parent_tag": "root",
+			"child_tags": [],
+			"message_ids": [
+				680012766559731742
+			]
+		},
+		"bots": {
+			"tag": "bots",
+			"title": "Bots",
+			"content": "Certain game functions may be performed automatically by automated \"bots\"; the behavior of such bots is not governed by the rules, and any function that bots may perform should be feasible, even if inconvenient, to do manually.",
+			"parent_tag": "meta-rules",
+			"child_tags": [],
+			"message_ids": [
+				680012697370361902
+			]
+		},
+		"channels": {
+			"tag": "channels",
+			"title": "Channels",
+			"content": "The game rules govern only messages and reactions in the \"Quonauts 7\" category of the Discord server. Each subsection of this rule section corresponds to a game channel; as these subsections are created, renamed, or reordered, game channels must be created/renamed/reordered accordingly.",
+			"parent_tag": "root",
+			"child_tags": [
+				"general-channel",
+				"rules-channel",
+				"proposals-channel",
+				"polls-channel",
+				"transactions-channel"
+			],
+			"message_ids": [
+				680012736385777674
+			]
+		},
+		"closing-proposals": {
+			"tag": "closing-proposals",
+			"title": "Closing proposals",
+			"content": "Any player may close an open proposal if one or more of the following conditions is met:\n\n* The proposal is at least 48 hours (2 days) old.\n* All active players have cast a vote on the proposal.\n* A majority of active players have voted in favour of the proposal.\n* A majority of active players have voted against the proposal.",
+			"parent_tag": "proposals",
+			"child_tags": [
+				"passing-and-failing-proposals"
+			],
+			"message_ids": [
+				680012801691090983
+			]
+		},
+		"conflict-resolution": {
+			"tag": "conflict-resolution",
+			"title": "Conflict resolution",
+			"content": "If multiple proposals describe the modification or addition of sections, paragraphs, or sentences to the same part of the rules, conflicts should be resolved based on the age of the proposal, such that the newer proposal's effect overrides the older one's. For example, if proposal #10 adds a new section \"A\" to the bottom of the rules, and proposal #11 adds a new section \"B\" to the bottom of the rules, and both proposals pass, then regardless of which proposal passed first, section \"B\" will appear below section \"A\" in the rules.",
+			"parent_tag": "proposal-content",
+			"child_tags": [],
+			"message_ids": [
+				680012781356974082
+			]
+		},
+		"content": {
+			"tag": "content",
+			"title": "Content",
+			"content": "* All rules should be written in English using proper English grammar and spelling. American and British English spelling are both acceptable.\n* Where applicable, rules should be written using gender-neutral language, with \"they/them/their\" as a third-person pronoun, both singular and plural.\n* Sentences should be separated by a single space.\n* Paragraphs should be separated by a blank line.\n* Each paragraph or list element must be shorter than 1000 characters.\n* Rules may not contain invisible characters besides newlines, normal spaces, and (in special cases) tabs. Non-ASCII characters should be used sparingly.\n* Double quotes should be preferred instead of single quotes. ASCII-compatible straight quotes should be used instead of \"smart\" quotes.",
+			"parent_tag": "style-conventions",
+			"child_tags": [],
+			"message_ids": [
+				680012714932043787
+			]
+		},
+		"dependency-resolution": {
+			"tag": "dependency-resolution",
+			"title": "Dependency resolution",
+			"content": "A proposal may state that it depends on other proposals. If a proposal's dependencies fail, then the proposal dependent on them also fails.\n\nA proposals may amend an existing proposal. If a proposal A amends an existing proposal B, then the amendment has no effect if B fails. If A and B both pass, then the result of proposal B is undone or modified according to proposal A. The content of proposal B, however, does not change.\n\nA proposal may also state incompatible proposals, in which case the later proposal will fail if any proposal it is incompatible proposal on is passed.",
+			"parent_tag": "proposal-content",
+			"child_tags": [],
+			"message_ids": [
+				680012781864747070
 			]
 		},
 		"disallowed-by-default": {
@@ -18,7 +96,77 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680006957494697987
+				680012667917959199
+			]
+		},
+		"editing-proposals": {
+			"tag": "editing-proposals",
+			"title": "Editing proposals",
+			"content": "A player may edit a proposal they have submitted if that proposal is open for voting and has no votes cast by players other than its author.",
+			"parent_tag": "proposals",
+			"child_tags": [],
+			"message_ids": [
+				680012803494772755
+			]
+		},
+		"errors": {
+			"tag": "errors",
+			"title": "Errors",
+			"content": "An error is a rule violation made by a player either mistakenly or through ignorance. If a player causes a rule violation and is able to resolve the error, they may do so.\n\nIf a player resolves an error within 24 hours of making that error, and the resolution of the error leaves the game state in such fashion that it is as if the error had never occurred, no punitive action can be taken against the player.",
+			"parent_tag": "rule-violations",
+			"child_tags": [],
+			"message_ids": [
+				680012691695468550
+			]
+		},
+		"formatting": {
+			"tag": "formatting",
+			"title": "Formatting",
+			"content": "From [GitHub's \"Mastering Markdown\" document](https://guides.github.com/features/mastering-markdown/), the following may be used:\n\n* Emphasis (italics and bold, not including double underscore `__`)\n* Unordered and ordered lists (not nested)\n* Links\n* Inline code\n* Automatic linking for URLs\n* Strikethrough\n\nAdditionally, square brackets `[]` containing a tag will be converted into links to another rule section; e.g. `[%rule-tag]`. Discord mentions (@username, @role, and #channel) may be used, however they are not readable in GitHub-flavored markdown.",
+			"parent_tag": "style-conventions",
+			"child_tags": [],
+			"message_ids": [
+				680012717104562176
+			]
+		},
+		"general-channel": {
+			"tag": "general-channel",
+			"title": "#general",
+			"content": "Players may freely converse in the <#679771779589341218> channel.",
+			"parent_tag": "channels",
+			"child_tags": [],
+			"message_ids": [
+				680012737824423946
+			]
+		},
+		"glossary": {
+			"tag": "glossary",
+			"title": "Glossary",
+			"content": "The definitions for terms listed here take precedence over their normal English meanings, however any terms defined in a specific section of the rules override these in the section in which they are defined and any subsections of that section. A section may also define terms for use in the whole document.\n\n* **The Game**: The instance of Nomic which is governed by this rules document.\n* **Game Action**: A game action is any message or reaction in a game channel or any other manipulation of game channels or quantities which are part of the game.\n* **Game State**: A specific arrangement of all game rules, proposals, polls, votes and quantities.\n* **Game Channel**: A game channel is any text or voice channel listed in the \"Quonauts 7\" channel category of the Discord server.\n* **Player**: Any participant of the game.\n* **The Rules**: The rules of the game, which are described by this document.\n* **Section**: A part of the rules which is contained under one header, not including any subsections.\n* **Subsection**: A section of the rules which is contained under another section.\n* **Clause**: A single statement in the rules",
+			"parent_tag": "meta-rules",
+			"child_tags": [],
+			"message_ids": [
+				680012735387271208
+			]
+		},
+		"headers-and-tags": {
+			"tag": "headers-and-tags",
+			"title": "Headers and tags",
+			"content": "* Each section must have a header and a tag.\n* Headers must use [sentence case](https://en.wiktionary.org/wiki/sentence_case), and must be a short, succinct word or phrase (not a complete sentence) describing the section.\n* A section tag must be a string of text begin with a lowercase letter, end with either a lowercase letter or a number, and may contain only lowercase letters `a`-`z`, digits `0`-`9`, and hyphens `-`.\n* A rule's tag should resemble its header.\n* Tags must be unique; no two rule sections may have the same tag.",
+			"parent_tag": "style-conventions",
+			"child_tags": [],
+			"message_ids": [
+				680012715720310804
+			]
+		},
+		"lists": {
+			"tag": "lists",
+			"title": "Lists",
+			"content": "* Unordered lists should use a single asterisk followed by a space (`* `) before each list element.\n* Ordered lists should use a single number followed by a period and a space (`1. `) before each list element.\n* The numbers of a ordered list should start at `1` and increase by `1` for each element.\n* Lists should not be nested.\n* Lists should be separated by the paragraphs above and below by a blank line.\n* Two lists of the same type can not be adjacent. (This is treated as one list when converted to Markdown.)\n\nWithin a given list, all elements should have the same style, chosen from the following:\n\n* Elements are words or phrases, and do not end with a period.\n* Elements are clauses ending in a period (or other punctuation), and optionally followed by complete sentences.\n* Elements are complete sentences ending in a period, and optionally followed by more complete sentences.",
+			"parent_tag": "style-conventions",
+			"child_tags": [],
+			"message_ids": [
+				680012716290998284
 			]
 		},
 		"meta-rules": {
@@ -29,10 +177,35 @@
 			"child_tags": [
 				"accuracy",
 				"precedence",
-				"disallowed-by-default"
+				"disallowed-by-default",
+				"rule-violations",
+				"timezones",
+				"bots",
+				"style-conventions",
+				"glossary"
 			],
 			"message_ids": [
-				680006329103941659
+				680012665258770447
+			]
+		},
+		"passing-and-failing-proposals": {
+			"tag": "passing-and-failing-proposals",
+			"title": "Passing and failing proposals",
+			"content": "When a proposal is closed, it passes if it has more votes in favour than against; otherwise, it fails.\n\nThe player that authored a proposal may fail or delete it at any time.\n\nWhen a player passes a proposal, that player must carry out the effects of that proposal and its passing to the best of their ability.",
+			"parent_tag": "closing-proposals",
+			"child_tags": [],
+			"message_ids": [
+				680012802790129735
+			]
+		},
+		"polls-channel": {
+			"tag": "polls-channel",
+			"title": "#polls",
+			"content": "A poll is a means of gathering the opinions of players on an issue. Players may conduct a poll by providing any necessary detail and posting a question in the <#679771811004809282> game channel.\n\nPlayers may vote in favor of a poll by reacting to the poll with \ud83d\udc4d. Players may vote against a poll by reacting to the poll with \ud83d\udc4e.\n\nThe player that posted a poll may edit it freely, as long as such edits do not change the meaning/intent of any existing reactions to the poll.",
+			"parent_tag": "channels",
+			"child_tags": [],
+			"message_ids": [
+				680012757999026177
 			]
 		},
 		"precedence": {
@@ -42,7 +215,77 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680006819547971612
+				680012667444133888
+			]
+		},
+		"proposal-content": {
+			"tag": "proposal-content",
+			"title": "Proposal content",
+			"content": "A proposal can describe any number of actions that make changes to the game rules or otherwise alter the game state.\n\nIf a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified.\n\nIf a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.",
+			"parent_tag": "proposals",
+			"child_tags": [
+				"conflict-resolution",
+				"dependency-resolution"
+			],
+			"message_ids": [
+				680012780635815937
+			]
+		},
+		"proposals": {
+			"tag": "proposals",
+			"title": "Proposals",
+			"content": "Proposals can be made by posting them to the <#679771801773277357> game channel.\n\nThe first proposal is numbered #1 and each subsequent proposal's number is increased by 1. Deleted proposals retain their number.\n\nA proposal is either open or closed. When it is first submitted a proposal is open. A closed proposal is either passed or failed. When a player closes a proposal, they must either pass it or fail it.",
+			"parent_tag": "root",
+			"child_tags": [
+				"proposal-content",
+				"voting-on-proposals",
+				"closing-proposals",
+				"editing-proposals"
+			],
+			"message_ids": [
+				680012779935105256
+			]
+		},
+		"proposals-channel": {
+			"tag": "proposals-channel",
+			"title": "#proposals",
+			"content": "The <#679771801773277357> channel is governed by [%proposals].",
+			"parent_tag": "channels",
+			"child_tags": [],
+			"message_ids": [
+				680012739678306322
+			]
+		},
+		"punitive-action": {
+			"tag": "punitive-action",
+			"title": "Punitive action",
+			"content": "If a player (hereby \"the convicted player\") is convicted of violating the rules, another player may conduct a poll (called a \"punitive action poll\") to determine whether punitive action should be taken.\n\nPlayers should vote in favour of this poll only if they believe the convicted player violated the rules knowingly and with malicious intent.\n\nAny vote in such a poll cast by the convicted player is not counted.\n\nA punitive action poll must be available for voting for at least 24 hours before any action may be taken as a result.\n\nIf a punitive action poll passes, then the convicted player gains one strike.",
+			"parent_tag": "rule-violations",
+			"child_tags": [],
+			"message_ids": [
+				680012695776395317
+			]
+		},
+		"quantities": {
+			"tag": "quantities",
+			"title": "Quantities",
+			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n\n* applies to all players.\n* is instantiated at zero.\n* must always be an integer.\n* must never have a negative value.\n* cannot be traded or exchanged.\n\nThe following quantities exist:\n\n* **Strike**: The number of rule violations a player has committed.",
+			"parent_tag": "root",
+			"child_tags": [],
+			"message_ids": [
+				680012804111335466
+			]
+		},
+		"roles": {
+			"tag": "roles",
+			"title": "Roles",
+			"content": "The game rules govern roles that have effect within the game.",
+			"parent_tag": "root",
+			"child_tags": [
+				"rule-offender"
+			],
+			"message_ids": [
+				680012762989985852
 			]
 		},
 		"root": {
@@ -51,10 +294,128 @@
 			"content": null,
 			"parent_tag": null,
 			"child_tags": [
-				"meta-rules"
+				"meta-rules",
+				"channels",
+				"roles",
+				"activity",
+				"proposals",
+				"quantities",
+				"winning",
+				"the-end"
 			],
 			"message_ids": [
-				680006958245216285
+				680012824369430606,
+				680012825263210565,
+				680012825632047146
+			]
+		},
+		"rule-offender": {
+			"tag": "rule-offender",
+			"title": "Rule offender",
+			"content": "Any player which has 1 or more strikes gains the \"Rule offender\" role. Rule offenders may not perform any game actions; i.e. they may not participate in the game. After 24 hours, a players strike count will decrease by 1 if above 0. If a players strike count is 0, the role will be removed.",
+			"parent_tag": "roles",
+			"child_tags": [],
+			"message_ids": [
+				680012763913125932
+			]
+		},
+		"rule-violation-polls": {
+			"tag": "rule-violation-polls",
+			"title": "Rule violation polls",
+			"content": "If any player (hereby \"the accusing player\") believes that another player (hereby \"the accused player\") has violated the rules, then the accusing player may conduct a poll (called a \"rule violation poll\") to determine whether the accused player has violated the rules.\n\nIn conducting a rule violation poll, the accusing player must describe which sections or clauses of the rules were violated and what illegal game action was taken by the accused player. Players should vote in favor of this poll only if they agree that the accused player violated the rules as described.\n\nAny vote in such a poll cast by the accused player is not counted.\n\nA rule violation poll must be available for voting for at least 24 hours before any action may be taken as a result.\n\nA rule violation poll may not be started more than 7 days after the potential rule violation.\n\nFor any potential rule violation, only one rule violation poll may be conducted.\n\nIf a rule violation poll passes, then the accused player is now convicted of violating the rules as described in the poll and the rule violation must be resolved, if it has not already.",
+			"parent_tag": "rule-violations",
+			"child_tags": [],
+			"message_ids": [
+				680012694824419370
+			]
+		},
+		"rule-violations": {
+			"tag": "rule-violations",
+			"title": "Rule violations",
+			"content": "A rule violation is a game action that is not permitted by the rules. Resolving a rule violation is the process of reversing the immediate effects of that rule violation (not including any indirect effects permitted in reaction to the rule violation) to the extent that it is possible.",
+			"parent_tag": "meta-rules",
+			"child_tags": [
+				"errors",
+				"rule-violation-polls",
+				"punitive-action"
+			],
+			"message_ids": [
+				680012668756557843
+			]
+		},
+		"rules-channel": {
+			"tag": "rules-channel",
+			"title": "#rules",
+			"content": "The <#679771790506983509> channel contains this rules document.",
+			"parent_tag": "channels",
+			"child_tags": [],
+			"message_ids": [
+				680012738138996818
+			]
+		},
+		"style-conventions": {
+			"tag": "style-conventions",
+			"title": "Style conventions",
+			"content": "This section and its subsections describe grammatical and stylistic conventions used throughout this ruleset.\n\nAny player may edit the rules to conform to these style conventions. Edits made this way must otherwise be minimal; i.e. they may not change wording or meaning.",
+			"parent_tag": "meta-rules",
+			"child_tags": [
+				"content",
+				"headers-and-tags",
+				"lists",
+				"formatting"
+			],
+			"message_ids": [
+				680012713648586788
+			]
+		},
+		"the-end": {
+			"tag": "the-end",
+			"title": "The end",
+			"content": "The game does not end.",
+			"parent_tag": "root",
+			"child_tags": [],
+			"message_ids": [
+				680012823434231814
+			]
+		},
+		"timezones": {
+			"tag": "timezones",
+			"title": "Timezones",
+			"content": "Unless otherwise specified, all times and dates are specified with respect to UTC.",
+			"parent_tag": "meta-rules",
+			"child_tags": [],
+			"message_ids": [
+				680012696711987230
+			]
+		},
+		"transactions-channel": {
+			"tag": "transactions-channel",
+			"title": "#transactions",
+			"content": "The <#679774549273084061> channel may be used to modify quantities, but only as the game rules allow quantities to be changed.",
+			"parent_tag": "channels",
+			"child_tags": [],
+			"message_ids": [
+				680012759449993242
+			]
+		},
+		"voting-on-proposals": {
+			"tag": "voting-on-proposals",
+			"title": "Voting on proposals",
+			"content": "Each player may cast one vote on each open proposal.\n\nPlayers may vote for or against a proposal. Players may also explicitly abstain from voting.\n\nA player may change their vote on an open proposal at any time.",
+			"parent_tag": "proposals",
+			"child_tags": [],
+			"message_ids": [
+				680012783043215398
+			]
+		},
+		"winning": {
+			"tag": "winning",
+			"title": "Winning",
+			"content": "The game cannot be won.",
+			"parent_tag": "root",
+			"child_tags": [],
+			"message_ids": [
+				680012804983357461
 			]
 		}
 	}
