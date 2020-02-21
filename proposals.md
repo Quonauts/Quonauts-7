@@ -169,3 +169,22 @@ Append to section 1.8 (%glossary):
 Change rule 8 to:
 The End is a dimension consisting of a large chunk of end stone, twelve obsidian towers, one bedrock fountain, and one dragon.
 
+<a name='18'/>
+
+## #18
+
+This proposal conflicts with #10.
+Alternative to #10 that is open for any development.
+
+Add a new rule "Monarch" (%monarch) after %land:
+> One player carries the title of "Monarch" (or "King" or "Queen", if preferred), chosen by election (see %royal-election).
+
+Add a subrule of %monarch, "Royal election" (%royal-election):
+> A new king is chosen by a poll, called a "Royal election", with all active players as candidates (unless they explicitly declare they are not a candidate). The election ends when
+> * 48 hours have passed since start of the poll
+> * all active players have cast a vote
+> * one candidate has gained an absolute majority of votes
+> If one of these occur, the election is immediately over and no more votes may be cast in the poll. If then one player has the most votes, they become the new monarch. Otherwise, a new election begins.
+
+When this proposal passes, immediately start the first royal election.
+
