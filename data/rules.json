@@ -302,7 +302,7 @@
 		"quantities": {
 			"tag": "quantities",
 			"title": "Quantities",
-			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n\n* applies to all players.\n* is instantiated at zero.\n* must always be an integer.\n* must never have a negative value.\n* cannot be traded or exchanged.\n\nThe following quantities exist:\n\n* **Strike**: The number of rule violations a player has committed.",
+			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n* applies to all players.\n* is instantiated at zero.\n* must always be an integer.\n* must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n * **Strike**: The number of rule violations a player has committed.",
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
