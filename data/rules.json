@@ -405,7 +405,7 @@
 		"the-end": {
 			"tag": "the-end",
 			"title": "The end",
-			"content": "The game does not end.",
+			"content": "The game ends if a player has won.",
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
@@ -445,7 +445,7 @@
 		"winning": {
 			"tag": "winning",
 			"title": "Winning",
-			"content": "The game cannot be won.",
+			"content": "A player can win the game if a rule says so. A proposal cannot directly lead to a player winning. The game cannot be won by more than one player. If according to a rule two or more players win at the same time, that rule does not apply.",
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [

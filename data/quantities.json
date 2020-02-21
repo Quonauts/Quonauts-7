@@ -2,7 +2,9 @@
 	"land-x": {
 		"name": "land-x",
 		"aliases": [],
-		"players": {},
+		"players": {
+			"474424490382589952": 1
+		},
 		"default_value": 0
 	},
 	"land-y": {
