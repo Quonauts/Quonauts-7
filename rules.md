@@ -39,6 +39,7 @@
 * [**7. Winning**](#winning)
 * [**8. The end**](#the-end)
 * [**9. Land**](#land)
+    * [**9.1. Land movement**](#land-movement)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -300,4 +301,8 @@ The game does not end.
 The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.
 
 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.
+
+### <a name='land-movement'/> Land movement
+
+Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their coordinates.
 
