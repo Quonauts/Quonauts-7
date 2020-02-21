@@ -1,4 +1,16 @@
 {
+	"land-x": {
+		"name": "land-x",
+		"aliases": [],
+		"players": {},
+		"default_value": 0
+	},
+	"land-y": {
+		"name": "land-y",
+		"aliases": [],
+		"players": {},
+		"default_value": 0
+	},
 	"strike": {
 		"name": "strike",
 		"aliases": [],

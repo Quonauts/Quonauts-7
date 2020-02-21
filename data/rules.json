@@ -8,7 +8,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680012666622050325
+				680343544409358340
 			]
 		},
 		"activity": {
@@ -18,7 +18,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680012766559731742
+				680343633718673473
 			]
 		},
 		"bots": {
@@ -28,7 +28,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680012697370361902
+				680343568489119754
 			]
 		},
 		"channels": {
@@ -44,7 +44,7 @@
 				"transactions-channel"
 			],
 			"message_ids": [
-				680012736385777674
+				680343609647693843
 			]
 		},
 		"closing-proposals": {
@@ -56,7 +56,7 @@
 				"passing-and-failing-proposals"
 			],
 			"message_ids": [
-				680012801691090983
+				680343673640189953
 			]
 		},
 		"conflict-resolution": {
@@ -66,7 +66,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				680012781356974082
+				680343653344083982
 			]
 		},
 		"content": {
@@ -76,7 +76,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				680012714932043787
+				680343587602563077
 			]
 		},
 		"dependency-resolution": {
@@ -86,7 +86,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				680012781864747070
+				680343654262767626
 			]
 		},
 		"disallowed-by-default": {
@@ -96,7 +96,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680012667917959199
+				680343545910919177
 			]
 		},
 		"editing-proposals": {
@@ -106,7 +106,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				680012803494772755
+				680343675439808522
 			]
 		},
 		"errors": {
@@ -116,7 +116,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				680012691695468550
+				680343564945063947
 			]
 		},
 		"formatting": {
@@ -126,7 +126,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				680012717104562176
+				680343589602983945
 			]
 		},
 		"general-channel": {
@@ -136,7 +136,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680012737824423946
+				680343610570309660
 			]
 		},
 		"glossary": {
@@ -146,7 +146,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680012735387271208
+				680343608649449518
 			]
 		},
 		"headers-and-tags": {
@@ -156,7 +156,40 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				680012715720310804
+				680343588030513172
+			]
+		},
+		"land": {
+			"tag": "land",
+			"title": "Land",
+			"content": "The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.\n\n'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.",
+			"parent_tag": "root",
+			"child_tags": [
+				"land-movement",
+				"land-generation"
+			],
+			"message_ids": [
+				680343697161978024
+			]
+		},
+		"land-generation": {
+			"tag": "land-generation",
+			"title": "Land generation",
+			"content": "By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.",
+			"parent_tag": "land",
+			"child_tags": [],
+			"message_ids": [
+				680343698944688199
+			]
+		},
+		"land-movement": {
+			"tag": "land-movement",
+			"title": "Land movement",
+			"content": "Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their coordinates.",
+			"parent_tag": "land",
+			"child_tags": [],
+			"message_ids": [
+				680343697996382228
 			]
 		},
 		"lists": {
@@ -166,7 +199,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				680012716290998284
+				680343588860854273
 			]
 		},
 		"meta-rules": {
@@ -185,7 +218,7 @@
 				"glossary"
 			],
 			"message_ids": [
-				680012665258770447
+				680343542987620355
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -195,7 +228,7 @@
 			"parent_tag": "closing-proposals",
 			"child_tags": [],
 			"message_ids": [
-				680012802790129735
+				680343674558611457
 			]
 		},
 		"polls-channel": {
@@ -205,7 +238,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680012757999026177
+				680343630392590357
 			]
 		},
 		"precedence": {
@@ -215,7 +248,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680012667444133888
+				680343545164726272
 			]
 		},
 		"proposal-content": {
@@ -228,7 +261,7 @@
 				"dependency-resolution"
 			],
 			"message_ids": [
-				680012780635815937
+				680343652748361744
 			]
 		},
 		"proposals": {
@@ -243,7 +276,7 @@
 				"editing-proposals"
 			],
 			"message_ids": [
-				680012779935105256
+				680343652048175115
 			]
 		},
 		"proposals-channel": {
@@ -253,7 +286,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680012739678306322
+				680343612357214302
 			]
 		},
 		"punitive-action": {
@@ -263,7 +296,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				680012695776395317
+				680343566660272128
 			]
 		},
 		"quantities": {
@@ -273,7 +306,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680012804111335466
+				680343676584722432
 			]
 		},
 		"roles": {
@@ -285,7 +318,7 @@
 				"rule-offender"
 			],
 			"message_ids": [
-				680012762989985852
+				680343632250667049
 			]
 		},
 		"root": {
@@ -301,12 +334,13 @@
 				"proposals",
 				"quantities",
 				"winning",
-				"the-end"
+				"the-end",
+				"land"
 			],
 			"message_ids": [
-				680012824369430606,
-				680012825263210565,
-				680012825632047146
+				680343699510525954,
+				680343717668061209,
+				680343718477299717
 			]
 		},
 		"rule-offender": {
@@ -316,7 +350,7 @@
 			"parent_tag": "roles",
 			"child_tags": [],
 			"message_ids": [
-				680012763913125932
+				680343633039196160
 			]
 		},
 		"rule-violation-polls": {
@@ -326,7 +360,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				680012694824419370
+				680343565276151821
 			]
 		},
 		"rule-violations": {
@@ -340,7 +374,7 @@
 				"punitive-action"
 			],
 			"message_ids": [
-				680012668756557843
+				680343547010220032
 			]
 		},
 		"rules-channel": {
@@ -350,7 +384,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680012738138996818
+				680343611522416655
 			]
 		},
 		"style-conventions": {
@@ -365,7 +399,7 @@
 				"formatting"
 			],
 			"message_ids": [
-				680012713648586788
+				680343586834874408
 			]
 		},
 		"the-end": {
@@ -375,7 +409,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680012823434231814
+				680343696054681600
 			]
 		},
 		"timezones": {
@@ -385,7 +419,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680012696711987230
+				680343567696527390
 			]
 		},
 		"transactions-channel": {
@@ -395,7 +429,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680012759449993242
+				680343631143763988
 			]
 		},
 		"voting-on-proposals": {
@@ -405,7 +439,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				680012783043215398
+				680343654992314375
 			]
 		},
 		"winning": {
@@ -415,7 +449,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680012804983357461
+				680343677981425673
 			]
 		}
 	}

@@ -82,7 +82,7 @@
 			"n": 6,
 			"author": 364562317645709336,
 			"content": "Add a new rule (%land);\n> The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.\n> 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.\nadd a rule under %land (%land-movement);\n> Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their coordinates.\nand add another rule under %land (%land-generation).\n> By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 680094463464439828,
 			"votes": {
 				"157917281337212929": 1,
@@ -176,7 +176,7 @@
 			"message_id": 680161932354912316,
 			"votes": {
 				"261243340752814085": 1,
-				"309787486278909952": 1,
+				"309787486278909952": 0,
 				"330678593904443393": -1,
 				"427589146295664667": 1,
 				"474286909636476939": 0
