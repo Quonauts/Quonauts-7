@@ -22,6 +22,7 @@
 			"status": "voting",
 			"message_id": 680022456647680024,
 			"votes": {
+				"160279332454006795": -1,
 				"261243340752814085": 1,
 				"309787486278909952": 1,
 				"330678593904443393": -1,
@@ -53,6 +54,7 @@
 			"message_id": 680074862257373187,
 			"votes": {
 				"157917281337212929": 1,
+				"160279332454006795": -1,
 				"309787486278909952": 0,
 				"330678593904443393": 1,
 				"364562317645709336": -1,
@@ -70,6 +72,7 @@
 			"status": "voting",
 			"message_id": 680089643005509668,
 			"votes": {
+				"160279332454006795": -1,
 				"309787486278909952": 1,
 				"330678593904443393": -1,
 				"364562317645709336": 1,
@@ -135,6 +138,7 @@
 			"status": "voting",
 			"message_id": 680117493758427285,
 			"votes": {
+				"160279332454006795": -1,
 				"261243340752814085": -1,
 				"309787486278909952": 1,
 				"364562317645709336": -1,
@@ -150,12 +154,14 @@
 			"status": "voting",
 			"message_id": 680155365580734490,
 			"votes": {
+				"160279332454006795": -1,
 				"261243340752814085": -1,
 				"309787486278909952": -1,
 				"330678593904443393": 1,
 				"364562317645709336": 1,
 				"427589146295664667": -1,
-				"474286909636476939": 1
+				"474286909636476939": 1,
+				"474424490382589952": -1
 			},
 			"timestamp": 1582232075
 		},
@@ -163,9 +169,10 @@
 			"n": 11,
 			"author": 364562317645709336,
 			"content": "Create a channel named #the-land, add the following rule under %channels (%land-channel):\n> Players must announce their movement through The Land in #the-land, and their announcements must match their actual movements.\nand append\n> 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.\nto %land.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 680161298998231087,
 			"votes": {
+				"160279332454006795": 1,
 				"261243340752814085": 1,
 				"309787486278909952": 1,
 				"427589146295664667": 1,
@@ -181,6 +188,7 @@
 			"status": "voting",
 			"message_id": 680161932354912316,
 			"votes": {
+				"160279332454006795": 1,
 				"261243340752814085": 1,
 				"309787486278909952": 0,
 				"330678593904443393": -1,
@@ -214,6 +222,7 @@
 			"status": "voting",
 			"message_id": 680163785230909456,
 			"votes": {
+				"160279332454006795": 1,
 				"261243340752814085": -1,
 				"309787486278909952": 1,
 				"474424490382589952": 1
@@ -256,7 +265,7 @@
 			"message_id": 680231184822960188,
 			"votes": {
 				"261243340752814085": -1,
-				"309787486278909952": -1,
+				"309787486278909952": 0,
 				"427589146295664667": 1,
 				"474424490382589952": -1
 			},
@@ -269,10 +278,20 @@
 			"status": "voting",
 			"message_id": 680394638049542164,
 			"votes": {
+				"160279332454006795": -1,
 				"309787486278909952": 1,
 				"474424490382589952": 1
 			},
 			"timestamp": 1582289122
+		},
+		{
+			"n": 19,
+			"author": 160279332454006795,
+			"content": "Add a new rule section inside \"Proposal Content\" named \"Ducks\".\n> Aside from this proposal, no proposals may mention ducks. Creation of a proposal that mentions ducks is a rule violation.\nThey will not win.",
+			"status": "voting",
+			"message_id": 680403474495701004,
+			"votes": {},
+			"timestamp": 1582291229
 		}
 	]
 }

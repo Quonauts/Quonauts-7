@@ -18,7 +18,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680343633718673473
+				680403870912086059
 			]
 		},
 		"bots": {
@@ -41,7 +41,8 @@
 				"rules-channel",
 				"proposals-channel",
 				"polls-channel",
-				"transactions-channel"
+				"transactions-channel",
+				"land-channel"
 			],
 			"message_ids": [
 				680343609647693843
@@ -56,7 +57,7 @@
 				"passing-and-failing-proposals"
 			],
 			"message_ids": [
-				680343673640189953
+				680403894475554914
 			]
 		},
 		"conflict-resolution": {
@@ -66,7 +67,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				680343653344083982
+				680403891095076891
 			]
 		},
 		"content": {
@@ -86,7 +87,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				680343654262767626
+				680403892176945167
 			]
 		},
 		"disallowed-by-default": {
@@ -106,7 +107,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				680343675439808522
+				680403912720908403
 			]
 		},
 		"errors": {
@@ -162,14 +163,24 @@
 		"land": {
 			"tag": "land",
 			"title": "Land",
-			"content": "The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.\n\n'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.",
+			"content": "The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.\n\n'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.\n\n'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.",
 			"parent_tag": "root",
 			"child_tags": [
 				"land-movement",
 				"land-generation"
 			],
 			"message_ids": [
-				680343697161978024
+				680403933843554364
+			]
+		},
+		"land-channel": {
+			"tag": "land-channel",
+			"title": "#the-land",
+			"content": "Players must announce their movement through The Land in <#680403819699765285>, and their announcements must match their actual movements.",
+			"parent_tag": "channels",
+			"child_tags": [],
+			"message_ids": [
+				680403868215017623
 			]
 		},
 		"land-generation": {
@@ -179,7 +190,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				680343698944688199
+				680403935366086658
 			]
 		},
 		"land-movement": {
@@ -189,7 +200,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				680343697996382228
+				680403934652661770
 			]
 		},
 		"lists": {
@@ -228,7 +239,7 @@
 			"parent_tag": "closing-proposals",
 			"child_tags": [],
 			"message_ids": [
-				680343674558611457
+				680403911638515786
 			]
 		},
 		"polls-channel": {
@@ -261,7 +272,7 @@
 				"dependency-resolution"
 			],
 			"message_ids": [
-				680343652748361744
+				680403890159616056
 			]
 		},
 		"proposals": {
@@ -276,7 +287,7 @@
 				"editing-proposals"
 			],
 			"message_ids": [
-				680343652048175115
+				680403871671386122
 			]
 		},
 		"proposals-channel": {
@@ -306,7 +317,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680343676584722432
+				680403913534734337
 			]
 		},
 		"roles": {
@@ -318,7 +329,7 @@
 				"rule-offender"
 			],
 			"message_ids": [
-				680343632250667049
+				680403869154803847
 			]
 		},
 		"root": {
@@ -338,9 +349,9 @@
 				"land"
 			],
 			"message_ids": [
-				680343699510525954,
-				680343717668061209,
-				680343718477299717
+				680403936196427816,
+				680403938801090585,
+				680403958279176257
 			]
 		},
 		"rule-offender": {
@@ -350,7 +361,7 @@
 			"parent_tag": "roles",
 			"child_tags": [],
 			"message_ids": [
-				680343633039196160
+				680403870027218944
 			]
 		},
 		"rule-violation-polls": {
@@ -409,7 +420,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680343696054681600
+				680403915166318604
 			]
 		},
 		"timezones": {
@@ -439,7 +450,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				680343654992314375
+				680403893095497729
 			]
 		},
 		"winning": {
@@ -449,7 +460,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680343677981425673
+				680403914402955399
 			]
 		}
 	}
