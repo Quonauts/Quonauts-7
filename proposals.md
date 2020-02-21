@@ -162,3 +162,10 @@ Remove from rule 1.2 (%precedence):
 Append to section 1.8 (%glossary):
 > * **Limited scope** (of two rules): The rule that applies in the least situations, having the most constraints.
 
+<a name='17'/>
+
+## #17
+
+Change rule 8 to:
+The End is a dimension consisting of a large chunk of end stone, twelve obsidian towers, one bedrock fountain, and one dragon.
+
