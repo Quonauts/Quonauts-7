@@ -291,7 +291,7 @@ The following quantities exist:
 
 ## <a name='winning'/> Winning
 
-The game cannot be won.
+A player can win the game if a rule says so. A proposal cannot directly lead to a player winning. The game cannot be won by more than one player. If according to a rule two or more players win at the same time, that rule does not apply.
 
 ## <a name='the-end'/> The end
 
