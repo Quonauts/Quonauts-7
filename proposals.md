@@ -132,7 +132,7 @@ This proposal conflicts with #10
 
 <a name='13'/>
 
-## #13
+## #13 — Passed
 
 Replace %the-end with:
 > The game ends if a player has won.
