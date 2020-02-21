@@ -188,3 +188,11 @@ Add a subrule of %monarch, "Royal election" (%royal-election):
 
 When this proposal passes, immediately start the first royal election.
 
+<a name='19'/>
+
+## #19
+
+Add a new rule section inside "Proposal Content" named "Ducks".
+> Aside from this proposal, no proposals may mention ducks. Creation of a proposal that mentions ducks is a rule violation.
+They will not win.
+
