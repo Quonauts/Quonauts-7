@@ -38,6 +38,7 @@
 * [**6. Quantities**](#quantities)
 * [**7. Winning**](#winning)
 * [**8. The end**](#the-end)
+* [**9. Land**](#land)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -293,4 +294,10 @@ The game cannot be won.
 ## <a name='the-end'/> The end
 
 The game does not end.
+
+## <a name='land'/> Land
+
+The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.
+
+'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.
 
