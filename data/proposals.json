@@ -238,6 +238,7 @@
 			"votes": {
 				"261243340752814085": -1,
 				"309787486278909952": 1,
+				"330678593904443393": 1,
 				"364562317645709336": -1,
 				"474424490382589952": 1
 			},
@@ -252,6 +253,7 @@
 			"votes": {
 				"261243340752814085": 1,
 				"309787486278909952": 1,
+				"330678593904443393": 0,
 				"364562317645709336": 1,
 				"474424490382589952": 1
 			},
@@ -266,6 +268,7 @@
 			"votes": {
 				"261243340752814085": -1,
 				"309787486278909952": 0,
+				"330678593904443393": -1,
 				"427589146295664667": 1,
 				"474424490382589952": -1
 			},
@@ -280,6 +283,7 @@
 			"votes": {
 				"160279332454006795": -1,
 				"309787486278909952": 1,
+				"330678593904443393": 1,
 				"474424490382589952": 1
 			},
 			"timestamp": 1582289122
@@ -290,8 +294,21 @@
 			"content": "Add a new rule section inside \"Proposal Content\" named \"Ducks\".\n> Aside from this proposal, no proposals may mention ducks. Creation of a proposal that mentions ducks is a rule violation.\nThey will not win.",
 			"status": "voting",
 			"message_id": 680403474495701004,
-			"votes": {},
+			"votes": {
+				"330678593904443393": -1
+			},
 			"timestamp": 1582291229
+		},
+		{
+			"n": 20,
+			"author": 330678593904443393,
+			"content": "This proposal depends on #18. Delay the first election until a future proposal has implemented gameplay benefits for the position of monarch.",
+			"status": "voting",
+			"message_id": 680420253271982204,
+			"votes": {
+				"330678593904443393": 1
+			},
+			"timestamp": 1582295229
 		}
 	]
 }
