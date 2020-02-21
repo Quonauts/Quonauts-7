@@ -24,6 +24,7 @@
     * [**2.3. #proposals**](#proposals-channel)
     * [**2.4. #polls**](#polls-channel)
     * [**2.5. #transactions**](#transactions-channel)
+    * [**2.6. #the-land**](#land-channel)
 * [**3. Roles**](#roles)
     * [**3.1. Rule offender**](#rule-offender)
 * [**4. Activity**](#activity)
@@ -201,6 +202,10 @@ The player that posted a poll may edit it freely, as long as such edits do not c
 ### <a name='transactions-channel'/> #transactions
 
 The <#679774549273084061> channel may be used to modify quantities, but only as the game rules allow quantities to be changed.
+
+### <a name='land-channel'/> #the-land
+
+Players must announce their movement through The Land in <#680403819699765285>, and their announcements must match their actual movements.
 
 ## <a name='roles'/> Roles
 
