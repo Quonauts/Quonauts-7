@@ -202,3 +202,14 @@ They will not win.
 
 This proposal depends on #18. Delay the first election until a future proposal has implemented gameplay benefits for the position of monarch.
 
+<a name='21'/>
+
+## #21
+
+Add a new rule within "Proposal content" named "Power.
+> No proposals may give any players power over any other player. "Power" is defined as one or more roles which one or more players have which allows or prevents them from taking certain game actions. The "Rule Offender" role is exempt from this.
+> 
+> Any benefit given by quantities that is not just another method of giving players "roles" does not count as "power".
+> 
+> All proposals which violate this rule or would have violated this rule are to be retroactively undone.
+
