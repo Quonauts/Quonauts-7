@@ -40,6 +40,7 @@
 * [**8. The end**](#the-end)
 * [**9. Land**](#land)
     * [**9.1. Land movement**](#land-movement)
+    * [**9.2. Land generation**](#land-generation)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -305,4 +306,8 @@ The Land is an infinite square lattice. A 'land tile' is a point of this lattice
 ### <a name='land-movement'/> Land movement
 
 Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their coordinates.
+
+### <a name='land-generation'/> Land generation
+
+By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.
 
