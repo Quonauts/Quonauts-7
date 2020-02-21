@@ -160,7 +160,7 @@ Remove from rule 1.2 (%precedence):
 ## #16
 
 Append to section 1.8 (%glossary):
-> * **Limited scope** (of two rules): The rule that applies in the least situations, having the most constraints.
+> * **Limited scope** (of two clauses): The clause that applies in the least situations, having the most constraints.
 
 <a name='17'/>
 
