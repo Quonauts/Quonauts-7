@@ -308,6 +308,8 @@ The Land is an infinite square lattice. A 'land tile' is a point of this lattice
 
 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.
 
+'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.
+
 ### <a name='land-movement'/> Land movement
 
 Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their coordinates.
