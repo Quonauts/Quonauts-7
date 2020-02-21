@@ -44,7 +44,7 @@ If this proposal passes, nothing happens.
 
 <a name='6'/>
 
-## #6
+## #6 — Passed
 
 Add a new rule (%land);
 > The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.
