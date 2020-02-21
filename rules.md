@@ -295,7 +295,7 @@ The game cannot be won.
 
 ## <a name='the-end'/> The end
 
-The game does not end.
+The game ends if a player has won.
 
 ## <a name='land'/> Land
 
