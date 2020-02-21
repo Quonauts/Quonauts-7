@@ -306,6 +306,7 @@
 			"status": "voting",
 			"message_id": 680403474495701004,
 			"votes": {
+				"160279332454006795": 1,
 				"330678593904443393": -1,
 				"427589146295664667": 1,
 				"474286909636476939": -1,
@@ -321,14 +322,28 @@
 			"status": "voting",
 			"message_id": 680420253271982204,
 			"votes": {
+				"160279332454006795": -1,
 				"261243340752814085": 1,
 				"309787486278909952": 1,
 				"330678593904443393": 1,
 				"427589146295664667": 1,
 				"474286909636476939": -1,
+				"474424490382589952": 1,
 				"512645502253400064": 0
 			},
 			"timestamp": 1582295229
+		},
+		{
+			"n": 21,
+			"author": 160279332454006795,
+			"content": "Add a new rule within \"Proposal content\" named \"Power.\n> No proposals may give any players power over any other player. \"Power\" is defined as one or more roles which one or more players have which allows or prevents them from taking certain game actions. The \"Rule Offender\" role is exempt from this.\n> \n> Any benefit given by quantities that is not just another method of giving players \"roles\" does not count as \"power\".\n> \n> All proposals which violate this rule or would have violated this rule are to be retroactively undone.",
+			"status": "voting",
+			"message_id": 680552936639954948,
+			"votes": {
+				"160279332454006795": 1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1582326864
 		}
 	]
 }
