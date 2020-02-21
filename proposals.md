@@ -196,3 +196,9 @@ Add a new rule section inside "Proposal Content" named "Ducks".
 > Aside from this proposal, no proposals may mention ducks. Creation of a proposal that mentions ducks is a rule violation.
 They will not win.
 
+<a name='20'/>
+
+## #20
+
+This proposal depends on #18. Delay the first election until a future proposal has implemented gameplay benefits for the position of monarch.
+
