@@ -111,7 +111,7 @@ When this proposal passes, immediately start the first royal election.
 
 <a name='11'/>
 
-## #11
+## #11 — Passed
 
 Create a channel named #the-land, add the following rule under %channels (%land-channel):
 > Players must announce their movement through The Land in #the-land, and their announcements must match their actual movements.
