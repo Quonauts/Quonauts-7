@@ -38,7 +38,7 @@ Add a new rule 9 after rule 8 called "Despotism" with the following content:
 
 <a name='5'/>
 
-## #5
+## #5 — Passed
 
 If this proposal passes, nothing happens.
 
