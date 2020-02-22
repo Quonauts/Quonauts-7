@@ -12,7 +12,7 @@ Append to rule 5.4 "Editing proposals":
 
 <a name='2'/>
 
-## #2
+## #2 — Failed
 
 Add a new quantity, called "Ducks".
 Ducks are earned every 5 proposals from the author of the proposals passing.
