@@ -51,7 +51,7 @@
 			"n": 4,
 			"author": 157917281337212929,
 			"content": "Add a new rule 9 after rule 8 called \"Despotism\" with the following content:\n> All players who voted \ud83d\udc4d  for the Proposal that created this rule, while that Proposal was Open, are Nobles. All other players are not Nobles. Not-Nobles are also known as Peasants. Nobles can react to an Open Proposal authored by a Peasant with a \ud83d\udd25 to Fail and Close that Proposal. Peasants cannot vote \ud83d\udc4e on an Open Proposal authored by a Noble.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 680074862257373187,
 			"votes": {
 				"157917281337212929": 1,
@@ -70,7 +70,7 @@
 			"n": 5,
 			"author": 364562317645709336,
 			"content": "If this proposal passes, nothing happens.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 680089643005509668,
 			"votes": {
 				"160279332454006795": -1,
