@@ -19,6 +19,12 @@
 		},
 		"default_value": 0
 	},
+	"point": {
+		"name": "point",
+		"aliases": [],
+		"players": {},
+		"default_value": 0
+	},
 	"strike": {
 		"name": "strike",
 		"aliases": [],

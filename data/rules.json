@@ -110,6 +110,16 @@
 				680403912720908403
 			]
 		},
+		"equality": {
+			"tag": "equality",
+			"title": "Equality",
+			"content": "All Players have exactly one vote for every proposal.\n\nThere is no way for a Player to gain additional votes.",
+			"parent_tag": "root",
+			"child_tags": [],
+			"message_ids": [
+				681065270202204171
+			]
+		},
 		"errors": {
 			"tag": "errors",
 			"title": "Errors",
@@ -143,7 +153,7 @@
 		"glossary": {
 			"tag": "glossary",
 			"title": "Glossary",
-			"content": "The definitions for terms listed here take precedence over their normal English meanings, however any terms defined in a specific section of the rules override these in the section in which they are defined and any subsections of that section. A section may also define terms for use in the whole document.\n\n* **The Game**: The instance of Nomic which is governed by this rules document.\n* **Game Action**: A game action is any message or reaction in a game channel or any other manipulation of game channels or quantities which are part of the game.\n* **Game State**: A specific arrangement of all game rules, proposals, polls, votes and quantities.\n* **Game Channel**: A game channel is any text or voice channel listed in the \"Quonauts 7\" channel category of the Discord server.\n* **Player**: Any participant of the game.\n* **The Rules**: The rules of the game, which are described by this document.\n* **Section**: A part of the rules which is contained under one header, not including any subsections.\n* **Subsection**: A section of the rules which is contained under another section.\n* **Clause**: A single statement in the rules",
+			"content": "The definitions for terms listed here take precedence over their normal English meanings, however any terms defined in a specific section of the rules override these in the section in which they are defined and any subsections of that section. A section may also define terms for use in the whole document.\n\n* **The Game**: The instance of Nomic which is governed by this rules document.\n* **Game Action**: A game action is any message or reaction in a game channel or any other manipulation of game channels or quantities which are part of the game.\n* **Game State**: A specific arrangement of all game rules, proposals, polls, votes and quantities.\n* **Game Channel**: A game channel is any text or voice channel listed in the \"Quonauts 7\" channel category of the Discord server.\n* **Player**: Any participant of the game.\n* **The Rules**: The rules of the game, which are described by this document.\n* **Section**: A part of the rules which is contained under one header, not including any subsections.\n* **Subsection**: A section of the rules which is contained under another section.\n* **Clause**: A single statement in the rules\n* **Limited scope** (of two clauses): The clause that applies in the least situations, having the most constraints.",
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
@@ -170,7 +180,7 @@
 				"land-generation"
 			],
 			"message_ids": [
-				680403933843554364
+				681065050978779146
 			]
 		},
 		"land-channel": {
@@ -190,7 +200,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				680403935366086658
+				681065072457678858
 			]
 		},
 		"land-movement": {
@@ -200,7 +210,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				680403934652661770
+				681065051754332185
 			]
 		},
 		"lists": {
@@ -255,7 +265,7 @@
 		"precedence": {
 			"tag": "precedence",
 			"title": "Precedence",
-			"content": "In the case of a contradiction between clauses, the following criteria are to be considered in turn until a clear determination can be made as to which clause takes precedence:\n\n1. If one clause has a more limited scope than another, then the clause with the more limited scope takes precedence.\n2. If one clause is negative while the other is positive, then the negative clause takes precedence.\n3. The clause which appears last in the rules takes precedence.",
+			"content": "1. If one clause has a more limited scope than another, then the clause with the more limited scope takes precedence.\n2. The clause which appears last in the rules takes precedence.",
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
@@ -310,12 +320,24 @@
 				680343566660272128
 			]
 		},
+		"purchase": {
+			"tag": "purchase",
+			"title": "Purchase",
+			"content": "A Purchase is a voluntary transaction of any two quantities between any two Players.\n\nA Purchase must be agreed on by both Players performing the Purchase to be Complete.\n\nOnce a purchase is Complete, the Quantities must be exchanged according to the agreement.\n\nA Complete Purchase cannot be revoked or undone in any way.\n\nAn Invalid Purchase does not allow an exchange.\n\nAny Purchase in which the Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.\n\nAny Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.",
+			"parent_tag": "quantities",
+			"child_tags": [],
+			"message_ids": [
+				681065048596414527
+			]
+		},
 		"quantities": {
 			"tag": "quantities",
 			"title": "Quantities",
-			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n* applies to all players.\n* is instantiated at zero.\n* must always be an integer.\n* must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n * **Strike**: The number of rule violations a player has committed.",
+			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n\u2022 applies to all players.\n\u2022 is instantiated at zero.\n\u2022 must always be an integer.\n\u2022 must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n* **Strike**: The number of rule violations a player has committed.\n* **Point**: The number of points a player has scored.",
 			"parent_tag": "root",
-			"child_tags": [],
+			"child_tags": [
+				"purchase"
+			],
 			"message_ids": [
 				680403913534734337
 			]
@@ -346,12 +368,13 @@
 				"quantities",
 				"winning",
 				"the-end",
-				"land"
+				"land",
+				"equality"
 			],
 			"message_ids": [
-				680403936196427816,
-				680403938801090585,
-				680403958279176257
+				681065270902653144,
+				681065272014143500,
+				681065272844746833
 			]
 		},
 		"rule-offender": {
@@ -420,7 +443,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680403915166318604
+				681065050207027201
 			]
 		},
 		"timezones": {
@@ -460,7 +483,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680403914402955399
+				681065049498058783
 			]
 		}
 	}
