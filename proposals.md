@@ -121,7 +121,7 @@ to %land.
 
 <a name='12'/>
 
-## #12
+## #12 — Passed
 
 Add a new rule, "Equality" (%equality);
 This proposal conflicts with #10
