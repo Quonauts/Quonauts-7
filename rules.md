@@ -37,6 +37,7 @@
         * [**5.3.1. Passing and failing proposals**](#passing-and-failing-proposals)
     * [**5.4. Editing proposals**](#editing-proposals)
 * [**6. Quantities**](#quantities)
+    * [**6.1. Purchase**](#purchase)
 * [**7. Winning**](#winning)
 * [**8. The end**](#the-end)
 * [**9. Land**](#land)
@@ -293,6 +294,22 @@ Quantities may be traded or exchanged in ways specifically allowed by the rules.
 The following quantities exist:
 
  * **Strike**: The number of rule violations a player has committed.
+
+### <a name='purchase'/> Purchase
+
+A Purchase is a voluntary transaction of any two quantities between any two Players.
+
+A Purchase must be agreed on by both Players performing the Purchase to be Complete.
+
+Once a purchase is Complete, the Quantities must be exchanged according to the agreement.
+
+A Complete Purchase cannot be revoked or undone in any way.
+
+An Invalid Purchase does not allow an exchange.
+
+Any Purchase in which the Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.
+
+Any Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.
 
 ## <a name='winning'/> Winning
 
