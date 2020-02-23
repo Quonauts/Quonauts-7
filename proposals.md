@@ -97,7 +97,7 @@ Append to rule 5.3.1 "Passing and failing proposals":
 
 <a name='10'/>
 
-## #10
+## #10 — Failed
 
 Add a new rule: %monarch
 > One player carries the title of "Monarch" (or "King" or "Queen", if preferred), chosen by election (see %royal-election). The monarch's vote on a proposal counts twice. If the monarch becomes inactive or one of their proposals fails, they are forced to either pass on their title voluntarily or abdicate, which means they immediately loses this title of monarch and a new election happens to elect a new king. The monarch may pass on their title to another active player voluntarily any time.
