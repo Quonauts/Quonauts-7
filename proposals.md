@@ -63,7 +63,7 @@ Amend Rule 6 (%quantities);
 
 <a name='8'/>
 
-## #8
+## #8 — Passed
 
 Add a new rule, "Purchase" (%purchase) (%quantities);
 
