@@ -157,7 +157,7 @@ Remove from rule 1.2 (%precedence):
 
 <a name='16'/>
 
-## #16
+## #16 — Passed
 
 Append to section 1.8 (%glossary):
 > * **Limited scope** (of two clauses): The clause that applies in the least situations, having the most constraints.
