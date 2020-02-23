@@ -141,7 +141,7 @@ Replace %winning with:
 
 <a name='14'/>
 
-## #14
+## #14 — Passed
 
 A duck-free alternative.
 
