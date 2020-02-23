@@ -164,7 +164,7 @@ Append to section 1.8 (%glossary):
 
 <a name='17'/>
 
-## #17
+## #17 — Failed
 
 Change rule 8 to:
 The End is a dimension consisting of a large chunk of end stone, twelve obsidian towers, one bedrock fountain, and one dragon.
