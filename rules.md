@@ -285,16 +285,17 @@ The author of a proposal or the player passing a proposal may choose to add or r
 A quantity is a named property with a numerical value for each player.
 
 By default any unique quantity added to the game:
-* applies to all players.
-* is instantiated at zero.
-* must always be an integer.
-* must never have a negative value.
+• applies to all players.
+• is instantiated at zero.
+• must always be an integer.
+• must never have a negative value.
 
 Quantities may be traded or exchanged in ways specifically allowed by the rules.
 
 The following quantities exist:
 
- * **Strike**: The number of rule violations a player has committed.
+* **Strike**: The number of rule violations a player has committed.
+* **Point**: The number of points a player has scored.
 
 ### <a name='purchase'/> Purchase
 
