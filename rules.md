@@ -173,6 +173,7 @@ The definitions for terms listed here take precedence over their normal English 
 * **Section**: A part of the rules which is contained under one header, not including any subsections.
 * **Subsection**: A section of the rules which is contained under another section.
 * **Clause**: A single statement in the rules
+* **Limited scope** (of two clauses): The clause that applies in the least situations, having the most constraints.
 
 ## <a name='channels'/> Channels
 
