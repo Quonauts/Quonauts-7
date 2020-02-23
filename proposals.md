@@ -85,7 +85,7 @@ This proposal depends on #7
 
 <a name='9'/>
 
-## #9
+## #9 — Failed
 
 This proposal depends on #2.
 
