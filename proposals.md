@@ -150,7 +150,7 @@ Create a new quantity called "point" and append to rule 6 (%quantities):
 
 <a name='15'/>
 
-## #15
+## #15 — Passed
 
 Remove from rule 1.2 (%precedence):
 > 2. If one clause is negative while the other is positive, the negative clause takes precedence.
