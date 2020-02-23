@@ -43,6 +43,7 @@
 * [**9. Land**](#land)
     * [**9.1. Land movement**](#land-movement)
     * [**9.2. Land generation**](#land-generation)
+* [**10. Equality**](#equality)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -334,4 +335,10 @@ Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their 
 ### <a name='land-generation'/> Land generation
 
 By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.
+
+## <a name='equality'/> Equality
+
+All Players have exactly one vote for every proposal.
+
+There is no way for a Player to gain additional votes.
 
