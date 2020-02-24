@@ -204,7 +204,7 @@ This proposal depends on #18. Delay the first election until a future proposal h
 
 <a name='21'/>
 
-## #21
+## #21 — Failed
 
 Add a new rule within "Proposal content" named "Power.
 > No proposals may give any players power over any other player. "Power" is defined as one or more roles which one or more players have which allows or prevents them from taking certain game actions. The "Rule Offender" role is exempt from this.
