@@ -222,3 +222,10 @@ Add a new rule, "Land Ownership" (%land) (%purchase);
 > Each piece of Land may only be Owned by one Player at a time.
 > Land is allowed to be Purchased.
 
+<a name='23'/>
+
+## #23
+
+This proposal depends on #22
+> Wait for rules determining the impact of Owning Land and for additional rules determining how land may be acquired to implement #22.
+
