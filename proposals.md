@@ -213,3 +213,12 @@ Add a new rule within "Proposal content" named "Power.
 > 
 > All proposals which violate this rule or would have violated this rule are to be retroactively undone.
 
+<a name='22'/>
+
+## #22
+
+Add a new rule, "Land Ownership" (%land) (%purchase);
+> A piece of Land may be Owned by any Player.
+> Each piece of Land may only be Owned by one Player at a time.
+> Land is allowed to be Purchased.
+
