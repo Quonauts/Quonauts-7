@@ -190,7 +190,7 @@ When this proposal passes, immediately start the first royal election.
 
 <a name='19'/>
 
-## #19
+## #19 — Failed
 
 Add a new rule section inside "Proposal Content" named "Ducks".
 > Aside from this proposal, no proposals may mention ducks. Creation of a proposal that mentions ducks is a rule violation.
