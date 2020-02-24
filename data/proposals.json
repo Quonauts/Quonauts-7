@@ -353,6 +353,32 @@
 				"474424490382589952": -1
 			},
 			"timestamp": 1582326864
+		},
+		{
+			"n": 22,
+			"author": 261243340752814085,
+			"content": "Add a new rule, \"Land Ownership\" (%land) (%purchase);\n> A piece of Land may be Owned by any Player.\n> Each piece of Land may only be Owned by one Player at a time.\n> Land is allowed to be Purchased.",
+			"status": "voting",
+			"message_id": 681525273341984821,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"364562317645709336": 0,
+				"474286909636476939": 0
+			},
+			"timestamp": 1582558687
+		},
+		{
+			"n": 23,
+			"author": 261243340752814085,
+			"content": "This proposal depends on #22\n> Wait for rules determining the impact of Owning Land and for additional rules determining how land may be acquired to implement #22.",
+			"status": "voting",
+			"message_id": 681526483923238936,
+			"votes": {
+				"261243340752814085": 1,
+				"474286909636476939": 1
+			},
+			"timestamp": 1582558975
 		}
 	]
 }
