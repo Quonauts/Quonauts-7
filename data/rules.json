@@ -8,7 +8,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680343544409358340
+				681402728018214913
 			]
 		},
 		"activity": {
@@ -18,7 +18,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				680403870912086059
+				681402834972835860
 			]
 		},
 		"bots": {
@@ -28,7 +28,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680343568489119754
+				681402752202833920
 			]
 		},
 		"channels": {
@@ -45,7 +45,7 @@
 				"land-channel"
 			],
 			"message_ids": [
-				680343609647693843
+				681402792350449674
 			]
 		},
 		"closing-proposals": {
@@ -57,7 +57,7 @@
 				"passing-and-failing-proposals"
 			],
 			"message_ids": [
-				680403894475554914
+				681402857529933834
 			]
 		},
 		"conflict-resolution": {
@@ -67,7 +67,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				680403891095076891
+				681402837724692490
 			]
 		},
 		"content": {
@@ -77,7 +77,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				680343587602563077
+				681402770678349825
 			]
 		},
 		"dependency-resolution": {
@@ -87,7 +87,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				680403892176945167
+				681402838215032854
 			]
 		},
 		"disallowed-by-default": {
@@ -97,7 +97,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680343545910919177
+				681402733256769544
 			]
 		},
 		"editing-proposals": {
@@ -107,7 +107,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				680403912720908403
+				681402859044208687
 			]
 		},
 		"equality": {
@@ -117,7 +117,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				681065270202204171
+				681402902702456870
 			]
 		},
 		"errors": {
@@ -127,7 +127,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				680343564945063947
+				681402748218114070
 			]
 		},
 		"formatting": {
@@ -137,7 +137,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				680343589602983945
+				681402774902145054
 			]
 		},
 		"general-channel": {
@@ -147,7 +147,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680343610570309660
+				681402792921006101
 			]
 		},
 		"glossary": {
@@ -157,7 +157,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680343608649449518
+				681402791587217443
 			]
 		},
 		"headers-and-tags": {
@@ -167,7 +167,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				680343588030513172
+				681402771852754954
 			]
 		},
 		"land": {
@@ -180,7 +180,7 @@
 				"land-generation"
 			],
 			"message_ids": [
-				681065050978779146
+				681402881705902082
 			]
 		},
 		"land-channel": {
@@ -190,7 +190,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680403868215017623
+				681402814576328705
 			]
 		},
 		"land-generation": {
@@ -200,7 +200,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				681065072457678858
+				681402900492320836
 			]
 		},
 		"land-movement": {
@@ -210,7 +210,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				681065051754332185
+				681402882821586954
 			]
 		},
 		"lists": {
@@ -220,7 +220,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				680343588860854273
+				681402773870608425
 			]
 		},
 		"meta-rules": {
@@ -239,7 +239,19 @@
 				"glossary"
 			],
 			"message_ids": [
-				680343542987620355
+				681402726126846034
+			]
+		},
+		"monarch": {
+			"tag": "monarch",
+			"title": "Monarch",
+			"content": "One player carries the title of \"Monarch\" (or \"King\" or \"Queen\", if preferred), chosen by election (see %royal-election).",
+			"parent_tag": "root",
+			"child_tags": [
+				"royal-election"
+			],
+			"message_ids": [
+				681402901490696192
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -249,7 +261,7 @@
 			"parent_tag": "closing-proposals",
 			"child_tags": [],
 			"message_ids": [
-				680403911638515786
+				681402858494885903
 			]
 		},
 		"polls-channel": {
@@ -259,7 +271,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680343630392590357
+				681402813015654437
 			]
 		},
 		"precedence": {
@@ -269,7 +281,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680343545164726272
+				681402730815946806
 			]
 		},
 		"proposal-content": {
@@ -282,7 +294,7 @@
 				"dependency-resolution"
 			],
 			"message_ids": [
-				680403890159616056
+				681402837036564501
 			]
 		},
 		"proposals": {
@@ -297,7 +309,7 @@
 				"editing-proposals"
 			],
 			"message_ids": [
-				680403871671386122
+				681402836046577692
 			]
 		},
 		"proposals-channel": {
@@ -307,7 +319,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680343612357214302
+				681402794615636020
 			]
 		},
 		"punitive-action": {
@@ -317,7 +329,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				680343566660272128
+				681402749958619148
 			]
 		},
 		"purchase": {
@@ -327,7 +339,7 @@
 			"parent_tag": "quantities",
 			"child_tags": [],
 			"message_ids": [
-				681065048596414527
+				681402878803312644
 			]
 		},
 		"quantities": {
@@ -339,7 +351,7 @@
 				"purchase"
 			],
 			"message_ids": [
-				680403913534734337
+				681402859866292227
 			]
 		},
 		"roles": {
@@ -351,7 +363,7 @@
 				"rule-offender"
 			],
 			"message_ids": [
-				680403869154803847
+				681402815570247740
 			]
 		},
 		"root": {
@@ -369,12 +381,23 @@
 				"winning",
 				"the-end",
 				"land",
+				"monarch",
 				"equality"
 			],
 			"message_ids": [
-				681065270902653144,
-				681065272014143500,
-				681065272844746833
+				681402904245960742,
+				681402921924952130,
+				681402922680057891
+			]
+		},
+		"royal-election": {
+			"tag": "royal-election",
+			"title": "Royal election",
+			"content": "A new monarch is chosen by a poll, called a \"Royal election\", with all active players as candidates (unless they explicitly declare they are not a candidate). The election ends when\n* 48 hours have passed since start of the poll\n* all active players have cast a vote\n* one candidate has gained an absolute majority of votes\nWhen one of these occurs, the election is immediately over and no more votes may be cast in the poll. If then one player has the most votes, they become the new monarch. Otherwise, a new election begins.",
+			"parent_tag": "monarch",
+			"child_tags": [],
+			"message_ids": [
+				681402902169780235
 			]
 		},
 		"rule-offender": {
@@ -384,7 +407,7 @@
 			"parent_tag": "roles",
 			"child_tags": [],
 			"message_ids": [
-				680403870027218944
+				681402816471760957
 			]
 		},
 		"rule-violation-polls": {
@@ -394,7 +417,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				680343565276151821
+				681402749136404489
 			]
 		},
 		"rule-violations": {
@@ -408,7 +431,7 @@
 				"punitive-action"
 			],
 			"message_ids": [
-				680343547010220032
+				681402734800666624
 			]
 		},
 		"rules-channel": {
@@ -418,7 +441,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680343611522416655
+				681402793856204881
 			]
 		},
 		"style-conventions": {
@@ -433,7 +456,7 @@
 				"formatting"
 			],
 			"message_ids": [
-				680343586834874408
+				681402769579704321
 			]
 		},
 		"the-end": {
@@ -443,7 +466,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				681065050207027201
+				681402881228013573
 			]
 		},
 		"timezones": {
@@ -453,7 +476,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				680343567696527390
+				681402750768119851
 			]
 		},
 		"transactions-channel": {
@@ -463,7 +486,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				680343631143763988
+				681402814026743810
 			]
 		},
 		"voting-on-proposals": {
@@ -473,7 +496,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				680403893095497729
+				681402856448065546
 			]
 		},
 		"winning": {
@@ -483,7 +506,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				681065049498058783
+				681402880024248347
 			]
 		}
 	}

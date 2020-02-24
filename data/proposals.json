@@ -287,7 +287,7 @@
 			"n": 18,
 			"author": 309787486278909952,
 			"content": "This proposal conflicts with #10.\nAlternative to #10 that is open for any development.\n\nAdd a new rule \"Monarch\" (%monarch) after %land:\n> One player carries the title of \"Monarch\" (or \"King\" or \"Queen\", if preferred), chosen by election (see %royal-election).\n\nAdd a subrule of %monarch, \"Royal election\" (%royal-election):\n> A new king is chosen by a poll, called a \"Royal election\", with all active players as candidates (unless they explicitly declare they are not a candidate). The election ends when\n> * 48 hours have passed since start of the poll\n> * all active players have cast a vote\n> * one candidate has gained an absolute majority of votes\n> If one of these occur, the election is immediately over and no more votes may be cast in the poll. If then one player has the most votes, they become the new monarch. Otherwise, a new election begins.\n\nWhen this proposal passes, immediately start the first royal election.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 680394638049542164,
 			"votes": {
 				"160279332454006795": -1,
@@ -304,7 +304,7 @@
 			"n": 19,
 			"author": 160279332454006795,
 			"content": "Add a new rule section inside \"Proposal Content\" named \"Ducks\".\n> Aside from this proposal, no proposals may mention ducks. Creation of a proposal that mentions ducks is a rule violation.\nThey will not win.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 680403474495701004,
 			"votes": {
 				"160279332454006795": 1,
@@ -322,7 +322,7 @@
 			"n": 20,
 			"author": 330678593904443393,
 			"content": "This proposal depends on #18. Delay the first election until a future proposal has implemented gameplay benefits for the position of monarch.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 680420253271982204,
 			"votes": {
 				"160279332454006795": -1,
@@ -341,7 +341,7 @@
 			"n": 21,
 			"author": 160279332454006795,
 			"content": "Add a new rule within \"Proposal content\" named \"Power.\n> No proposals may give any players power over any other player. \"Power\" is defined as one or more roles which one or more players have which allows or prevents them from taking certain game actions. The \"Rule Offender\" role is exempt from this.\n> \n> Any benefit given by quantities that is not just another method of giving players \"roles\" does not count as \"power\".\n> \n> All proposals which violate this rule or would have violated this rule are to be retroactively undone.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 680552936639954948,
 			"votes": {
 				"160279332454006795": 1,
