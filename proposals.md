@@ -198,7 +198,7 @@ They will not win.
 
 <a name='20'/>
 
-## #20
+## #20 — Passed
 
 This proposal depends on #18. Delay the first election until a future proposal has implemented gameplay benefits for the position of monarch.
 
