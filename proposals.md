@@ -171,7 +171,7 @@ The End is a dimension consisting of a large chunk of end stone, twelve obsidian
 
 <a name='18'/>
 
-## #18
+## #18 — Passed
 
 This proposal conflicts with #10.
 Alternative to #10 that is open for any development.
