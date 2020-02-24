@@ -44,7 +44,8 @@
     * [**9.1. Land movement**](#land-movement)
     * [**9.2. Land generation**](#land-generation)
 * [**10. Monarch**](#monarch)
-* [**11. Equality**](#equality)
+* [**11. Royal election**](#royal-election)
+* [**12. Equality**](#equality)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -339,6 +340,14 @@ By default, a land tile has type 'empty', or 0. A land tile with type 0 and a pl
 ## <a name='monarch'/> Monarch
 
 One player carries the title of "Monarch" (or "King" or "Queen", if preferred), chosen by election (see %royal-election).
+
+## <a name='royal-election'/> Royal election
+
+A new monarch is chosen by a poll, called a "Royal election", with all active players as candidates (unless they explicitly declare they are not a candidate). The election ends when
+* 48 hours have passed since start of the poll
+* all active players have cast a vote
+* one candidate has gained an absolute majority of votes
+When one of these occurs, the election is immediately over and no more votes may be cast in the poll. If then one player has the most votes, they become the new monarch. Otherwise, a new election begins.
 
 ## <a name='equality'/> Equality
 
