@@ -260,7 +260,7 @@ Add a new quantity, called "Ducks".
 Ducks are earned every 5 proposals from the author of the proposals passing.
 Each duck earned adds the number of ducks to the points earned from a proposal, effectively increasing your points. 
 Along with this, append to rule 6. "Quantities" ( %quantities)
-• Ducks: Each duck earned adds the number of ducks to the points earned from a proposal.
+> **• Ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.
 aswell as that, add rule 6.2 "Ducks" (%ducks)
-Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
+> Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
 
