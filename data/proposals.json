@@ -413,7 +413,8 @@
 				"309787486278909952": 0,
 				"330678593904443393": 0,
 				"427589146295664667": -1,
-				"474286909636476939": -1
+				"474286909636476939": -1,
+				"474424490382589952": 1
 			},
 			"timestamp": 1582638085
 		},
@@ -424,12 +425,26 @@
 			"status": "voting",
 			"message_id": 681976231834681390,
 			"votes": {
+				"160279332454006795": 0,
 				"261243340752814085": 1,
 				"309787486278909952": 1,
+				"330678593904443393": -1,
 				"427589146295664667": 1,
-				"474286909636476939": 1
+				"474286909636476939": 1,
+				"474424490382589952": -1
 			},
 			"timestamp": 1582666203
+		},
+		{
+			"n": 27,
+			"author": 474424490382589952,
+			"content": "Add a new quantity, called \"Ducks\".\nDucks are earned every 5 proposals from the author of the proposals passing.\nEach duck earned adds the number of ducks to the points earned from a proposal, effectively increasing your points. \nAlong with this, append to rule 6. \"Quantities\" ( %quantities)\n> **\u2022 Ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.\naswell as that, add rule 6.2 \"Ducks\" (%ducks)\n> Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.",
+			"status": "voting",
+			"message_id": 682010202047905850,
+			"votes": {
+				"474424490382589952": 1
+			},
+			"timestamp": 1582674303
 		}
 	]
 }
