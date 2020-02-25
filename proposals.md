@@ -246,3 +246,9 @@ Add a new rule %player-interactions after %land
 Add a new subrule %attacking under %player-interactions:
 > One possible interaction is attacking the other player. The result of an attack is decided by coin toss: Roll a 2-sided dice using the bot or another verifiable random number generator. If the result is the higher possible result, the other player gets wounded and is immediately moved back to (0,0). Otherwise nothing happens.
 
+<a name='26'/>
+
+## #26
+
+Do proposal 25 but without the attacking part.
+
