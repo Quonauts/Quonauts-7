@@ -237,3 +237,12 @@ Append to the rule "Monarch" (% monarch):
 > The monarch's vote for a proposal counts twice. The monarch is forced to abdicate (immediately triggering a new election) once a proposal they voted for fails.
 This proposal fulfills #20, so upon passing the first royal election will start.
 
+<a name='25'/>
+
+## #25
+
+Add a new rule %player-interactions after %land
+> Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move. Only interactions listed in the rules are allowed.
+Add a new subrule %attacking under %player-interactions:
+> One possible interaction is attacking the other player. The result of an attack is decided by coin toss: Roll a 2-sided dice using the bot or another verifiable random number generator. If the result is the higher possible result, the other player gets wounded and is immediately moved back to (0,0). Otherwise nothing happens.
+
