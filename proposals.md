@@ -257,10 +257,10 @@ Do proposal 25 but without the attacking part.
 ## #27
 
 Add a new quantity, called "Ducks".
-Ducks are earned every 5 times a player moves onto an unexplored tile.
+Ducks are earned every 5 proposals from the author of the proposals passing.
 Each duck earned adds the number of ducks to the points earned from a proposal, effectively increasing your points. 
 Along with this, append to rule 6. "Quantities" ( %quantities)
-> • Ducks: Each duck earned adds the number of ducks to the points earned from a proposal.
-aswell as that, add rule 6.1 "Ducks" (%ducks)
-> Ducks are earned every 5 times a player moves onto an unexplored tile, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
+• Ducks: Each duck earned adds the number of ducks to the points earned from a proposal.
+aswell as that, add rule 6.2 "Ducks" (%ducks)
+Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
 
