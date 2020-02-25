@@ -252,3 +252,15 @@ Add a new subrule %attacking under %player-interactions:
 
 Do proposal 25 but without the attacking part.
 
+<a name='27'/>
+
+## #27
+
+Add a new quantity, called "Ducks".
+Ducks are earned every 5 times a player moves onto an unexplored tile.
+Each duck earned adds the number of ducks to the points earned from a proposal, effectively increasing your points. 
+Along with this, append to rule 6. "Quantities" ( %quantities)
+> • Ducks: Each duck earned adds the number of ducks to the points earned from a proposal.
+aswell as that, add rule 6.1 "Ducks" (%ducks)
+> Ducks are earned every 5 times a player moves onto an unexplored tile, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
+
