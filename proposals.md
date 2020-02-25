@@ -229,3 +229,11 @@ Add a new rule, "Land Ownership" (%land) (%purchase);
 This proposal depends on #22
 > Wait for rules determining the impact of Owning Land and for additional rules determining how land may be acquired to implement #22.
 
+<a name='24'/>
+
+## #24
+
+Append to the rule "Monarch" (% monarch):
+> The monarch's vote for a proposal counts twice. The monarch is forced to abdicate (immediately triggering a new election) once a proposal they voted for fails.
+This proposal fulfills #20, so upon passing the first royal election will start.
+
