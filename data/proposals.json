@@ -385,6 +385,15 @@
 				"474424490382589952": 1
 			},
 			"timestamp": 1582558975
+		},
+		{
+			"n": 24,
+			"author": 330678593904443393,
+			"content": "Append to the rule \"Monarch\" (% monarch):\n> The monarch's vote for a proposal counts twice. The monarch is forced to abdicate (immediately triggering a new election) once a proposal they voted for fails.\nThis proposal fulfills #20, so upon passing the first royal election will start.",
+			"status": "voting",
+			"message_id": 681854329094799405,
+			"votes": {},
+			"timestamp": 1582637140
 		}
 	]
 }
