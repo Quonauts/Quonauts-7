@@ -381,6 +381,7 @@
 				"160279332454006795": 0,
 				"261243340752814085": 1,
 				"309787486278909952": 1,
+				"330678593904443393": -1,
 				"474286909636476939": 1,
 				"474424490382589952": 1
 			},
@@ -392,8 +393,22 @@
 			"content": "Append to the rule \"Monarch\" (% monarch):\n> The monarch's vote for a proposal counts twice. The monarch is forced to abdicate (immediately triggering a new election) once a proposal they voted for fails.\nThis proposal fulfills #20, so upon passing the first royal election will start.",
 			"status": "voting",
 			"message_id": 681854329094799405,
-			"votes": {},
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": 1
+			},
 			"timestamp": 1582637140
+		},
+		{
+			"n": 25,
+			"author": 330678593904443393,
+			"content": "Add a new rule %player-interactions after %land\n> Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move. Only interactions listed in the rules are allowed.\nAdd a new subrule %attacking under %player-interactions:\n> One possible interaction is attacking the other player. The result of an attack is decided by coin toss: Roll a 2-sided dice using the bot or another verifiable random number generator. If the result is the higher possible result, the other player gets wounded and is immediately moved back to (0,0). Otherwise nothing happens.",
+			"status": "voting",
+			"message_id": 681858294322954287,
+			"votes": {
+				"330678593904443393": 0
+			},
+			"timestamp": 1582638085
 		}
 	]
 }
