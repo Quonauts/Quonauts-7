@@ -224,7 +224,7 @@ Add a new rule, "Land Ownership" (%land) (%purchase);
 
 <a name='23'/>
 
-## #23
+## #23 — Passed
 
 This proposal depends on #22
 > Wait for rules determining the impact of Owning Land and for additional rules determining how land may be acquired to implement #22.
