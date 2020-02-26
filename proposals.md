@@ -289,3 +289,10 @@ Append to rule 5.3 "Closing proposals":
 This proposal depends on #22. Append to "Land Ownership":
 > A player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.
 
+<a name='31'/>
+
+## #31
+
+This proposal depends on #22. Add a new currency "goods". Add a new subrule "Production" (%production) at the end of %land:
+> Each land tile Owned by a player may be used to produce one unit of goods per day.
+
