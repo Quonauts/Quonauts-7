@@ -443,10 +443,33 @@
 			"message_id": 682010202047905850,
 			"votes": {
 				"160279332454006795": 1,
+				"309787486278909952": 1,
 				"474286909636476939": -1,
 				"474424490382589952": 1
 			},
 			"timestamp": 1582674303
+		},
+		{
+			"n": 28,
+			"author": 309787486278909952,
+			"content": "#25 but without the attacking part, cause #26 is probably invalid.\n\nAdd a new rule \"Player interactions\" %player-interactions after %land:\n\n> Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move.\n> Only interactions listed in the rules are allowed.",
+			"status": "voting",
+			"message_id": 682246620498100224,
+			"votes": {
+				"309787486278909952": 1
+			},
+			"timestamp": 1582730669
+		},
+		{
+			"n": 29,
+			"author": 309787486278909952,
+			"content": "Append to rule 5.3 \"Closing proposals\":\n> When a proposal is closed, if it passed, its author receives one point.",
+			"status": "voting",
+			"message_id": 682247025114611849,
+			"votes": {
+				"309787486278909952": 1
+			},
+			"timestamp": 1582730766
 		}
 	]
 }
