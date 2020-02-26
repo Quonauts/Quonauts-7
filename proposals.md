@@ -264,3 +264,14 @@ Along with this, append to rule 6. "Quantities" ( %quantities)
 aswell as that, add rule 6.2 "Ducks" (%ducks)
 > Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
 
+<a name='28'/>
+
+## #28
+
+#25 but without the attacking part, cause #26 is probably invalid.
+
+Add a new rule "Player interactions" %player-interactions after %land:
+
+> Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move.
+> Only interactions listed in the rules are allowed.
+
