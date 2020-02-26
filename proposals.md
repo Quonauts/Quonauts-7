@@ -215,7 +215,7 @@ Add a new rule within "Proposal content" named "Power.
 
 <a name='22'/>
 
-## #22
+## #22 — Passed
 
 Add a new rule, "Land Ownership" (%land) (%purchase);
 > A piece of Land may be Owned by any Player.
