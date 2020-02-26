@@ -358,13 +358,13 @@
 			"n": 22,
 			"author": 261243340752814085,
 			"content": "Add a new rule, \"Land Ownership\" (%land) (%purchase);\n> A piece of Land may be Owned by any Player.\n> Each piece of Land may only be Owned by one Player at a time.\n> Land is allowed to be Purchased.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 681525273341984821,
 			"votes": {
 				"160279332454006795": -1,
 				"261243340752814085": 1,
 				"309787486278909952": 1,
-				"330678593904443393": 0,
+				"330678593904443393": 1,
 				"364562317645709336": 0,
 				"474286909636476939": 0,
 				"474424490382589952": 1
@@ -375,7 +375,7 @@
 			"n": 23,
 			"author": 261243340752814085,
 			"content": "This proposal depends on #22\n> Wait for rules determining the impact of Owning Land and for additional rules determining how land may be acquired to implement #22.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 681526483923238936,
 			"votes": {
 				"160279332454006795": 0,
@@ -398,7 +398,8 @@
 				"261243340752814085": -1,
 				"309787486278909952": 1,
 				"330678593904443393": 1,
-				"427589146295664667": -1
+				"427589146295664667": -1,
+				"512645502253400064": 0
 			},
 			"timestamp": 1582637140
 		},
@@ -415,7 +416,8 @@
 				"330678593904443393": 0,
 				"427589146295664667": -1,
 				"474286909636476939": -1,
-				"474424490382589952": 1
+				"474424490382589952": 1,
+				"512645502253400064": 1
 			},
 			"timestamp": 1582638085
 		},
@@ -432,7 +434,8 @@
 				"330678593904443393": -1,
 				"427589146295664667": 1,
 				"474286909636476939": 1,
-				"474424490382589952": -1
+				"474424490382589952": -1,
+				"512645502253400064": -1
 			},
 			"timestamp": 1582666203
 		},
@@ -447,7 +450,8 @@
 				"261243340752814085": 1,
 				"309787486278909952": 1,
 				"474286909636476939": -1,
-				"474424490382589952": 1
+				"474424490382589952": 1,
+				"512645502253400064": 0
 			},
 			"timestamp": 1582674303
 		},
@@ -458,10 +462,12 @@
 			"status": "voting",
 			"message_id": 682246620498100224,
 			"votes": {
+				"160279332454006795": 0,
 				"261243340752814085": 1,
 				"309787486278909952": 1,
 				"330678593904443393": -1,
-				"474286909636476939": 1
+				"474286909636476939": 1,
+				"512645502253400064": 0
 			},
 			"timestamp": 1582730669
 		},
@@ -472,11 +478,37 @@
 			"status": "voting",
 			"message_id": 682247025114611849,
 			"votes": {
+				"160279332454006795": 0,
 				"261243340752814085": 0,
 				"309787486278909952": 1,
 				"330678593904443393": 1
 			},
 			"timestamp": 1582730766
+		},
+		{
+			"n": 30,
+			"author": 330678593904443393,
+			"content": "This proposal depends on #22. Append to \"Land Ownership\":\n> A player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.",
+			"status": "voting",
+			"message_id": 682298204917989426,
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"512645502253400064": 1
+			},
+			"timestamp": 1582742968
+		},
+		{
+			"n": 31,
+			"author": 330678593904443393,
+			"content": "This proposal depends on #22. Add a new currency \"goods\". Add a new subrule \"Production\" (%production) at the end of %land:\n> Each land tile Owned by a player may be used to produce one unit of goods per day.",
+			"status": "voting",
+			"message_id": 682299204961435667,
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": 1
+			},
+			"timestamp": 1582743206
 		}
 	]
 }

@@ -117,7 +117,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				681402902702456870
+				682299656419409921
 			]
 		},
 		"errors": {
@@ -180,7 +180,7 @@
 				"land-generation"
 			],
 			"message_ids": [
-				681402881705902082
+				682299634839847097
 			]
 		},
 		"land-channel": {
@@ -200,7 +200,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				681402900492320836
+				682299654431703071
 			]
 		},
 		"land-movement": {
@@ -210,7 +210,17 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				681402882821586954
+				682299635884490766
+			]
+		},
+		"land-ownership": {
+			"tag": "land-ownership",
+			"title": "Land ownership",
+			"content": "A piece of Land may be Owned by any Player.\nEach piece of Land may only be Owned by one Player at a time.\nLand is allowed to be Purchased.",
+			"parent_tag": "purchase",
+			"child_tags": [],
+			"message_ids": [
+				682299632646226171
 			]
 		},
 		"lists": {
@@ -251,7 +261,7 @@
 				"royal-election"
 			],
 			"message_ids": [
-				681402901490696192
+				682299655165313043
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -337,7 +347,9 @@
 			"title": "Purchase",
 			"content": "A Purchase is a voluntary transaction of any two quantities between any two Players.\n\nA Purchase must be agreed on by both Players performing the Purchase to be Complete.\n\nOnce a purchase is Complete, the Quantities must be exchanged according to the agreement.\n\nA Complete Purchase cannot be revoked or undone in any way.\n\nAn Invalid Purchase does not allow an exchange.\n\nAny Purchase in which the Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.\n\nAny Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.",
 			"parent_tag": "quantities",
-			"child_tags": [],
+			"child_tags": [
+				"land-ownership"
+			],
 			"message_ids": [
 				681402878803312644
 			]
@@ -385,9 +397,9 @@
 				"equality"
 			],
 			"message_ids": [
-				681402904245960742,
-				681402921924952130,
-				681402922680057891
+				682299657447145503,
+				682299676485091339,
+				682299677202579467
 			]
 		},
 		"royal-election": {
@@ -397,7 +409,7 @@
 			"parent_tag": "monarch",
 			"child_tags": [],
 			"message_ids": [
-				681402902169780235
+				682299655941259274
 			]
 		},
 		"rule-offender": {
@@ -466,7 +478,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				681402881228013573
+				682299634076614837
 			]
 		},
 		"timezones": {
@@ -506,7 +518,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				681402880024248347
+				682299633351000315
 			]
 		}
 	}
