@@ -38,6 +38,7 @@
     * [**5.4. Editing proposals**](#editing-proposals)
 * [**6. Quantities**](#quantities)
     * [**6.1. Purchase**](#purchase)
+        * [**6.1.1. Land ownership**](#land-ownership)
 * [**7. Winning**](#winning)
 * [**8. The end**](#the-end)
 * [**9. Land**](#land)
@@ -312,6 +313,12 @@ An Invalid Purchase does not allow an exchange.
 Any Purchase in which the Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.
 
 Any Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.
+
+#### <a name='land-ownership'/> Land ownership
+
+A piece of Land may be Owned by any Player.
+Each piece of Land may only be Owned by one Player at a time.
+Land is allowed to be Purchased.
 
 ## <a name='winning'/> Winning
 
