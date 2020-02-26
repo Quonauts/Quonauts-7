@@ -275,3 +275,10 @@ Add a new rule "Player interactions" %player-interactions after %land:
 > Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move.
 > Only interactions listed in the rules are allowed.
 
+<a name='29'/>
+
+## #29
+
+Append to rule 5.3 "Closing proposals":
+> When a proposal is closed, if it passed, its author receives one point.
+
