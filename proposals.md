@@ -231,7 +231,7 @@ This proposal depends on #22
 
 <a name='24'/>
 
-## #24
+## #24 — Failed
 
 Append to the rule "Monarch" (% monarch):
 > The monarch's vote for a proposal counts twice. The monarch is forced to abdicate (immediately triggering a new election) once a proposal they voted for fails.
