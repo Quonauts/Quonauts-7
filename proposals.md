@@ -239,7 +239,7 @@ This proposal fulfills #20, so upon passing the first royal election will start.
 
 <a name='25'/>
 
-## #25
+## #25 — Failed
 
 Add a new rule %player-interactions after %land
 > Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move. Only interactions listed in the rules are allowed.
