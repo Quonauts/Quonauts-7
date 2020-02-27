@@ -295,8 +295,9 @@ Quantities may be traded or exchanged in ways specifically allowed by the rules.
 
 The following quantities exist:
 
-* **Strike**: The number of rule violations a player has committed.
-* **Point**: The number of points a player has scored.
+**• Strike**: The number of rule violations a player has committed.
+**• Point**: The number of points a player has scored.
+**• Ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.
 
 ### <a name='purchase'/> Purchase
 
