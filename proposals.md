@@ -248,7 +248,7 @@ Add a new subrule %attacking under %player-interactions:
 
 <a name='26'/>
 
-## #26
+## #26 — Passed
 
 Do proposal 25 but without the attacking part.
 
