@@ -254,7 +254,7 @@ Do proposal 25 but without the attacking part.
 
 <a name='27'/>
 
-## #27
+## #27 — Passed
 
 Add a new quantity, called "Ducks".
 Ducks are earned every 5 proposals from the author of the proposals passing.
