@@ -39,7 +39,6 @@
 * [**6. Quantities**](#quantities)
     * [**6.1. Purchase**](#purchase)
         * [**6.1.1. Land ownership**](#land-ownership)
-        * [**6.1.2. 6.2. Ducks**](#ducks)
 * [**7. Winning**](#winning)
 * [**8. The end**](#the-end)
 * [**9. Land**](#land)
@@ -321,10 +320,6 @@ Any Purchase in which the amount of Quantities being exchanged is not explicitly
 A piece of Land may be Owned by any Player.
 Each piece of Land may only be Owned by one Player at a time.
 Land is allowed to be Purchased.
-
-#### <a name='ducks'/> 6.2. Ducks
-
-Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
 
 ## <a name='winning'/> Winning
 
