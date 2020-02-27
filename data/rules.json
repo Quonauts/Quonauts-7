@@ -117,7 +117,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682364568571609108
+				682737288190754822
 			]
 		},
 		"errors": {
@@ -180,7 +180,7 @@
 				"land-generation"
 			],
 			"message_ids": [
-				682364546794389514
+				682737266199887907
 			]
 		},
 		"land-channel": {
@@ -200,7 +200,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				682364565568487432
+				682737285753470976
 			]
 		},
 		"land-movement": {
@@ -210,7 +210,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				682364565308178505
+				682737267533807656
 			]
 		},
 		"land-ownership": {
@@ -261,7 +261,7 @@
 				"royal-election"
 			],
 			"message_ids": [
-				682364566629253156
+				682737286672285696
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -357,7 +357,7 @@
 		"quantities": {
 			"tag": "quantities",
 			"title": "Quantities",
-			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n\u2022 applies to all players.\n\u2022 is instantiated at zero.\n\u2022 must always be an integer.\n\u2022 must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n* **Strike**: The number of rule violations a player has committed.\n* **Point**: The number of points a player has scored.",
+			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n\u2022 applies to all players.\n\u2022 is instantiated at zero.\n\u2022 must always be an integer.\n\u2022 must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n**\u2022 Strike**: The number of rule violations a player has committed.\n**\u2022 Point**: The number of points a player has scored.\n**\u2022 Ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.",
 			"parent_tag": "root",
 			"child_tags": [
 				"purchase"
@@ -397,9 +397,9 @@
 				"equality"
 			],
 			"message_ids": [
-				682364587185799222,
-				682364588947406926,
-				682364589840924689
+				682737288844935215,
+				682737307610382479,
+				682737308595781677
 			]
 		},
 		"royal-election": {
@@ -409,7 +409,7 @@
 			"parent_tag": "monarch",
 			"child_tags": [],
 			"message_ids": [
-				682364567581360214
+				682737287426998282
 			]
 		},
 		"rule-offender": {
@@ -478,7 +478,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682364546035220497
+				682737265788846083
 			]
 		},
 		"timezones": {
@@ -518,7 +518,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682364545330970659
+				682737264719167502
 			]
 		}
 	}
