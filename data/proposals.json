@@ -460,7 +460,7 @@
 			"n": 28,
 			"author": 309787486278909952,
 			"content": "#25 but without the attacking part, cause #26 is probably invalid.\n\nAdd a new rule \"Player interactions\" %player-interactions after %land:\n\n> Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move.\n> Only interactions listed in the rules are allowed.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 682246620498100224,
 			"votes": {
 				"160279332454006795": 0,
