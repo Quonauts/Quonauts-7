@@ -263,12 +263,12 @@ A player may change their vote on an open proposal at any time.
 ### <a name='closing-proposals'/> Closing proposals
 
 Any player may close an open proposal if one or more of the following conditions is met:
-
 • The proposal is at least 48 hours (2 days) old.
 • All active players have cast a vote on the proposal.
 • A majority of active players have voted in favour of the proposal.
 • A majority of active players have voted against the proposal.
-• When a proposal is closed, if it passed, its author receives one point.
+
+When a proposal is closed, if it passed, its author receives one point.
 
 #### <a name='passing-and-failing-proposals'/> Passing and failing proposals
 
