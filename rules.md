@@ -324,6 +324,8 @@ A piece of Land may be Owned by any Player.
 Each piece of Land may only be Owned by one Player at a time.
 Land is allowed to be Purchased.
 
+A player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.
+
 ### <a name='ducks'/> Ducks
 
 Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
