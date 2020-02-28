@@ -100,6 +100,16 @@
 				682364392733409283
 			]
 		},
+		"ducks": {
+			"tag": "ducks",
+			"title": "Ducks",
+			"content": "Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.",
+			"parent_tag": "quantities",
+			"child_tags": [],
+			"message_ids": [
+				682737700742234170
+			]
+		},
 		"editing-proposals": {
 			"tag": "editing-proposals",
 			"title": "Editing proposals",
@@ -117,7 +127,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682737288190754822
+				682737725584965640
 			]
 		},
 		"errors": {
@@ -180,7 +190,7 @@
 				"land-generation"
 			],
 			"message_ids": [
-				682737266199887907
+				682737704001077286
 			]
 		},
 		"land-channel": {
@@ -200,7 +210,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				682737285753470976
+				682737723228160041
 			]
 		},
 		"land-movement": {
@@ -210,7 +220,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				682737267533807656
+				682737704823554196
 			]
 		},
 		"land-ownership": {
@@ -261,7 +271,7 @@
 				"royal-election"
 			],
 			"message_ids": [
-				682737286672285696
+				682737723634876432
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -360,7 +370,8 @@
 			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n\u2022 applies to all players.\n\u2022 is instantiated at zero.\n\u2022 must always be an integer.\n\u2022 must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n**\u2022 Strike**: The number of rule violations a player has committed.\n**\u2022 Point**: The number of points a player has scored.\n**\u2022 Ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.",
 			"parent_tag": "root",
 			"child_tags": [
-				"purchase"
+				"purchase",
+				"ducks"
 			],
 			"message_ids": [
 				682364525235667094
@@ -397,9 +408,9 @@
 				"equality"
 			],
 			"message_ids": [
-				682737288844935215,
-				682737307610382479,
-				682737308595781677
+				682737726574952518,
+				682737744576774197,
+				682737745281548309
 			]
 		},
 		"royal-election": {
@@ -409,7 +420,7 @@
 			"parent_tag": "monarch",
 			"child_tags": [],
 			"message_ids": [
-				682737287426998282
+				682737724783853643
 			]
 		},
 		"rule-offender": {
@@ -478,7 +489,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682737265788846083
+				682737702591922215
 			]
 		},
 		"timezones": {
@@ -518,7 +529,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682737264719167502
+				682737701828821022
 			]
 		}
 	}
