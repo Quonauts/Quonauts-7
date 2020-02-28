@@ -51,7 +51,7 @@
 		"closing-proposals": {
 			"tag": "closing-proposals",
 			"title": "Closing proposals",
-			"content": "Any player may close an open proposal if one or more of the following conditions is met:\n\n* The proposal is at least 48 hours (2 days) old.\n* All active players have cast a vote on the proposal.\n* A majority of active players have voted in favour of the proposal.\n* A majority of active players have voted against the proposal.",
+			"content": "Any player may close an open proposal if one or more of the following conditions is met:\n\u2022 The proposal is at least 48 hours (2 days) old.\n\u2022 All active players have cast a vote on the proposal.\n\u2022 A majority of active players have voted in favour of the proposal.\n\u2022 A majority of active players have voted against the proposal.\n\nWhen a proposal is closed, if it passed, its author receives one point.",
 			"parent_tag": "proposals",
 			"child_tags": [
 				"passing-and-failing-proposals"
@@ -127,7 +127,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682737725584965640
+				682740591091646474
 			]
 		},
 		"errors": {
@@ -226,7 +226,7 @@
 		"land-ownership": {
 			"tag": "land-ownership",
 			"title": "Land ownership",
-			"content": "A piece of Land may be Owned by any Player.\nEach piece of Land may only be Owned by one Player at a time.\nLand is allowed to be Purchased.",
+			"content": "A piece of Land may be Owned by any Player.\nEach piece of Land may only be Owned by one Player at a time.\nLand is allowed to be Purchased.\n\nA player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.",
 			"parent_tag": "purchase",
 			"child_tags": [],
 			"message_ids": [
@@ -271,7 +271,7 @@
 				"royal-election"
 			],
 			"message_ids": [
-				682737723634876432
+				682740589028180026
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -282,6 +282,16 @@
 			"child_tags": [],
 			"message_ids": [
 				682364523864260632
+			]
+		},
+		"player-interactions": {
+			"tag": "player-interactions",
+			"title": "Player Interactions",
+			"content": "Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move.\nOnly interactions listed in the rules are allowed.",
+			"parent_tag": "root",
+			"child_tags": [],
+			"message_ids": [
+				682740588453560388
 			]
 		},
 		"polls-channel": {
@@ -404,13 +414,14 @@
 				"winning",
 				"the-end",
 				"land",
+				"player-interactions",
 				"monarch",
 				"equality"
 			],
 			"message_ids": [
-				682737726574952518,
-				682737744576774197,
-				682737745281548309
+				682740591775580194,
+				682740610293039144,
+				682740611064922149
 			]
 		},
 		"royal-election": {
@@ -420,7 +431,7 @@
 			"parent_tag": "monarch",
 			"child_tags": [],
 			"message_ids": [
-				682737724783853643
+				682740590215036928
 			]
 		},
 		"rule-offender": {

@@ -478,7 +478,7 @@
 			"n": 29,
 			"author": 309787486278909952,
 			"content": "Append to rule 5.3 \"Closing proposals\":\n> When a proposal is closed, if it passed, its author receives one point.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 682247025114611849,
 			"votes": {
 				"160279332454006795": 0,
@@ -494,7 +494,7 @@
 			"n": 30,
 			"author": 330678593904443393,
 			"content": "This proposal depends on #22. Append to \"Land Ownership\":\n> A player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 682298204917989426,
 			"votes": {
 				"261243340752814085": 1,
