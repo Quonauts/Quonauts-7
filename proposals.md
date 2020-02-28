@@ -266,7 +266,7 @@ aswell as that, add rule 6.2 "Ducks" (%ducks)
 
 <a name='28'/>
 
-## #28
+## #28 — Passed
 
 #25 but without the attacking part, cause #26 is probably invalid.
 
