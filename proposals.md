@@ -277,7 +277,7 @@ Add a new rule "Player interactions" %player-interactions after %land:
 
 <a name='29'/>
 
-## #29
+## #29 — Passed
 
 Append to rule 5.3 "Closing proposals":
 > When a proposal is closed, if it passed, its author receives one point.
