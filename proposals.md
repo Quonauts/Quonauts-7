@@ -284,7 +284,7 @@ Append to rule 5.3 "Closing proposals":
 
 <a name='30'/>
 
-## #30
+## #30 — Passed
 
 This proposal depends on #22. Append to "Land Ownership":
 > A player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.
