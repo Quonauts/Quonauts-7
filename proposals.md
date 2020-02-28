@@ -291,7 +291,7 @@ This proposal depends on #22. Append to "Land Ownership":
 
 <a name='31'/>
 
-## #31
+## #31 — Passed
 
 This proposal depends on #22. Add a new currency "goods". Add a new subrule "Production" (%production) at the end of %land:
 > Each land tile Owned by a player may be used to produce one unit of goods per day.
