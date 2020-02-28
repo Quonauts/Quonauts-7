@@ -45,9 +45,10 @@
 * [**9. Land**](#land)
     * [**9.1. Land movement**](#land-movement)
     * [**9.2. Land generation**](#land-generation)
-* [**10. Monarch**](#monarch)
-    * [**10.1. Royal election**](#royal-election)
-* [**11. Equality**](#equality)
+* [**10. Player Interactions**](#player-interactions)
+* [**11. Monarch**](#monarch)
+    * [**11.1. Royal election**](#royal-election)
+* [**12. Equality**](#equality)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -349,6 +350,11 @@ Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their 
 ### <a name='land-generation'/> Land generation
 
 By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.
+
+## <a name='player-interactions'/> Player Interactions
+
+Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move.
+Only interactions listed in the rules are allowed.
 
 ## <a name='monarch'/> Monarch
 
