@@ -1,4 +1,18 @@
 {
+	"ducks": {
+		"name": "ducks",
+		"aliases": [
+			"duck"
+		],
+		"players": {},
+		"default_value": 0
+	},
+	"goods": {
+		"name": "goods",
+		"aliases": [],
+		"players": {},
+		"default_value": 0
+	},
 	"land-x": {
 		"name": "land-x",
 		"aliases": [],

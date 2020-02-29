@@ -127,7 +127,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682740591091646474
+				683101667541123214
 			]
 		},
 		"errors": {
@@ -187,7 +187,8 @@
 			"parent_tag": "root",
 			"child_tags": [
 				"land-movement",
-				"land-generation"
+				"land-generation",
+				"production"
 			],
 			"message_ids": [
 				682737704001077286
@@ -271,7 +272,7 @@
 				"royal-election"
 			],
 			"message_ids": [
-				682740589028180026
+				683101665750155285
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -291,7 +292,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682740588453560388
+				683101663858655253
 			]
 		},
 		"polls-channel": {
@@ -312,6 +313,16 @@
 			"child_tags": [],
 			"message_ids": [
 				682364391970308160
+			]
+		},
+		"production": {
+			"tag": "production",
+			"title": "Production",
+			"content": "Each land tile Owned by a player may be used to produce one unit of goods per day.",
+			"parent_tag": "land",
+			"child_tags": [],
+			"message_ids": [
+				683101663237505027
 			]
 		},
 		"proposal-content": {
@@ -419,9 +430,9 @@
 				"equality"
 			],
 			"message_ids": [
-				682740591775580194,
-				682740610293039144,
-				682740611064922149
+				683101684976844923,
+				683101686096461844,
+				683101686817882164
 			]
 		},
 		"royal-election": {
@@ -431,7 +442,7 @@
 			"parent_tag": "monarch",
 			"child_tags": [],
 			"message_ids": [
-				682740590215036928
+				683101666316124216
 			]
 		},
 		"rule-offender": {
