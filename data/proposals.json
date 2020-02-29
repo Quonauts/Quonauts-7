@@ -510,7 +510,7 @@
 			"n": 31,
 			"author": 330678593904443393,
 			"content": "This proposal depends on #22. Add a new currency \"goods\". Add a new subrule \"Production\" (%production) at the end of %land:\n> Each land tile Owned by a player may be used to produce one unit of goods per day.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 682299204961435667,
 			"votes": {
 				"261243340752814085": 1,
