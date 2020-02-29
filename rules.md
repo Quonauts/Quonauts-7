@@ -45,6 +45,7 @@
 * [**9. Land**](#land)
     * [**9.1. Land movement**](#land-movement)
     * [**9.2. Land generation**](#land-generation)
+    * [**9.3. Production**](#production)
 * [**10. Player Interactions**](#player-interactions)
 * [**11. Monarch**](#monarch)
     * [**11.1. Royal election**](#royal-election)
@@ -353,6 +354,10 @@ Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their 
 ### <a name='land-generation'/> Land generation
 
 By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.
+
+### <a name='production'/> Production
+
+Each land tile Owned by a player may be used to produce one unit of goods per day.
 
 ## <a name='player-interactions'/> Player Interactions
 
