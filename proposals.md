@@ -296,3 +296,11 @@ This proposal depends on #22. Append to "Land Ownership":
 This proposal depends on #22. Add a new currency "goods". Add a new subrule "Production" (%production) at the end of %land:
 > Each land tile Owned by a player may be used to produce one unit of goods per day.
 
+<a name='32'/>
+
+## #32
+
+This proposal overrides all other rules.
+Add a new rule "Sinthorion":
+> Sinthorions votes are to count as 2 votes.
+
