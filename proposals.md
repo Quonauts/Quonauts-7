@@ -381,3 +381,15 @@ Add a new channel #map
 Add a new rule "#land-map" (%map-channel) as new subrule to %channels, after %land-channel:
 > The #map channel can be used by players or bots to post maps depicting the current player positions, tile ownership, terrain or other interesting things about land. The channel has no direct gameplay relevance, but posting a false (not outdated) map is a rule violation and the map should be deleted as soon as the error is noticed.
 
+<a name='42'/>
+
+## #42
+
+Add rule 5.1.3, Proposal Linking:
+If proposal A and B are linked, then they both pass if the total number of 👍 votes on A and B exceed the total number of 👎 votes on A and B. A and B are considered to have been passed or failed at the same time.
+The authors of proposals A and B must both agree to linking their proposals for their proposals to be linked.
+If both A and B share the same author, the author may link the two proposals as they see fit.
+To actually link the proposals once the author/authors decide to do so, one of the following actions must be taken:
+Edit both proposals to state linkage.
+Submit a third "helper" proposal saying that A and B are linked. If the proposals have different authors, they must both upvote the "helper" proposal to make the linkage official.
+
