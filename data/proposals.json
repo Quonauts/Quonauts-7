@@ -542,7 +542,8 @@
 			"votes": {
 				"160279332454006795": 1,
 				"330678593904443393": -1,
-				"427589146295664667": 1
+				"427589146295664667": 1,
+				"474424490382589952": -1
 			},
 			"timestamp": 1583026601
 		},
@@ -554,9 +555,21 @@
 			"message_id": 683489766603489330,
 			"votes": {
 				"330678593904443393": 1,
-				"474424490382589952": -1
+				"474424490382589952": 0
 			},
 			"timestamp": 1583027058
+		},
+		{
+			"n": 35,
+			"author": 474424490382589952,
+			"content": "Change rule 6.2 \"Ducks\" (%ducks) to this:\n> Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.",
+			"status": "voting",
+			"message_id": 683493196218499082,
+			"votes": {
+				"427589146295664667": 1,
+				"474424490382589952": 1
+			},
+			"timestamp": 1583027876
 		}
 	]
 }
