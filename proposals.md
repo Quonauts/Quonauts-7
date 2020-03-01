@@ -375,7 +375,7 @@ This will align the rule with 5.1.1 and increase the incentive to actually decla
 
 <a name='41'/>
 
-## #41
+## #41 — Passed
 
 Add a new channel #map
 Add a new rule "#land-map" (%map-channel) as new subrule to %channels, after %land-channel:
