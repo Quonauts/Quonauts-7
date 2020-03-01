@@ -683,6 +683,17 @@
 				"512645502253400064": 0
 			},
 			"timestamp": 1583031718
+		},
+		{
+			"n": 44,
+			"author": 427589146295664667,
+			"content": "Extension to #43. Every day, a random player in The End gets sent back to The Land because of the dragon's attacking. Create the quantities \"fragmented goods\" and \"reinforced glue\".",
+			"status": "voting",
+			"message_id": 683688989646913611,
+			"votes": {
+				"427589146295664667": 1
+			},
+			"timestamp": 1583074557
 		}
 	]
 }
