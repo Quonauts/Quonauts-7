@@ -519,6 +519,17 @@
 				"474424490382589952": 1
 			},
 			"timestamp": 1582743206
+		},
+		{
+			"n": 32,
+			"author": 160279332454006795,
+			"content": "This proposal overrides all other rules.\nAdd a new rule \"Sinthorion\":\n> Sinthorions votes are to count as 2 votes.",
+			"status": "voting",
+			"message_id": 683471290346242066,
+			"votes": {
+				"160279332454006795": 1
+			},
+			"timestamp": 1583022653
 		}
 	]
 }
