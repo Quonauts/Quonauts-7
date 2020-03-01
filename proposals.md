@@ -325,3 +325,10 @@ Give everyone who votes **against** this proposal 1000 units of goods.
 Change rule 6.2 "Ducks" (%ducks) to this:
 > Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
 
+<a name='36'/>
+
+## #36
+
+As an extension to Proposal 35, add the following rule:
+if the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.
+
