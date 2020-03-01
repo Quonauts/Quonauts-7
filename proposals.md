@@ -351,3 +351,15 @@ All Players have exactly one vote for every proposal.
 
 There is no way for a Player to gain additional votes, except for having at least 5 ducks, which gives them an extra vote for proposals.```
 
+<a name='39'/>
+
+## #39
+
+Replace %land-generation with:
+> By default, a land tile has type 'unknown', or 0. A land tile with type 0 and a player residing in it changes its type to a random value, determined by a 6-sided dice roll:
+> 1-2 => type 1 "grass"
+> 3 => type 2 "forest"
+> 4 => type 3 "mountain"
+> 5 => type 4 "water"
+> 6 => roll a 4-sided dice and select the terrain type of the tile in that direction (1 = North, 2 = East, 3 = South, 4 = West). If that tile is "unknown", generate it first.
+
