@@ -363,3 +363,13 @@ Replace %land-generation with:
 > 5 => type 4 "water"
 > 6 => roll a 4-sided dice and select the terrain type of the tile in that direction (1 = North, 2 = East, 3 = South, 4 = West). If that tile is "unknown", generate it first.
 
+<a name='40'/>
+
+## #40
+
+Replace the last paragraph of rule %dependency-resolution to:
+> A proposal may also state incompatible proposals, in which case all changes made by the older incompatible proposal will be undone if both proposals pass.
+> 
+> A proposal may only be declared to depend on or conflict with another proposal that has not yet been closed at the time of making the new proposal.
+This will align the rule with 5.1.1 and increase the incentive to actually declare incompatibilities.
+
