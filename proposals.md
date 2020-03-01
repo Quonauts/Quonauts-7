@@ -318,3 +318,10 @@ Add a new rule "Heavpoot, Adr and <@!427589146295664667>":
 
 Give everyone who votes **against** this proposal 1000 units of goods.
 
+<a name='35'/>
+
+## #35
+
+Change rule 6.2 "Ducks" (%ducks) to this:
+> Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
+
