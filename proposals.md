@@ -373,3 +373,11 @@ Replace the last paragraph of rule %dependency-resolution to:
 > A proposal may only be declared to depend on or conflict with another proposal that has not yet been closed at the time of making the new proposal.
 This will align the rule with 5.1.1 and increase the incentive to actually declare incompatibilities.
 
+<a name='41'/>
+
+## #41
+
+Add a new channel #map
+Add a new rule "#land-map" (%map-channel) as new subrule to %channels, after %land-channel:
+> The #map channel can be used by players or bots to post maps depicting the current player positions, tile ownership, terrain or other interesting things about land. The channel has no direct gameplay relevance, but posting a false (not outdated) map is a rule violation and the map should be deleted as soon as the error is noticed.
+
