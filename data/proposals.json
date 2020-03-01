@@ -528,9 +528,35 @@
 			"message_id": 683471290346242066,
 			"votes": {
 				"160279332454006795": 1,
+				"330678593904443393": -1,
 				"474424490382589952": -1
 			},
 			"timestamp": 1583022653
+		},
+		{
+			"n": 33,
+			"author": 160279332454006795,
+			"content": "Add a new rule \"Heavpoot, Adr and <@!427589146295664667>\":\n> This overrides all other rules.\n> Heavpoot, Adr and <@!427589146295664667>s votes are all to count as 3 votes.",
+			"status": "voting",
+			"message_id": 683487846656507980,
+			"votes": {
+				"160279332454006795": 1,
+				"330678593904443393": -1,
+				"427589146295664667": 1
+			},
+			"timestamp": 1583026601
+		},
+		{
+			"n": 34,
+			"author": 427589146295664667,
+			"content": "Give everyone who votes **against** this proposal 1000 units of goods.",
+			"status": "voting",
+			"message_id": 683489766603489330,
+			"votes": {
+				"330678593904443393": 1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583027058
 		}
 	]
 }
