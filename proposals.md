@@ -410,3 +410,9 @@ List of End actions:
 In the End, a player may mine an end stone for 1 unit of fragmented goods with a 1 minute cooldown, or mine an obsidian for 1 unit of reinforced glue with a 1 day cooldown.
 A player may also craft 9 units of fragmented goods and 1 unit of reinforced glue into 2 units of goods without cooldown.
 
+<a name='44'/>
+
+## #44
+
+Extension to #43. Every day, a random player in The End gets sent back to The Land because of the dragon's attacking. Create the quantities "fragmented goods" and "reinforced glue".
+
