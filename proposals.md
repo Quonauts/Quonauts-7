@@ -327,7 +327,7 @@ Change rule 6.2 "Ducks" (%ducks) to this:
 
 <a name='36'/>
 
-## #36
+## #36 — Passed
 
 As an extension to Proposal 35, add the following rule:
 if the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.
