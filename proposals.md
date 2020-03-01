@@ -332,3 +332,11 @@ Change rule 6.2 "Ducks" (%ducks) to this:
 As an extension to Proposal 35, add the following rule:
 if the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.
 
+<a name='37'/>
+
+## #37
+
+Append to rule %ducks:
+> Any player with at least 5 ducks gets an additional vote for proposals.
+Remove rule 12 %equality.
+
