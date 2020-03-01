@@ -340,3 +340,14 @@ Append to rule %ducks:
 > Any player with at least 5 ducks gets an additional vote for proposals.
 Remove rule 12 %equality.
 
+<a name='38'/>
+
+## #38
+
+My version of Proposal 37.
+Change rule 12 to:
+```
+All Players have exactly one vote for every proposal.
+
+There is no way for a Player to gain additional votes, except for having at least 5 ducks, which gives them an extra vote for proposals.```
+
