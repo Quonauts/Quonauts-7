@@ -25,6 +25,7 @@
     * [**2.4. #polls**](#polls-channel)
     * [**2.5. #transactions**](#transactions-channel)
     * [**2.6. #the-land**](#land-channel)
+    * [**2.7. #map**](#2_7)
 * [**3. Roles**](#roles)
     * [**3.1. Rule offender**](#rule-offender)
 * [**4. Activity**](#activity)
@@ -213,6 +214,10 @@ The <#679774549273084061> channel may be used to modify quantities, but only as 
 ### <a name='land-channel'/> #the-land
 
 Players must announce their movement through The Land in <#680403819699765285>, and their announcements must match their actual movements.
+
+### <a name='2_7'/> #map
+
+The #map channel can be used by players or bots to post maps depicting the current player positions, tile ownership, terrain or other interesting things about land. The channel has no direct gameplay relevance, but posting a false (not outdated) map is a rule violation and the map should be deleted as soon as the error is noticed.
 
 ## <a name='roles'/> Roles
 
