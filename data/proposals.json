@@ -660,6 +660,18 @@
 				"474424490382589952": 0
 			},
 			"timestamp": 1583030133
+		},
+		{
+			"n": 43,
+			"author": 427589146295664667,
+			"content": "The serious version of Proposal 17.\n\nChange rule 8 to:\nThe End is a dimension consisting of a large chunk\nof end stone, twelve obsidian towers, one bedrock\nfountain, and one dragon.\nAs a land action, a player may either enter or leave The End.\nEnd actions are independent from land actions cooldown from End actions does not count in The Land and vice versa.\nThe End action cooldown works the same way as the Land action cooldown.\nList of End actions:\nIn the End, a player may mine an end stone for 1 unit of fragmented goods with a 1 minute cooldown, or mine an obsidian for 1 unit of reinforced glue with a 1 day cooldown.\nA player may also craft 9 units of fragmented goods and 1 unit of reinforced glue into 2 units of goods without cooldown.",
+			"status": "voting",
+			"message_id": 683509310252515348,
+			"votes": {
+				"427589146295664667": 1,
+				"474424490382589952": 0
+			},
+			"timestamp": 1583031718
 		}
 	]
 }
