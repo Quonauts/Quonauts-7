@@ -247,11 +247,7 @@ If multiple proposals describe the modification or addition of sections, paragra
 
 #### <a name='dependency-resolution'/> Dependency resolution
 
-A proposal may state that it depends on other proposals. If a proposal's dependencies fail, then the proposal dependent on them also fails.
-
-A proposals may amend an existing proposal. If a proposal A amends an existing proposal B, then the amendment has no effect if B fails. If A and B both pass, then the result of proposal B is undone or modified according to proposal A. The content of proposal B, however, does not change.
-
-A proposal may also state incompatible proposals, in which case the later proposal will fail if any proposal it is incompatible proposal on is passed.
+A proposal may also state incompatible proposals, in which case all changes made by the older incompatible proposal will be undone if both proposals pass. A proposal may only be declared to depend on or conflict with another proposal that has not yet been closed at the time of making the new proposal.
 
 ### <a name='voting-on-proposals'/> Voting on proposals
 
