@@ -304,3 +304,11 @@ This proposal overrides all other rules.
 Add a new rule "Sinthorion":
 > Sinthorions votes are to count as 2 votes.
 
+<a name='33'/>
+
+## #33
+
+Add a new rule "Heavpoot, Adr and <@!427589146295664667>":
+> This overrides all other rules.
+> Heavpoot, Adr and <@!427589146295664667>s votes are all to count as 3 votes.
+
