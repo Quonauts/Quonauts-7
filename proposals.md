@@ -365,7 +365,7 @@ Replace %land-generation with:
 
 <a name='40'/>
 
-## #40
+## #40 — Passed
 
 Replace the last paragraph of rule %dependency-resolution to:
 > A proposal may also state incompatible proposals, in which case all changes made by the older incompatible proposal will be undone if both proposals pass.
