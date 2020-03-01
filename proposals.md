@@ -312,3 +312,9 @@ Add a new rule "Heavpoot, Adr and <@!427589146295664667>":
 > This overrides all other rules.
 > Heavpoot, Adr and <@!427589146295664667>s votes are all to count as 3 votes.
 
+<a name='34'/>
+
+## #34
+
+Give everyone who votes **against** this proposal 1000 units of goods.
+
