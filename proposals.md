@@ -613,3 +613,9 @@ Jacob Arduino wins the game.
 
 Lukalot just lost The Game.
 
+<a name='70'/>
+
+## #70
+
+PvPGecko wins the game.
+
