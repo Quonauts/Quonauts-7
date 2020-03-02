@@ -483,3 +483,12 @@ Add rule "Land claiming" (%land-claiming) as new subrule of %land-actions:
 
 If until passing this proposal other proposals have added new rules mentioning actions that replace movement, try to change their rules as well to match the pattern created by this proposal.
 
+<a name='50'/>
+
+## #50
+
+(trying to bring it in line with %production)
+
+Append to %quantities:
+> * **Goods**: The amount of goods produced by a players land
+
