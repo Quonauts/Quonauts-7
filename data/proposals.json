@@ -713,9 +713,19 @@
 			"votes": {
 				"261243340752814085": -1,
 				"330678593904443393": 0,
-				"427589146295664667": 1
+				"427589146295664667": 1,
+				"474424490382589952": 0
 			},
 			"timestamp": 1583074557
+		},
+		{
+			"n": 45,
+			"author": 474424490382589952,
+			"content": "Change 6.2 Ducks (%ducks) to this:\n> Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.\n> If the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.",
+			"status": "voting",
+			"message_id": 683955435224825861,
+			"votes": {},
+			"timestamp": 1583138082
 		}
 	]
 }
