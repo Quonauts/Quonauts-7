@@ -416,3 +416,11 @@ A player may also craft 9 units of fragmented goods and 1 unit of reinforced glu
 
 Extension to #43. Every day, a random player in The End gets sent back to The Land because of the dragon's attacking. Create the quantities "fragmented goods" and "reinforced glue".
 
+<a name='45'/>
+
+## #45
+
+Change 6.2 Ducks (%ducks) to this:
+> Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
+> If the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.
+
