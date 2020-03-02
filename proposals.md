@@ -492,3 +492,11 @@ If until passing this proposal other proposals have added new rules mentioning a
 Append to %quantities:
 > * **Goods**: The amount of goods produced by a players land
 
+<a name='51'/>
+
+## #51
+
+Append to %quantities:
+
+> When a new quantity is created, this rule should be edited to add it, along with a short description, to the above list. The description has no relevance to the game.
+
