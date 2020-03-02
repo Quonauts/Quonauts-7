@@ -331,7 +331,7 @@ A player can claim the land tile they are currently standing on (thus making the
 ### <a name='ducks'/> Ducks
 
 Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
-Rule 6.2.1, Ducks cont.
+
 If the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.
 
 ## <a name='winning'/> Winning
