@@ -353,7 +353,7 @@ There is no way for a Player to gain additional votes, except for having at leas
 
 <a name='39'/>
 
-## #39
+## #39 — Passed
 
 Replace %land-generation with:
 > By default, a land tile has type 'unknown', or 0. A land tile with type 0 and a player residing in it changes its type to a random value, determined by a 6-sided dice roll:
