@@ -565,3 +565,9 @@ Sarperen wins the game.
 
 Sinthorion wins the game.
 
+<a name='62'/>
+
+## #62
+
+xp2_882030kgz010602 wins the game.
+
