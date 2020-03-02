@@ -631,3 +631,9 @@ All wweis that vote against this proposal are to be potatoed IMMEDIATELY, withou
 
 Pyrotelekinetic wins the game.
 
+<a name='73'/>
+
+## #73
+
+Tinytitan wins the game.
+
