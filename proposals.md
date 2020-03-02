@@ -601,3 +601,9 @@ Cuddlebeam wins the game.
 
 FakePersona wins the game.
 
+<a name='68'/>
+
+## #68
+
+Jacob Arduino wins the game.
+
