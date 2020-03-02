@@ -8,7 +8,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				682364390447644787
+				683805814787407972
 			]
 		},
 		"activity": {
@@ -18,7 +18,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682364499961053191
+				683805923558686767
 			]
 		},
 		"bots": {
@@ -28,7 +28,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				682364415290507340
+				683805838938472488
 			]
 		},
 		"channels": {
@@ -42,10 +42,11 @@
 				"proposals-channel",
 				"polls-channel",
 				"transactions-channel",
-				"land-channel"
+				"land-channel",
+				"map-channel"
 			],
 			"message_ids": [
-				682364456373846031
+				683805879862296651
 			]
 		},
 		"closing-proposals": {
@@ -57,7 +58,7 @@
 				"passing-and-failing-proposals"
 			],
 			"message_ids": [
-				682364522937319469
+				683805945716932647
 			]
 		},
 		"conflict-resolution": {
@@ -67,7 +68,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				682364502058336334
+				683805925781536798
 			]
 		},
 		"content": {
@@ -77,17 +78,17 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				682364433934057486
+				683805858123218951
 			]
 		},
 		"dependency-resolution": {
 			"tag": "dependency-resolution",
 			"title": "Dependency resolution",
-			"content": "A proposal may state that it depends on other proposals. If a proposal's dependencies fail, then the proposal dependent on them also fails.\n\nA proposals may amend an existing proposal. If a proposal A amends an existing proposal B, then the amendment has no effect if B fails. If A and B both pass, then the result of proposal B is undone or modified according to proposal A. The content of proposal B, however, does not change.\n\nA proposal may also state incompatible proposals, in which case the later proposal will fail if any proposal it is incompatible proposal on is passed.",
+			"content": "A proposal may also state incompatible proposals, in which case all changes made by the older incompatible proposal will be undone if both proposals pass. A proposal may only be declared to depend on or conflict with another proposal that has not yet been closed at the time of making the new proposal.",
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				682364503165501500
+				683805944198856825
 			]
 		},
 		"disallowed-by-default": {
@@ -97,17 +98,17 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				682364392733409283
+				683805816544952326
 			]
 		},
 		"ducks": {
 			"tag": "ducks",
 			"title": "Ducks",
-			"content": "Ducks are earned every 5 proposals passing from the proposal author, and they increase the amount of points earned from a proposal by the amount of ducks the author has.",
+			"content": "Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.\nRule 6.2.1, Ducks cont.\nIf the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.",
 			"parent_tag": "quantities",
 			"child_tags": [],
 			"message_ids": [
-				682737700742234170
+				683805968953639082
 			]
 		},
 		"editing-proposals": {
@@ -117,7 +118,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				682364524409782470
+				683805947684192378
 			]
 		},
 		"equality": {
@@ -127,7 +128,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				683101667541123214
+				683806012477669435
 			]
 		},
 		"errors": {
@@ -137,7 +138,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				682364411704508465
+				683805835650269184
 			]
 		},
 		"formatting": {
@@ -147,7 +148,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				682364437025521706
+				683805860576886955
 			]
 		},
 		"general-channel": {
@@ -157,7 +158,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				682364457137340416
+				683805880919130179
 			]
 		},
 		"glossary": {
@@ -167,7 +168,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				682364455543111689
+				683805878964715574
 			]
 		},
 		"headers-and-tags": {
@@ -177,7 +178,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				682364435670761472
+				683805859230646315
 			]
 		},
 		"land": {
@@ -191,7 +192,7 @@
 				"production"
 			],
 			"message_ids": [
-				682737704001077286
+				683805989304008708
 			]
 		},
 		"land-channel": {
@@ -201,7 +202,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				682364479635193958
+				683805902369063079
 			]
 		},
 		"land-generation": {
@@ -211,7 +212,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				682737723228160041
+				683805991459880961
 			]
 		},
 		"land-movement": {
@@ -221,7 +222,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				682737704823554196
+				683805990491258943
 			]
 		},
 		"land-ownership": {
@@ -231,7 +232,7 @@
 			"parent_tag": "purchase",
 			"child_tags": [],
 			"message_ids": [
-				682364544420675594
+				683805967821045793
 			]
 		},
 		"lists": {
@@ -241,7 +242,17 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				682364436475936824
+				683805859901341700
+			]
+		},
+		"map-channel": {
+			"tag": "map-channel",
+			"title": "#map",
+			"content": "The #map channel can be used by players or bots to post maps depicting the current player positions, tile ownership, terrain or other interesting things about land. The channel has no direct gameplay relevance, but posting a false (not outdated) map is a rule violation and the map should be deleted as soon as the error is noticed.",
+			"parent_tag": "channels",
+			"child_tags": [],
+			"message_ids": [
+				683805903275032638
 			]
 		},
 		"meta-rules": {
@@ -260,7 +271,7 @@
 				"glossary"
 			],
 			"message_ids": [
-				682364389793464331
+				683805813697019907
 			]
 		},
 		"monarch": {
@@ -272,7 +283,7 @@
 				"royal-election"
 			],
 			"message_ids": [
-				683101665750155285
+				683806011001274467
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -282,7 +293,7 @@
 			"parent_tag": "closing-proposals",
 			"child_tags": [],
 			"message_ids": [
-				682364523864260632
+				683805946434289826
 			]
 		},
 		"player-interactions": {
@@ -292,7 +303,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				683101663858655253
+				683806010346963007
 			]
 		},
 		"polls-channel": {
@@ -302,7 +313,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				682364477340909590
+				683805900686885059
 			]
 		},
 		"precedence": {
@@ -312,7 +323,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				682364391970308160
+				683805815882383399
 			]
 		},
 		"production": {
@@ -322,7 +333,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				683101663237505027
+				683806009642582030
 			]
 		},
 		"proposal-content": {
@@ -335,7 +346,7 @@
 				"dependency-resolution"
 			],
 			"message_ids": [
-				682364501190115350
+				683805925102190625
 			]
 		},
 		"proposals": {
@@ -350,7 +361,7 @@
 				"editing-proposals"
 			],
 			"message_ids": [
-				682364500686405632
+				683805924250746882
 			]
 		},
 		"proposals-channel": {
@@ -360,7 +371,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				682364458672455696
+				683805882844184642
 			]
 		},
 		"punitive-action": {
@@ -370,7 +381,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				682364413444882448
+				683805837458014209
 			]
 		},
 		"purchase": {
@@ -382,7 +393,7 @@
 				"land-ownership"
 			],
 			"message_ids": [
-				682364543686803465
+				683805967258877967
 			]
 		},
 		"quantities": {
@@ -395,7 +406,7 @@
 				"ducks"
 			],
 			"message_ids": [
-				682364525235667094
+				683805965841334274
 			]
 		},
 		"roles": {
@@ -407,7 +418,7 @@
 				"rule-offender"
 			],
 			"message_ids": [
-				682364480159613072
+				683805904319152160
 			]
 		},
 		"root": {
@@ -430,9 +441,9 @@
 				"equality"
 			],
 			"message_ids": [
-				683101684976844923,
-				683101686096461844,
-				683101686817882164
+				683806031515746314,
+				683806032908386304,
+				683806033440931923
 			]
 		},
 		"royal-election": {
@@ -442,7 +453,7 @@
 			"parent_tag": "monarch",
 			"child_tags": [],
 			"message_ids": [
-				683101666316124216
+				683806011684814971
 			]
 		},
 		"rule-offender": {
@@ -452,7 +463,7 @@
 			"parent_tag": "roles",
 			"child_tags": [],
 			"message_ids": [
-				682364481459847169
+				683805922480750644
 			]
 		},
 		"rule-violation-polls": {
@@ -462,7 +473,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				682364412547694602
+				683805836631343149
 			]
 		},
 		"rule-violations": {
@@ -476,7 +487,7 @@
 				"punitive-action"
 			],
 			"message_ids": [
-				682364393584984377
+				683805817430212675
 			]
 		},
 		"rules-channel": {
@@ -486,7 +497,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				682364457875537986
+				683805882093797426
 			]
 		},
 		"style-conventions": {
@@ -501,7 +512,7 @@
 				"formatting"
 			],
 			"message_ids": [
-				682364433321951245
+				683805857334427688
 			]
 		},
 		"the-end": {
@@ -511,7 +522,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682737702591922215
+				683805988540645376
 			]
 		},
 		"timezones": {
@@ -521,7 +532,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				682364414200119539
+				683805837893828646
 			]
 		},
 		"transactions-channel": {
@@ -531,7 +542,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				682364477945282599
+				683805901295190039
 			]
 		},
 		"voting-on-proposals": {
@@ -541,7 +552,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				682364521532096556
+				683805945003769863
 			]
 		},
 		"winning": {
@@ -551,7 +562,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				682737701828821022
+				683805987597058139
 			]
 		}
 	}
