@@ -637,3 +637,9 @@ Pyrotelekinetic wins the game.
 
 Tinytitan wins the game.
 
+<a name='74'/>
+
+## #74
+
+has a 50% chance of winning the game when this proposal is passed.﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽
+
