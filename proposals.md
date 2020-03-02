@@ -571,3 +571,9 @@ Sinthorion wins the game.
 
 xp2_882030kgz010602 wins the game.
 
+<a name='63'/>
+
+## #63
+
+Adr wins the game.
+
