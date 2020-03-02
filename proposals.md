@@ -511,3 +511,9 @@ Add new rule "Building portal" (%building-portal) as subrule of %land-actions:
 Add new rule "Portal travel" (%portal-travel) as subrule of %land-actions:
 > As an action, the player may travel through a portal on their current tile. This will immediately change the player's coordinates to those of another portal that has the same frequency as the portal moved through. This may not be done if there is no portal on the current tile or if the portal has no matching other portal with the same frequency.
 
+<a name='53'/>
+
+## #53
+
+Land tiles of type four (water) have a property named 'duck count', default value 0. A player can increase the duck count of a tile they own by some amount by decreasing their ducks by the same amount.
+
