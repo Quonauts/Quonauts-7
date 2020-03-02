@@ -734,6 +734,7 @@
 			"status": "voting",
 			"message_id": 683955435224825861,
 			"votes": {
+				"364562317645709336": -1,
 				"427589146295664667": 1,
 				"474424490382589952": 1
 			},
@@ -746,10 +747,22 @@
 			"status": "voting",
 			"message_id": 684006453148909625,
 			"votes": {
+				"364562317645709336": -1,
 				"427589146295664667": 1,
 				"474424490382589952": 1
 			},
 			"timestamp": 1583150246
+		},
+		{
+			"n": 47,
+			"author": 364562317645709336,
+			"content": "Replace the contents of %land with the following:\n> The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). **Future proposals can give land tiles additional properties.** Every pair of integer coordinates has a corresponding land tile.\n> \n> 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.\n> \n> 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.\nFormatting in the new text was added for clarity and should be ignored if the change is made.",
+			"status": "voting",
+			"message_id": 684078711754326124,
+			"votes": {
+				"364562317645709336": 1
+			},
+			"timestamp": 1583167474
 		}
 	]
 }
