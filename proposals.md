@@ -553,3 +553,9 @@ Jerdie wins the game.
 
 All players win the game.
 
+<a name='60'/>
+
+## #60
+
+Sarperen wins the game.
+
