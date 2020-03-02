@@ -595,3 +595,9 @@ Elswyth wins the game.
 
 Cuddlebeam wins the game.
 
+<a name='67'/>
+
+## #67
+
+FakePersona wins the game.
+
