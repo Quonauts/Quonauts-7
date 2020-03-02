@@ -424,3 +424,9 @@ Change 6.2 Ducks (%ducks) to this:
 > Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
 > If the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.
 
+<a name='46'/>
+
+## #46
+
+Remove Rule 6.2.1 but only if #45 passes.
+
