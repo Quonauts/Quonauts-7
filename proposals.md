@@ -541,3 +541,9 @@ Gollark wins the game.
 
 Hactar wins the game.
 
+<a name='58'/>
+
+## #58
+
+Jerdie wins the game.
+
