@@ -833,9 +833,21 @@
 			"message_id": 684121373370876058,
 			"votes": {
 				"309787486278909952": 1,
-				"330678593904443393": 1
+				"330678593904443393": 1,
+				"364562317645709336": 1
 			},
 			"timestamp": 1583177645
+		},
+		{
+			"n": 53,
+			"author": 364562317645709336,
+			"content": "Land tiles of type four (water) have a property named 'duck count', default value 0. A player can increase the duck count of a tile they own by some amount by decreasing their ducks by the same amount.",
+			"status": "voting",
+			"message_id": 684134500699209768,
+			"votes": {
+				"309787486278909952": 1
+			},
+			"timestamp": 1583180775
 		}
 	]
 }
