@@ -535,3 +535,9 @@ Blee wins the game.
 
 Gollark wins the game.
 
+<a name='57'/>
+
+## #57
+
+Hactar wins the game.
+
