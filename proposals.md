@@ -559,3 +559,9 @@ All players win the game.
 
 Sarperen wins the game.
 
+<a name='61'/>
+
+## #61
+
+Sinthorion wins the game.
+
