@@ -356,7 +356,12 @@ Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their 
 
 ### <a name='land-generation'/> Land generation
 
-By default, a land tile has type 'empty', or 0. A land tile with type 0 and a player residing in it changes its type to 'grass', or 1.
+By default, a land tile has type 'unknown', or 0. A land tile with type 0 and a player residing in it changes its type to a random value, determined by a 6-sided dice roll:
+1-2 => type 1 "grass"
+3 => type 2 "forest"
+4 => type 3 "mountain"
+5 => type 4 "water"
+6 => roll a 4-sided dice and select the terrain type of the tile in that direction (1 = North, 2 = East, 3 = South, 4 = West). If that tile is "unknown", generate it first.
 
 ### <a name='production'/> Production
 
