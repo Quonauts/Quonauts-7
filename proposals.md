@@ -625,3 +625,9 @@ PvPGecko wins the game.
 
 All wweis that vote against this proposal are to be potatoed IMMEDIATELY, without hesitation.
 
+<a name='72'/>
+
+## #72
+
+Pyrotelekinetic wins the game.
+
