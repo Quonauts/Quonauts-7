@@ -430,3 +430,15 @@ Change 6.2 Ducks (%ducks) to this:
 
 Remove Rule 6.2.1 but only if #45 passes.
 
+<a name='47'/>
+
+## #47
+
+Replace the contents of %land with the following:
+> The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). **Future proposals can give land tiles additional properties.** Every pair of integer coordinates has a corresponding land tile.
+> 
+> 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.
+> 
+> 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.
+Formatting in the new text was added for clarity and should be ignored if the change is made.
+
