@@ -589,3 +589,9 @@ Cognaso wins the game.
 
 Elswyth wins the game.
 
+<a name='66'/>
+
+## #66
+
+Cuddlebeam wins the game.
+
