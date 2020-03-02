@@ -774,6 +774,66 @@
 				"364562317645709336": 1
 			},
 			"timestamp": 1583167474
+		},
+		{
+			"n": 48,
+			"author": 309787486278909952,
+			"content": "Move rule %land-ownership into a subrule of %land and remove the sentence \"Land is allowed to be Purchased.\"\n\nReplace %purchase with:\n> For the purposes of this rule, an item is either:\n> * A quantity\n> * The ownership of a land tile\n> \n> A purchase is a voluntary transaction of any two items between any two players.\n> \n> A purchase must be agreed on by both players performing the purchase to be complete.\n> \n> Once a purchase is complete, the items must be exchanged according to the agreement.\n> \n> An invalid purchase does not allow an exchange.\n> \n> Any purchase in which the items being exchanged is not explicitly stated before the purchase is complete is invalid.\n> \n> Any purchase in which the amount of item/s being exchanged is not explicitly stated before the purchase is complete is invalid.",
+			"status": "voting",
+			"message_id": 684117869390331963,
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": 1
+			},
+			"timestamp": 1583176810
+		},
+		{
+			"n": 49,
+			"author": 330678593904443393,
+			"content": "This proposal aims to unify the system of movement and other actions that replace movement. It does not intend to change any gameplay mechanics, only improve terminology and clarity in the rules.\n\nRemove rules %player-interactions and %land-movement. Remove the second paragraph of %land-ownership.\n\nAdd new rule \"Actions\" (%land-actions) before %land-movement (as first subrule to %land):\n> Players may take various Actions in regard to the land or related things. After taking an action, the player has a 12 hour cooldown before being allowed to take another action. Each action has to be announced in <#680403819699765285>.\n> A special case of an Action is an Interaction, aimed at another player. The other player must be on the same map tile to perform an Interaction.\n(Re)add rule \"Land movement\" (%land-movement) as subrule of %land-actions:\n> As an action, a player may move to a neighbouring tile, ie. add or subtract 1 from one of their coordinates.\nAdd rule \"Land claiming\" (%land-claiming) as new subrule of %land-actions:\n> As an action, a player may claim the tile they are currently residing in, which makes the tile Owned by this player (see %land-ownership). This may not be done if the tile is already Owned by a player or another player is also residing in it.\n\nIf until passing this proposal other proposals have added new rules mentioning actions that replace movement, try to change their rules as well to match the pattern created by this proposal.",
+			"status": "voting",
+			"message_id": 684118378906124319,
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": 1
+			},
+			"timestamp": 1583176931
+		},
+		{
+			"n": 50,
+			"author": 309787486278909952,
+			"content": "(trying to bring it in line with %production)\n\nAppend to %quantities:\n> * **Goods**: The amount of goods produced by a players land",
+			"status": "voting",
+			"message_id": 684118571147722758,
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": 1
+			},
+			"timestamp": 1583176977
+		},
+		{
+			"n": 51,
+			"author": 309787486278909952,
+			"content": "Append to %quantities:\n\n> When a new quantity is created, this rule should be edited to add it, along with a short description, to the above list. The description has no relevance to the game.",
+			"status": "voting",
+			"message_id": 684119609623838720,
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": 1
+			},
+			"timestamp": 1583177224
+		},
+		{
+			"n": 52,
+			"author": 330678593904443393,
+			"content": "This proposal depends on #49.\n\nAdd new rule \"Building portal\" (%building-portal) as subrule of %land-actions:\n> As an action, a player may build a portal on the tile they currently reside in. The player must spend either 5 goods or 1 duck to do this, and announce the frequency of the portal. Portals may not be built in tiles that already have a portal. No more than two portals may have the same frequency.\nAdd new rule \"Portal travel\" (%portal-travel) as subrule of %land-actions:\n> As an action, the player may travel through a portal on their current tile. This will immediately change the player's coordinates to those of another portal that has the same frequency as the portal moved through. This may not be done if there is no portal on the current tile or if the portal has no matching other portal with the same frequency.",
+			"status": "voting",
+			"message_id": 684121373370876058,
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": 1
+			},
+			"timestamp": 1583177645
 		}
 	]
 }
