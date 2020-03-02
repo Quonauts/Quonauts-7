@@ -500,3 +500,14 @@ Append to %quantities:
 
 > When a new quantity is created, this rule should be edited to add it, along with a short description, to the above list. The description has no relevance to the game.
 
+<a name='52'/>
+
+## #52
+
+This proposal depends on #49.
+
+Add new rule "Building portal" (%building-portal) as subrule of %land-actions:
+> As an action, a player may build a portal on the tile they currently reside in. The player must spend either 5 goods or 1 duck to do this, and announce the frequency of the portal. Portals may not be built in tiles that already have a portal. No more than two portals may have the same frequency.
+Add new rule "Portal travel" (%portal-travel) as subrule of %land-actions:
+> As an action, the player may travel through a portal on their current tile. This will immediately change the player's coordinates to those of another portal that has the same frequency as the portal moved through. This may not be done if there is no portal on the current tile or if the portal has no matching other portal with the same frequency.
+
