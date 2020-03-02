@@ -619,3 +619,9 @@ Lukalot just lost The Game.
 
 PvPGecko wins the game.
 
+<a name='71'/>
+
+## #71
+
+All wweis that vote against this proposal are to be potatoed IMMEDIATELY, without hesitation.
+
