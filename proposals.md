@@ -517,3 +517,9 @@ Add new rule "Portal travel" (%portal-travel) as subrule of %land-actions:
 
 Land tiles of type four (water) have a property named 'duck count', default value 0. A player can increase the duck count of a tile they own by some amount by decreasing their ducks by the same amount.
 
+<a name='54'/>
+
+## #54
+
+Heavpoot wins the game.
+
