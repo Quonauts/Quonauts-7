@@ -442,3 +442,26 @@ Replace the contents of %land with the following:
 > 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.
 Formatting in the new text was added for clarity and should be ignored if the change is made.
 
+<a name='48'/>
+
+## #48
+
+Move rule %land-ownership into a subrule of %land and remove the sentence "Land is allowed to be Purchased."
+
+Replace %purchase with:
+> For the purposes of this rule, an item is either:
+> * A quantity
+> * The ownership of a land tile
+> 
+> A purchase is a voluntary transaction of any two items between any two players.
+> 
+> A purchase must be agreed on by both players performing the purchase to be complete.
+> 
+> Once a purchase is complete, the items must be exchanged according to the agreement.
+> 
+> An invalid purchase does not allow an exchange.
+> 
+> Any purchase in which the items being exchanged is not explicitly stated before the purchase is complete is invalid.
+> 
+> Any purchase in which the amount of item/s being exchanged is not explicitly stated before the purchase is complete is invalid.
+
