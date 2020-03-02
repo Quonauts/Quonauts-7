@@ -547,3 +547,9 @@ Hactar wins the game.
 
 Jerdie wins the game.
 
+<a name='59'/>
+
+## #59
+
+All players win the game.
+
