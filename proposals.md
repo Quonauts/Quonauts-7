@@ -577,3 +577,9 @@ xp2_882030kgz010602 wins the game.
 
 Adr wins the game.
 
+<a name='64'/>
+
+## #64
+
+Cognaso wins the game.
+
