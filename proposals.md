@@ -607,3 +607,9 @@ FakePersona wins the game.
 
 Jacob Arduino wins the game.
 
+<a name='69'/>
+
+## #69
+
+Lukalot just lost The Game.
+
