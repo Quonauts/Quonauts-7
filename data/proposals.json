@@ -725,9 +725,21 @@
 			"status": "voting",
 			"message_id": 683955435224825861,
 			"votes": {
+				"427589146295664667": 1,
 				"474424490382589952": 1
 			},
 			"timestamp": 1583138082
+		},
+		{
+			"n": 46,
+			"author": 427589146295664667,
+			"content": "Remove Rule 6.2.1 but only if #45 passes.",
+			"status": "voting",
+			"message_id": 684006453148909625,
+			"votes": {
+				"427589146295664667": 1
+			},
+			"timestamp": 1583150246
 		}
 	]
 }
