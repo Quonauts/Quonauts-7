@@ -465,3 +465,21 @@ Replace %purchase with:
 > 
 > Any purchase in which the amount of item/s being exchanged is not explicitly stated before the purchase is complete is invalid.
 
+<a name='49'/>
+
+## #49
+
+This proposal aims to unify the system of movement and other actions that replace movement. It does not intend to change any gameplay mechanics, only improve terminology and clarity in the rules.
+
+Remove rules %player-interactions and %land-movement. Remove the second paragraph of %land-ownership.
+
+Add new rule "Actions" (%land-actions) before %land-movement (as first subrule to %land):
+> Players may take various Actions in regard to the land or related things. After taking an action, the player has a 12 hour cooldown before being allowed to take another action. Each action has to be announced in <#680403819699765285>.
+> A special case of an Action is an Interaction, aimed at another player. The other player must be on the same map tile to perform an Interaction.
+(Re)add rule "Land movement" (%land-movement) as subrule of %land-actions:
+> As an action, a player may move to a neighbouring tile, ie. add or subtract 1 from one of their coordinates.
+Add rule "Land claiming" (%land-claiming) as new subrule of %land-actions:
+> As an action, a player may claim the tile they are currently residing in, which makes the tile Owned by this player (see %land-ownership). This may not be done if the tile is already Owned by a player or another player is also residing in it.
+
+If until passing this proposal other proposals have added new rules mentioning actions that replace movement, try to change their rules as well to match the pattern created by this proposal.
+
