@@ -444,7 +444,7 @@ Formatting in the new text was added for clarity and should be ignored if the ch
 
 <a name='48'/>
 
-## #48
+## #48 — Passed
 
 Move rule %land-ownership into a subrule of %land and remove the sentence "Land is allowed to be Purchased."
 
