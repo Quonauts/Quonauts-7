@@ -298,7 +298,7 @@ This proposal depends on #22. Add a new currency "goods". Add a new subrule "Pro
 
 <a name='32'/>
 
-## #32
+## #32 — Failed
 
 This proposal overrides all other rules.
 Add a new rule "Sinthorion":
