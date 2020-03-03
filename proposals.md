@@ -549,7 +549,7 @@ Jerdie wins the game.
 
 <a name='59'/>
 
-## #59
+## #59 — Failed
 
 All players win the game.
 
