@@ -395,7 +395,7 @@ Submit a third "helper" proposal saying that A and B are linked. If the proposal
 
 <a name='43'/>
 
-## #43
+## #43 — Failed
 
 The serious version of Proposal 17.
 
