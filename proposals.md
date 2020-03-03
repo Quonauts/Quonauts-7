@@ -543,7 +543,7 @@ Hactar wins the game.
 
 <a name='58'/>
 
-## #58
+## #58 — Failed
 
 Jerdie wins the game.
 
