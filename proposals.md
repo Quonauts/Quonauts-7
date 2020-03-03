@@ -502,7 +502,7 @@ Append to %quantities:
 
 <a name='52'/>
 
-## #52
+## #52 — Passed
 
 This proposal depends on #49.
 
