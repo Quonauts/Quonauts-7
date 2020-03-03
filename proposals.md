@@ -306,7 +306,7 @@ Add a new rule "Sinthorion":
 
 <a name='33'/>
 
-## #33
+## #33 — Failed
 
 Add a new rule "Heavpoot, Adr and <@!427589146295664667>":
 > This overrides all other rules.
