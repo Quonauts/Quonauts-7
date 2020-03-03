@@ -412,7 +412,7 @@ A player may also craft 9 units of fragmented goods and 1 unit of reinforced glu
 
 <a name='44'/>
 
-## #44
+## #44 — Failed
 
 Extension to #43. Every day, a random player in The End gets sent back to The Land because of the dragon's attacking. Create the quantities "fragmented goods" and "reinforced glue".
 
