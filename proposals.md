@@ -467,7 +467,7 @@ Replace %purchase with:
 
 <a name='49'/>
 
-## #49
+## #49 — Passed
 
 This proposal aims to unify the system of movement and other actions that replace movement. It does not intend to change any gameplay mechanics, only improve terminology and clarity in the rules.
 
