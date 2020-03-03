@@ -561,7 +561,7 @@ Sarperen wins the game.
 
 <a name='61'/>
 
-## #61
+## #61 — Failed
 
 Sinthorion wins the game.
 
