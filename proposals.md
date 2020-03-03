@@ -555,7 +555,7 @@ All players win the game.
 
 <a name='60'/>
 
-## #60
+## #60 — Failed
 
 Sarperen wins the game.
 
