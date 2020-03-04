@@ -44,10 +44,9 @@
 * [**7. Winning**](#winning)
 * [**8. The end**](#the-end)
 * [**9. Land**](#land)
-    * [**9.1. Land movement**](#land-movement)
-    * [**9.2. Land generation**](#land-generation)
-    * [**9.3. Production**](#production)
-    * [**9.4. Land ownership**](#land-ownership)
+    * [**9.1. Land generation**](#land-generation)
+    * [**9.2. Production**](#production)
+    * [**9.3. Land ownership**](#land-ownership)
 * [**10. Monarch**](#monarch)
     * [**10.1. Royal election**](#royal-election)
 * [**11. Equality**](#equality)
@@ -356,10 +355,6 @@ The Land is an infinite square lattice. A 'land tile' is a point of this lattice
 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.
 
 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.
-
-### <a name='land-movement'/> Land movement
-
-Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their coordinates.
 
 ### <a name='land-generation'/> Land generation
 
