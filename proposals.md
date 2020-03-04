@@ -537,7 +537,7 @@ Gollark wins the game.
 
 <a name='57'/>
 
-## #57
+## #57 — Failed
 
 Hactar wins the game.
 
