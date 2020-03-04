@@ -334,7 +334,7 @@ if the player has at least one duck, the amount of goods they get from each tile
 
 <a name='37'/>
 
-## #37
+## #37 — Failed
 
 Append to rule %ducks:
 > Any player with at least 5 ducks gets an additional vote for proposals.
