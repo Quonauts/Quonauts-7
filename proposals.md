@@ -627,7 +627,7 @@ All wweis that vote against this proposal are to be potatoed IMMEDIATELY, withou
 
 <a name='72'/>
 
-## #72
+## #72 — Failed
 
 Pyrotelekinetic wins the game.
 
