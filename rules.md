@@ -48,10 +48,9 @@
     * [**9.2. Land generation**](#land-generation)
     * [**9.3. Production**](#production)
     * [**9.4. Land ownership**](#land-ownership)
-* [**10. Player Interactions**](#player-interactions)
-* [**11. Monarch**](#monarch)
-    * [**11.1. Royal election**](#royal-election)
-* [**12. Equality**](#equality)
+* [**10. Monarch**](#monarch)
+    * [**10.1. Royal election**](#royal-election)
+* [**11. Equality**](#equality)
 
 ## <a name='meta-rules'/> Meta rules
 
@@ -381,11 +380,6 @@ A piece of land may be owned by any player.
 Each piece of land may only be owned by one player at a time.
 
 A player can claim the land tile they are currently standing on (thus making the tile owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.
-
-## <a name='player-interactions'/> Player Interactions
-
-Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move.
-Only interactions listed in the rules are allowed.
 
 ## <a name='monarch'/> Monarch
 
