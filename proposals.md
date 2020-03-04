@@ -579,7 +579,7 @@ Adr wins the game.
 
 <a name='64'/>
 
-## #64
+## #64 — Failed
 
 Cognaso wins the game.
 
