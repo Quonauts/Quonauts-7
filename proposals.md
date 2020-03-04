@@ -525,7 +525,7 @@ Heavpoot wins the game.
 
 <a name='55'/>
 
-## #55
+## #55 — Failed
 
 Blee wins the game.
 
