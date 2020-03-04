@@ -46,6 +46,7 @@
 * [**9. Land**](#land)
     * [**9.1. Actions**](#land-actions)
         * [**9.1.1. Land movement**](#land-movement)
+        * [**9.1.2. Land claiming**](#land-claiming)
     * [**9.2. Land generation**](#land-generation)
     * [**9.3. Production**](#production)
     * [**9.4. Land ownership**](#land-ownership)
@@ -369,6 +370,10 @@ A special case of an Action is an Interaction, aimed at another player. The othe
 #### <a name='land-movement'/> Land movement
 
 As an action, a player may move to a neighbouring tile, ie. add or subtract 1 from one of their coordinates.
+
+#### <a name='land-claiming'/> Land claiming
+
+As an action, a player may claim the tile they are currently residing in, which makes the tile Owned by this player (see %land-ownership). This may not be done if the tile is already Owned by a player or another player is also residing in it.
 
 ### <a name='land-generation'/> Land generation
 
