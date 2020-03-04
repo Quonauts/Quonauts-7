@@ -383,7 +383,7 @@ Add a new rule "#land-map" (%map-channel) as new subrule to %channels, after %la
 
 <a name='42'/>
 
-## #42
+## #42 — Passed
 
 Add rule 5.1.3, Proposal Linking:
 If proposal A and B are linked, then they both pass if the total number of 👍 votes on A and B exceed the total number of 👎 votes on A and B. A and B are considered to have been passed or failed at the same time.
