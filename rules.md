@@ -340,7 +340,6 @@ Any Purchase in which the amount of Quantities being exchanged is not explicitly
 ### <a name='ducks'/> Ducks
 
 Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
-
 If the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.
 
 ## <a name='winning'/> Winning
