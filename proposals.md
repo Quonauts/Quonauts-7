@@ -597,7 +597,7 @@ Cuddlebeam wins the game.
 
 <a name='67'/>
 
-## #67
+## #67 — Failed
 
 FakePersona wins the game.
 
