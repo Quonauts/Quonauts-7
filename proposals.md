@@ -342,7 +342,7 @@ Remove rule 12 %equality.
 
 <a name='38'/>
 
-## #38
+## #38 — Failed
 
 My version of Proposal 37.
 Change rule 12 to:
