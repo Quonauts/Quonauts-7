@@ -485,7 +485,7 @@ If until passing this proposal other proposals have added new rules mentioning a
 
 <a name='50'/>
 
-## #50
+## #50 — Passed
 
 (trying to bring it in line with %production)
 
