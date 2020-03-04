@@ -615,7 +615,7 @@ Lukalot just lost The Game.
 
 <a name='70'/>
 
-## #70
+## #70 — Failed
 
 PvPGecko wins the game.
 
