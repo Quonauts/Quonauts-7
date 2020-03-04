@@ -426,7 +426,7 @@ Change 6.2 Ducks (%ducks) to this:
 
 <a name='46'/>
 
-## #46 — Failed
+## #46
 
 Remove Rule 6.2.1 but only if #45 passes.
 
