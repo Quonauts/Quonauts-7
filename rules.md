@@ -393,8 +393,6 @@ Each land tile Owned by a player may be used to produce one unit of goods per da
 A piece of land may be owned by any player.
 Each piece of land may only be owned by one player at a time.
 
-A player can claim the land tile they are currently standing on (thus making the tile owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.
-
 ## <a name='monarch'/> Monarch
 
 One player carries the title of "Monarch" (or "King" or "Queen", if preferred), chosen by election (see %royal-election).
