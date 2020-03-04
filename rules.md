@@ -311,9 +311,12 @@ Quantities may be traded or exchanged in ways specifically allowed by the rules.
 The following quantities exist:
 
 * **strike**: The number of rule violations a player has committed.
-* **Point**: The number of points a player has scored.
-* **Ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.
-* **land-x**
+* **point**: The number of points a player has scored.
+* **ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.
+* **land-x**: A player's horizontal position in the land.
+* **land-y**: A player's vertical position in the land.
+* **goods**: The amount of goods produced by a player's land.
+* **land**: The amount of land a player owns.
 
 When a new quantity is created, this rule should be edited to add it, along with a short description, to the above list. The description has no relevance to the game.
 
