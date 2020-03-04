@@ -531,7 +531,7 @@ Blee wins the game.
 
 <a name='56'/>
 
-## #56
+## #56 — Failed
 
 Gollark wins the game.
 
