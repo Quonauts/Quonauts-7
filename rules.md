@@ -45,6 +45,7 @@
 * [**8. The end**](#the-end)
 * [**9. Land**](#land)
     * [**9.1. Actions**](#land-actions)
+        * [**9.1.1. Land movement**](#land-movement)
     * [**9.2. Land generation**](#land-generation)
     * [**9.3. Production**](#production)
     * [**9.4. Land ownership**](#land-ownership)
@@ -364,6 +365,10 @@ Players may take various Actions in regard to the land or related things. After 
 Each action has to be announced in <#680403819699765285>.
 
 A special case of an Action is an Interaction, aimed at another player. The other player must be on the same map tile to perform an Interaction.
+
+#### <a name='land-movement'/> Land movement
+
+As an action, a player may move to a neighbouring tile, ie. add or subtract 1 from one of their coordinates.
 
 ### <a name='land-generation'/> Land generation
 
