@@ -373,7 +373,7 @@ As an action, a player may move to a neighbouring tile, ie. add or subtract 1 fr
 
 #### <a name='land-claiming'/> Land claiming
 
-As an action, a player may claim the tile they are currently residing in, which makes the tile Owned by this player (see %land-ownership). This may not be done if the tile is already Owned by a player or another player is also residing in it.
+As an action, a player may claim the tile they are currently residing in, which makes the tile owned by this player (see %land-ownership). This may not be done if the tile is already owned by a player or another player is also residing in it.
 
 ### <a name='land-generation'/> Land generation
 
