@@ -591,7 +591,7 @@ Elswyth wins the game.
 
 <a name='66'/>
 
-## #66
+## #66 — Failed
 
 Cuddlebeam wins the game.
 
