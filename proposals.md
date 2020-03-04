@@ -603,7 +603,7 @@ FakePersona wins the game.
 
 <a name='68'/>
 
-## #68
+## #68 — Failed
 
 Jacob Arduino wins the game.
 
