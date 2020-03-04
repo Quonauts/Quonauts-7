@@ -371,11 +371,10 @@ Each land tile Owned by a player may be used to produce one unit of goods per da
 
 ### <a name='land-ownership'/> Land ownership
 
-A piece of Land may be Owned by any Player.
-Each piece of Land may only be Owned by one Player at a time.
-Land is allowed to be Purchased.
+A piece of land may be owned by any player.
+Each piece of land may only be owned by one player at a time.
 
-A player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.
+A player can claim the land tile they are currently standing on (thus making the tile owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.
 
 ## <a name='player-interactions'/> Player Interactions
 
