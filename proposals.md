@@ -573,7 +573,7 @@ xp2_882030kgz010602 wins the game.
 
 <a name='63'/>
 
-## #63
+## #63 — Failed
 
 Adr wins the game.
 
