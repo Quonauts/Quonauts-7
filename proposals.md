@@ -418,7 +418,7 @@ Extension to #43. Every day, a random player in The End gets sent back to The La
 
 <a name='45'/>
 
-## #45
+## #45 — Passed
 
 Change 6.2 Ducks (%ducks) to this:
 > Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
