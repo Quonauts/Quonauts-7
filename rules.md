@@ -33,6 +33,7 @@
     * [**5.1. Proposal content**](#proposal-content)
         * [**5.1.1. Conflict resolution**](#conflict-resolution)
         * [**5.1.2. Dependency resolution**](#dependency-resolution)
+        * [**5.1.3. Proposal linking**](#proposal-linking)
     * [**5.2. Voting on proposals**](#voting-on-proposals)
     * [**5.3. Closing proposals**](#closing-proposals)
         * [**5.3.1. Passing and failing proposals**](#passing-and-failing-proposals)
@@ -253,6 +254,15 @@ If multiple proposals describe the modification or addition of sections, paragra
 #### <a name='dependency-resolution'/> Dependency resolution
 
 A proposal may also state incompatible proposals, in which case all changes made by the older incompatible proposal will be undone if both proposals pass. A proposal may only be declared to depend on or conflict with another proposal that has not yet been closed at the time of making the new proposal.
+
+#### <a name='proposal-linking'/> Proposal linking
+
+If proposal A and B are linked, then they both pass if the total number of thumbsup votes on A and B exceed the total number of thumbsdown votes on A and B. A and B are considered to have been passed or failed at the same time.
+The authors of proposals A and B must both agree to linking their proposals for their proposals to be linked.
+If both A and B share the same author, the author may link the two proposals as they see fit.
+To actually link the proposals once the author/authors decide to do so, one of the following actions must be taken:
+Edit both proposals to state linkage.
+Submit a third "helper" proposal saying that A and B are linked. If the proposals have different authors, they must both upvote the "helper" proposal to make the linkage official.
 
 ### <a name='voting-on-proposals'/> Voting on proposals
 
