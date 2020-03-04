@@ -609,7 +609,7 @@ Jacob Arduino wins the game.
 
 <a name='69'/>
 
-## #69
+## #69 — Failed
 
 Lukalot just lost The Game.
 
