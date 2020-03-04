@@ -633,7 +633,7 @@ Pyrotelekinetic wins the game.
 
 <a name='73'/>
 
-## #73
+## #73 — Failed
 
 Tinytitan wins the game.
 
