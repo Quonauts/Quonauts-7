@@ -44,9 +44,10 @@
 * [**7. Winning**](#winning)
 * [**8. The end**](#the-end)
 * [**9. Land**](#land)
-    * [**9.1. Land generation**](#land-generation)
-    * [**9.2. Production**](#production)
-    * [**9.3. Land ownership**](#land-ownership)
+    * [**9.1. Actions**](#land-actions)
+    * [**9.2. Land generation**](#land-generation)
+    * [**9.3. Production**](#production)
+    * [**9.4. Land ownership**](#land-ownership)
 * [**10. Monarch**](#monarch)
     * [**10.1. Royal election**](#royal-election)
 * [**11. Equality**](#equality)
@@ -355,6 +356,14 @@ The Land is an infinite square lattice. A 'land tile' is a point of this lattice
 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.
 
 'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.
+
+### <a name='land-actions'/> Actions
+
+Players may take various Actions in regard to the land or related things. After taking an action, the player has a 12 hour cooldown before being allowed to take another action. 
+
+Each action has to be announced in <#680403819699765285>.
+
+A special case of an Action is an Interaction, aimed at another player. The other player must be on the same map tile to perform an Interaction.
 
 ### <a name='land-generation'/> Land generation
 
