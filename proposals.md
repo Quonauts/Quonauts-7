@@ -519,7 +519,7 @@ Land tiles of type four (water) have a property named 'duck count', default valu
 
 <a name='54'/>
 
-## #54
+## #54 — Failed
 
 Heavpoot wins the game.
 
