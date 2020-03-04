@@ -40,7 +40,6 @@
     * [**5.4. Editing proposals**](#editing-proposals)
 * [**6. Quantities**](#quantities)
     * [**6.1. Purchase**](#purchase)
-        * [**6.1.1. Land ownership**](#land-ownership)
     * [**6.2. Ducks**](#ducks)
 * [**7. Winning**](#winning)
 * [**8. The end**](#the-end)
@@ -48,6 +47,7 @@
     * [**9.1. Land movement**](#land-movement)
     * [**9.2. Land generation**](#land-generation)
     * [**9.3. Production**](#production)
+    * [**9.4. Land ownership**](#land-ownership)
 * [**10. Player Interactions**](#player-interactions)
 * [**11. Monarch**](#monarch)
     * [**11.1. Royal election**](#royal-election)
@@ -330,14 +330,6 @@ Any Purchase in which the Quantities being exchanged is not explicitly stated be
 
 Any Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.
 
-#### <a name='land-ownership'/> Land ownership
-
-A piece of Land may be Owned by any Player.
-Each piece of Land may only be Owned by one Player at a time.
-Land is allowed to be Purchased.
-
-A player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.
-
 ### <a name='ducks'/> Ducks
 
 Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.
@@ -376,6 +368,14 @@ By default, a land tile has type 'unknown', or 0. A land tile with type 0 and a 
 ### <a name='production'/> Production
 
 Each land tile Owned by a player may be used to produce one unit of goods per day.
+
+### <a name='land-ownership'/> Land ownership
+
+A piece of Land may be Owned by any Player.
+Each piece of Land may only be Owned by one Player at a time.
+Land is allowed to be Purchased.
+
+A player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.
 
 ## <a name='player-interactions'/> Player Interactions
 
