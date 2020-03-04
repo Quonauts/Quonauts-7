@@ -301,18 +301,21 @@ The author of a proposal or the player passing a proposal may choose to add or r
 A quantity is a named property with a numerical value for each player.
 
 By default any unique quantity added to the game:
-• applies to all players.
-• is instantiated at zero.
-• must always be an integer.
-• must never have a negative value.
+* applies to all players.
+* is instantiated at zero.
+* must always be an integer.
+* must never have a negative value.
 
 Quantities may be traded or exchanged in ways specifically allowed by the rules.
 
 The following quantities exist:
 
-**• Strike**: The number of rule violations a player has committed.
-**• Point**: The number of points a player has scored.
-**• Ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.
+* **strike**: The number of rule violations a player has committed.
+* **Point**: The number of points a player has scored.
+* **Ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.
+* **land-x**
+
+When a new quantity is created, this rule should be edited to add it, along with a short description, to the above list. The description has no relevance to the game.
 
 ### <a name='purchase'/> Purchase
 
