@@ -721,3 +721,10 @@ Create a new rule "Feeding ducks", %feeding-ducks, within %land-actions:
 
 > A player on a land tile with type water and duck count above 1 may spend 1 bread to take a duck from the tile.
 
+<a name='87'/>
+
+## #87
+
+Append this to %land-generation.
+> All land generated before this message (https://discordapp.com/channels/547529950404542476/680403819699765285/686003310775500866) are land of type 1, grass.
+
