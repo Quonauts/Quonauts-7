@@ -692,3 +692,9 @@ Move %production into a subrule of %land-actions and edit:
 
 Remove the points quantity. Remove every mention of it in the rules. Fail every open proposal that uses it.
 
+<a name='83'/>
+
+## #83
+
+Every timestamp by <@427589146295664667> is assumed to be in whatever time that New York State is currently using.
+
