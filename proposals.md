@@ -698,3 +698,10 @@ Remove the points quantity. Remove every mention of it in the rules. Fail every 
 
 Every timestamp by <@427589146295664667> is assumed to be in whatever time that New York State is currently using.
 
+<a name='84'/>
+
+## #84
+
+Append to %passing-and-failing-proposals:
+> When a proposal passes, its author receives 1 duck.
+
