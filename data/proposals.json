@@ -1234,9 +1234,19 @@
 			"status": "voting",
 			"message_id": 685095852259279011,
 			"votes": {
-				"160279332454006795": 1
+				"160279332454006795": 1,
+				"364562317645709336": 0
 			},
 			"timestamp": 1583409979
+		},
+		{
+			"n": 78,
+			"author": 364562317645709336,
+			"content": "Player Heavpoot#5118's proposals automatically fail upon proposal for the next 24 hours.",
+			"status": "voting",
+			"message_id": 685201574477561921,
+			"votes": {},
+			"timestamp": 1583435185
 		}
 	]
 }
