@@ -655,3 +655,9 @@ Any player that votes for this proposal receives 2 points. Any player that votes
 
 Create a new quantity called "land" equal to the number of land tiles that you own.
 
+<a name='77'/>
+
+## #77
+
+Any player that votes for this proposal receives 20 points. Any player that votes against this proposal or abstains loses 15 points.
+
