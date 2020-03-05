@@ -645,7 +645,7 @@ has a 50% chance of winning the game when this proposal is passed.﷽﷽﷽﷽�
 
 <a name='75'/>
 
-## #75
+## #75 — Failed
 
 Any player that votes for this proposal receives 2 points. Any player that votes against this proposal loses 15 points.
 
