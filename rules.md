@@ -352,7 +352,7 @@ The game ends if a player has won.
 
 ## <a name='land'/> Land
 
-The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.
+The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Future proposals can give land tiles additional properties. Every pair of integer coordinates has a corresponding land tile.
 
 'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.
 
