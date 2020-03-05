@@ -711,3 +711,13 @@ Append to %passing-and-failing-proposals:
 
 Create a new quantity, "bread".
 
+<a name='86'/>
+
+## #86
+
+This proposal depends on #85.
+
+Create a new rule "Feeding ducks", %feeding-ducks, within %land-actions:
+
+> A player on a land tile with type water and duck count above 1 may spend 1 bread to take a duck from the tile.
+
