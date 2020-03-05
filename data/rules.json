@@ -8,7 +8,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				683805814787407972
+				684664330104733707
 			]
 		},
 		"activity": {
@@ -18,7 +18,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				683805923558686767
+				684664439227940881
 			]
 		},
 		"bots": {
@@ -28,7 +28,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				683805838938472488
+				684664354062598144
 			]
 		},
 		"channels": {
@@ -46,7 +46,7 @@
 				"map-channel"
 			],
 			"message_ids": [
-				683805879862296651
+				684664396026478611
 			]
 		},
 		"closing-proposals": {
@@ -58,7 +58,7 @@
 				"passing-and-failing-proposals"
 			],
 			"message_ids": [
-				683805945716932647
+				684664462052950061
 			]
 		},
 		"conflict-resolution": {
@@ -68,7 +68,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				683805925781536798
+				684664441467305985
 			]
 		},
 		"content": {
@@ -78,7 +78,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				683805858123218951
+				684664373381300245
 			]
 		},
 		"dependency-resolution": {
@@ -88,7 +88,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				683805944198856825
+				684664460236947481
 			]
 		},
 		"disallowed-by-default": {
@@ -98,17 +98,17 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				683805816544952326
+				684664331769610276
 			]
 		},
 		"ducks": {
 			"tag": "ducks",
 			"title": "Ducks",
-			"content": "Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.\n\nIf the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.",
+			"content": "Ducks are earned every 5 land a person claims, and they increase the amount of points earned from a proposal by the amount of ducks the author has.\nIf the player has at least one duck, the amount of goods they get from each tile owned is 1+(number of ducks)^2.",
 			"parent_tag": "quantities",
 			"child_tags": [],
 			"message_ids": [
-				683805968953639082
+				684664484765106215
 			]
 		},
 		"editing-proposals": {
@@ -118,7 +118,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				683805947684192378
+				684664482177220608
 			]
 		},
 		"equality": {
@@ -128,7 +128,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				684030653662232576
+				684664547285663764
 			]
 		},
 		"errors": {
@@ -138,7 +138,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				683805835650269184
+				684664350895898659
 			]
 		},
 		"formatting": {
@@ -148,7 +148,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				683805860576886955
+				684664375700619269
 			]
 		},
 		"general-channel": {
@@ -158,7 +158,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				683805880919130179
+				684664396324405249
 			]
 		},
 		"glossary": {
@@ -168,7 +168,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				683805878964715574
+				684664394914988062
 			]
 		},
 		"headers-and-tags": {
@@ -178,21 +178,35 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				683805859230646315
+				684664374216228874
 			]
 		},
 		"land": {
 			"tag": "land",
 			"title": "Land",
-			"content": "The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Every pair of integer coordinates has a corresponding land tile.\n\n'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.\n\n'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.",
+			"content": "The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). Future proposals can give land tiles additional properties. Every pair of integer coordinates has a corresponding land tile.\n\n'land-x' and 'land-y' are quantities. A player with (land-x, land-y) matching the coordinates of a certain land tile 'resides' in that land tile.\n\n'North' and 'South' respectively correspond to the positive and negative y-axis, and 'East' and 'West' respectively to the positive and negative x-axis.",
 			"parent_tag": "root",
 			"child_tags": [
-				"land-movement",
+				"land-actions",
 				"land-generation",
-				"production"
+				"production",
+				"land-ownership"
 			],
 			"message_ids": [
-				683805989304008708
+				684664504625266701
+			]
+		},
+		"land-actions": {
+			"tag": "land-actions",
+			"title": "Actions",
+			"content": "Players may take various Actions in regard to the land or related things. After taking an action, the player has a 12 hour cooldown before being allowed to take another action. \n\nEach action has to be announced in <#680403819699765285>.\n\nA special case of an Action is an Interaction, aimed at another player. The other player must be on the same map tile to perform an Interaction.",
+			"parent_tag": "land",
+			"child_tags": [
+				"land-movement",
+				"land-claiming"
+			],
+			"message_ids": [
+				684664505522978844
 			]
 		},
 		"land-channel": {
@@ -202,7 +216,17 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				683805902369063079
+				684664418142781476
+			]
+		},
+		"land-claiming": {
+			"tag": "land-claiming",
+			"title": "Land claiming",
+			"content": "As an action, a player may claim the tile they are currently residing in, which makes the tile owned by this player (see %land-ownership). This may not be done if the tile is already owned by a player or another player is also residing in it.",
+			"parent_tag": "land-actions",
+			"child_tags": [],
+			"message_ids": [
+				684664506907099136
 			]
 		},
 		"land-generation": {
@@ -212,27 +236,27 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				683805991459880961
+				684664525588529189
 			]
 		},
 		"land-movement": {
 			"tag": "land-movement",
 			"title": "Land movement",
-			"content": "Subject to a 12-hour cooldown, a player may add or subtract 1 from one of their coordinates.",
-			"parent_tag": "land",
+			"content": "As an action, a player may move to a neighbouring tile, ie. add or subtract 1 from one of their coordinates.",
+			"parent_tag": "land-actions",
 			"child_tags": [],
 			"message_ids": [
-				683805990491258943
+				684664506223558661
 			]
 		},
 		"land-ownership": {
 			"tag": "land-ownership",
 			"title": "Land ownership",
-			"content": "A piece of Land may be Owned by any Player.\nEach piece of Land may only be Owned by one Player at a time.\nLand is allowed to be Purchased.\n\nA player can claim the land tile they are currently standing on (thus making the tile Owned by them) if it is not yet claimed and there are no other players on this tile. This action replaces movement and can only be done when the player would be allowed to move.",
-			"parent_tag": "purchase",
+			"content": "A piece of land may be owned by any player.\nEach piece of land may only be owned by one player at a time.",
+			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				683805967821045793
+				684664527098347566
 			]
 		},
 		"lists": {
@@ -242,7 +266,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				683805859901341700
+				684664374702505997
 			]
 		},
 		"map-channel": {
@@ -252,7 +276,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				683805903275032638
+				684664418667069557
 			]
 		},
 		"meta-rules": {
@@ -271,7 +295,7 @@
 				"glossary"
 			],
 			"message_ids": [
-				683805813697019907
+				684664328569618437
 			]
 		},
 		"monarch": {
@@ -283,7 +307,7 @@
 				"royal-election"
 			],
 			"message_ids": [
-				684030651825127437
+				684664527505326081
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -293,17 +317,7 @@
 			"parent_tag": "closing-proposals",
 			"child_tags": [],
 			"message_ids": [
-				683805946434289826
-			]
-		},
-		"player-interactions": {
-			"tag": "player-interactions",
-			"title": "Player Interactions",
-			"content": "Players may interact with other players on the same tile, ie. their land-x and land-y quantities are the same. Interaction replaces movement and may only be done when the player would be allowed to move.\nOnly interactions listed in the rules are allowed.",
-			"parent_tag": "root",
-			"child_tags": [],
-			"message_ids": [
-				683806010346963007
+				684664463248326667
 			]
 		},
 		"polls-channel": {
@@ -313,7 +327,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				683805900686885059
+				684664416599670784
 			]
 		},
 		"precedence": {
@@ -323,7 +337,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				683805815882383399
+				684664330716971038
 			]
 		},
 		"production": {
@@ -333,7 +347,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				683806009642582030
+				684664526355824647
 			]
 		},
 		"proposal-content": {
@@ -343,10 +357,21 @@
 			"parent_tag": "proposals",
 			"child_tags": [
 				"conflict-resolution",
-				"dependency-resolution"
+				"dependency-resolution",
+				"proposal-linking"
 			],
 			"message_ids": [
-				683805925102190625
+				684664441106595840
+			]
+		},
+		"proposal-linking": {
+			"tag": "proposal-linking",
+			"title": "Proposal linking",
+			"content": "If proposal A and B are linked, then they both pass if the total number of thumbsup votes on A and B exceed the total number of thumbsdown votes on A and B. A and B are considered to have been passed or failed at the same time.\nThe authors of proposals A and B must both agree to linking their proposals for their proposals to be linked.\nIf both A and B share the same author, the author may link the two proposals as they see fit.\nTo actually link the proposals once the author/authors decide to do so, one of the following actions must be taken:\nEdit both proposals to state linkage.\nSubmit a third \"helper\" proposal saying that A and B are linked. If the proposals have different authors, they must both upvote the \"helper\" proposal to make the linkage official.",
+			"parent_tag": "proposal-content",
+			"child_tags": [],
+			"message_ids": [
+				684664460937265154
 			]
 		},
 		"proposals": {
@@ -361,7 +386,7 @@
 				"editing-proposals"
 			],
 			"message_ids": [
-				683805924250746882
+				684664440318329027
 			]
 		},
 		"proposals-channel": {
@@ -371,7 +396,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				683805882844184642
+				684664398358380580
 			]
 		},
 		"punitive-action": {
@@ -381,7 +406,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				683805837458014209
+				684664352443203605
 			]
 		},
 		"purchase": {
@@ -389,24 +414,22 @@
 			"title": "Purchase",
 			"content": "A Purchase is a voluntary transaction of any two quantities between any two Players.\n\nA Purchase must be agreed on by both Players performing the Purchase to be Complete.\n\nOnce a purchase is Complete, the Quantities must be exchanged according to the agreement.\n\nA Complete Purchase cannot be revoked or undone in any way.\n\nAn Invalid Purchase does not allow an exchange.\n\nAny Purchase in which the Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.\n\nAny Purchase in which the amount of Quantities being exchanged is not explicitly stated before the Purchase is Complete is Invalid.",
 			"parent_tag": "quantities",
-			"child_tags": [
-				"land-ownership"
-			],
+			"child_tags": [],
 			"message_ids": [
-				683805967258877967
+				684664484010262559
 			]
 		},
 		"quantities": {
 			"tag": "quantities",
 			"title": "Quantities",
-			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n\u2022 applies to all players.\n\u2022 is instantiated at zero.\n\u2022 must always be an integer.\n\u2022 must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n**\u2022 Strike**: The number of rule violations a player has committed.\n**\u2022 Point**: The number of points a player has scored.\n**\u2022 Ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.",
+			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n* applies to all players.\n* is instantiated at zero.\n* must always be an integer.\n* must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n* **strike**: The number of rule violations a player has committed.\n* **point**: The number of points a player has scored.\n* **ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.\n* **land-x**: A player's horizontal position in the land.\n* **land-y**: A player's vertical position in the land.\n* **goods**: The amount of goods produced by a player's land.\n* **land**: The amount of land a player owns.\n\nWhen a new quantity is created, this rule should be edited to add it, along with a short description, to the above list. The description has no relevance to the game.",
 			"parent_tag": "root",
 			"child_tags": [
 				"purchase",
 				"ducks"
 			],
 			"message_ids": [
-				683805965841334274
+				684664482957361192
 			]
 		},
 		"roles": {
@@ -418,7 +441,7 @@
 				"rule-offender"
 			],
 			"message_ids": [
-				683805904319152160
+				684664419514318898
 			]
 		},
 		"root": {
@@ -436,14 +459,14 @@
 				"winning",
 				"the-end",
 				"land",
-				"player-interactions",
 				"monarch",
 				"equality"
 			],
 			"message_ids": [
-				684030654509219848,
-				684030655214125174,
-				684030674079973383
+				684664547784785935,
+				684664548606607425,
+				684664549479415904,
+				684664550406357012
 			]
 		},
 		"royal-election": {
@@ -453,7 +476,7 @@
 			"parent_tag": "monarch",
 			"child_tags": [],
 			"message_ids": [
-				684030652823502886
+				684664528495050772
 			]
 		},
 		"rule-offender": {
@@ -463,7 +486,7 @@
 			"parent_tag": "roles",
 			"child_tags": [],
 			"message_ids": [
-				683805922480750644
+				684664438065725463
 			]
 		},
 		"rule-violation-polls": {
@@ -473,7 +496,7 @@
 			"parent_tag": "rule-violations",
 			"child_tags": [],
 			"message_ids": [
-				683805836631343149
+				684664351516524700
 			]
 		},
 		"rule-violations": {
@@ -487,7 +510,7 @@
 				"punitive-action"
 			],
 			"message_ids": [
-				683805817430212675
+				684664332499288114
 			]
 		},
 		"rules-channel": {
@@ -497,7 +520,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				683805882093797426
+				684664397561331745
 			]
 		},
 		"style-conventions": {
@@ -512,7 +535,7 @@
 				"formatting"
 			],
 			"message_ids": [
-				683805857334427688
+				684664372374536199
 			]
 		},
 		"the-end": {
@@ -522,7 +545,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				683805988540645376
+				684664503459250191
 			]
 		},
 		"timezones": {
@@ -532,7 +555,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				683805837893828646
+				684664353315880960
 			]
 		},
 		"transactions-channel": {
@@ -542,7 +565,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				683805901295190039
+				684664417258045450
 			]
 		},
 		"voting-on-proposals": {
@@ -552,7 +575,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				683805945003769863
+				684664461461684225
 			]
 		},
 		"winning": {
@@ -562,7 +585,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				683805987597058139
+				684664485533057073
 			]
 		}
 	}
