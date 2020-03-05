@@ -686,3 +686,9 @@ Everyone is allowed to claim 5 goods within 24h of passing this proposal.
 Move %production into a subrule of %land-actions and edit:
 > As an action, a player may produce one "goods" for each land tile they ovn.
 
+<a name='82'/>
+
+## #82
+
+Remove the points quantity. Remove every mention of it in the rules. Fail every open proposal that uses it.
+
