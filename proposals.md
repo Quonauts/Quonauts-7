@@ -679,3 +679,10 @@ Everyone instantly gets 5 goods
 
 Everyone is allowed to claim 5 goods within 24h of passing this proposal.
 
+<a name='81'/>
+
+## #81
+
+Move %production into a subrule of %land-actions and edit:
+> As an action, a player may produce one "goods" for each land tile they ovn.
+
