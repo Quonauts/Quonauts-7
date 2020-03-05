@@ -432,7 +432,7 @@ Remove Rule 6.2.1 but only if #45 passes.
 
 <a name='47'/>
 
-## #47
+## #47 — Passed
 
 Replace the contents of %land with the following:
 > The Land is an infinite square lattice. A 'land tile' is a point of this lattice, and has corresponding coordinates and a type (number associated with a string). **Future proposals can give land tiles additional properties.** Every pair of integer coordinates has a corresponding land tile.
