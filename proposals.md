@@ -639,7 +639,7 @@ Tinytitan wins the game.
 
 <a name='74'/>
 
-## #74
+## #74 — Failed
 
 has a 50% chance of winning the game when this proposal is passed.﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽﷽
 
