@@ -1253,6 +1253,28 @@
 				"330678593904443393": 0
 			},
 			"timestamp": 1583435185
+		},
+		{
+			"n": 79,
+			"author": 330678593904443393,
+			"content": "Everyone instantly gets 5 goods",
+			"status": "failed",
+			"message_id": 685399424855179275,
+			"votes": {
+				"330678593904443393": 1
+			},
+			"timestamp": 1583482356
+		},
+		{
+			"n": 80,
+			"author": 330678593904443393,
+			"content": "Everyone is allowed to claim 5 goods within 24h of passing this proposal.",
+			"status": "voting",
+			"message_id": 685399699469107211,
+			"votes": {
+				"330678593904443393": 1
+			},
+			"timestamp": 1583482422
 		}
 	]
 }
