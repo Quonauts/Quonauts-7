@@ -669,7 +669,7 @@ Player Heavpoot#5118's proposals automatically fail upon proposal for the next 2
 
 <a name='79'/>
 
-## #79
+## #79 — Failed
 
 Everyone instantly gets 5 goods
 
