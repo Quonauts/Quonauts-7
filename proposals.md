@@ -667,3 +667,9 @@ Any player that votes for this proposal receives 20 points. Any player that vote
 
 Player Heavpoot#5118's proposals automatically fail upon proposal for the next 24 hours.
 
+<a name='79'/>
+
+## #79
+
+Everyone instantly gets 5 goods
+
