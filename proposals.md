@@ -673,3 +673,9 @@ Player Heavpoot#5118's proposals automatically fail upon proposal for the next 2
 
 Everyone instantly gets 5 goods
 
+<a name='80'/>
+
+## #80
+
+Everyone is allowed to claim 5 goods within 24h of passing this proposal.
+
