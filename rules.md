@@ -302,10 +302,10 @@ The author of a proposal or the player passing a proposal may choose to add or r
 A quantity is a named property with a numerical value for each player.
 
 By default any unique quantity added to the game:
-* applies to all players.
-* is instantiated at zero.
-* must always be an integer.
-* must never have a negative value.
+• applies to all players.
+• is instantiated at zero.
+• must always be an integer.
+• must never have a negative value.
 
 Quantities may be traded or exchanged in ways specifically allowed by the rules.
 
@@ -318,6 +318,7 @@ The following quantities exist:
 * **land-y**: A player's vertical position in the land.
 * **goods**: The amount of goods produced by a player's land.
 * **land**: The amount of land a player owns.
+* **bread**: Bread! (can be fed to ducks)
 
 When a new quantity is created, this rule should be edited to add it, along with a short description, to the above list. The description has no relevance to the game.
 
