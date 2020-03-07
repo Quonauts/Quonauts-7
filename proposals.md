@@ -869,3 +869,10 @@ Create rule 6.2.1, "Potatoes" (%potatoes) with the following content:
 This proposal depends on proposal #108.
 Adr is not to be considered a potato.
 
+<a name='110'/>
+
+## #110
+
+This proposal depends on the next 10 proposals.
+Adr is to be considered the monarch and has 40 more votes than everyone else.
+
