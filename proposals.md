@@ -694,7 +694,7 @@ Remove the points quantity. Remove every mention of it in the rules. Fail every 
 
 <a name='83'/>
 
-## #83
+## #83 — Failed
 
 Every timestamp by <@427589146295664667> is assumed to be in whatever time that New York State is currently using.
 
