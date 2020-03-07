@@ -864,7 +864,7 @@ Create rule 6.2.1, "Potatoes" (%potatoes) with the following content:
 
 <a name='109'/>
 
-## #109
+## #109 — Failed
 
 This proposal depends on proposal #108.
 Adr is not to be considered a potato.
