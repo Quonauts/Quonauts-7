@@ -728,3 +728,9 @@ Create a new rule "Feeding ducks", %feeding-ducks, within %land-actions:
 Append this to %land-generation.
 > All land generated before this message (https://discordapp.com/channels/547529950404542476/680403819699765285/686003310775500866) are land of type 1, grass.
 
+<a name='88'/>
+
+## #88
+
+Any player that votes for this proposal receives 35 land. Any player that votes against this proposal or abstains loses all of their land and gains two strikes.
+
