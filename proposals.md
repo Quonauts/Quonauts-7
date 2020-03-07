@@ -795,3 +795,10 @@ This is proposal #97.
 
 This is proposal #98.
 
+<a name='99'/>
+
+## #99
+
+This proposal depends on proposal #100.
+Invalidate proposal #100.
+
