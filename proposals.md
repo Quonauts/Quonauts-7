@@ -854,3 +854,11 @@ Baba is you.
 
 This proposal is to be treated as all failed proposals, joined together by newlines.
 
+<a name='108'/>
+
+## #108
+
+This proposal depends on #105.
+Create rule 6.2.1, "Potatoes" (%potatoes) with the following content:
+> Potatoes get ducks every 2 land they travel.
+
