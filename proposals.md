@@ -848,3 +848,9 @@ Adr is to be considered a potato.
 
 Baba is you.
 
+<a name='107'/>
+
+## #107
+
+This proposal is to be treated as all failed proposals, joined together by newlines.
+
