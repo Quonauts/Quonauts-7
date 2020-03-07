@@ -707,7 +707,7 @@ Append to %passing-and-failing-proposals:
 
 <a name='85'/>
 
-## #85
+## #85 — Passed
 
 Create a new quantity, "bread".
 
