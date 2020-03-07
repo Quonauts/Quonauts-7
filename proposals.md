@@ -759,3 +759,9 @@ Ban Heavpoot from the game until he promises to take it seriously
 
 Ban Sinthorion from the game until he promises to not disallow players from playing the game due to their proposal content, as this game relies on people having different opinions of what should and shouldn't be allowed into the ruleset and this inherently goes against the spirit of the game.
 
+<a name='93'/>
+
+## #93
+
+All users are required to nickname theirselves as 🍞, and keep it until 13/02/2020 (dd/mm/yyyy) UTC. Not doing this within 24 hours of this proposal passing will be considered a rule violation.
+
