@@ -802,3 +802,10 @@ This is proposal #98.
 This proposal depends on proposal #100.
 Invalidate proposal #100.
 
+<a name='100'/>
+
+## #100
+
+This proposal depends on proposal #99.
+Invalidate proposal #99.
+
