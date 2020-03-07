@@ -48,6 +48,7 @@
         * [**9.1.1. Land movement**](#land-movement)
         * [**9.1.2. Land claiming**](#land-claiming)
         * [**9.1.3. Production**](#production)
+        * [**9.1.4. Feeding ducks**](#feeding-ducks)
     * [**9.2. Land generation**](#land-generation)
     * [**9.3. Land ownership**](#land-ownership)
 * [**10. Monarch**](#monarch)
@@ -374,6 +375,10 @@ As an action, a player may claim the tile they are currently residing in, which 
 #### <a name='production'/> Production
 
 Each land tile Owned by a player may be used to produce one unit of goods per day.
+
+#### <a name='feeding-ducks'/> Feeding ducks
+
+A player on a land tile with type water and duck count above 1 may spend 1 bread to take a duck from the tile.
 
 ### <a name='land-generation'/> Land generation
 
