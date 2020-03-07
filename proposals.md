@@ -747,3 +747,9 @@ bread
 Make a new rule named "Hyper Speed Walking":
 > Any player may move 32768*4 tiles in any direction, so long as they build up speed for 12 hours. They must be in shallow water, and also must hold A down the entire time.
 
+<a name='91'/>
+
+## #91
+
+Ban Heavpoot from the game until he promises to take it seriously
+
