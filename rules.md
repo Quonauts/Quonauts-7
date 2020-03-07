@@ -47,9 +47,9 @@
     * [**9.1. Actions**](#land-actions)
         * [**9.1.1. Land movement**](#land-movement)
         * [**9.1.2. Land claiming**](#land-claiming)
+        * [**9.1.3. Production**](#production)
     * [**9.2. Land generation**](#land-generation)
-    * [**9.3. Production**](#production)
-    * [**9.4. Land ownership**](#land-ownership)
+    * [**9.3. Land ownership**](#land-ownership)
 * [**10. Monarch**](#monarch)
     * [**10.1. Royal election**](#royal-election)
 * [**11. Equality**](#equality)
@@ -374,6 +374,10 @@ As an action, a player may move to a neighbouring tile, ie. add or subtract 1 fr
 
 As an action, a player may claim the tile they are currently residing in, which makes the tile owned by this player (see %land-ownership). This may not be done if the tile is already owned by a player or another player is also residing in it.
 
+#### <a name='production'/> Production
+
+Each land tile Owned by a player may be used to produce one unit of goods per day.
+
 ### <a name='land-generation'/> Land generation
 
 By default, a land tile has type 'unknown', or 0. A land tile with type 0 and a player residing in it changes its type to a random value, determined by a 6-sided dice roll:
@@ -382,10 +386,6 @@ By default, a land tile has type 'unknown', or 0. A land tile with type 0 and a 
 4 => type 3 "mountain"
 5 => type 4 "water"
 6 => roll a 4-sided dice and select the terrain type of the tile in that direction (1 = North, 2 = East, 3 = South, 4 = West). If that tile is "unknown", generate it first.
-
-### <a name='production'/> Production
-
-Each land tile Owned by a player may be used to produce one unit of goods per day.
 
 ### <a name='land-ownership'/> Land ownership
 
