@@ -730,7 +730,7 @@ Append this to %land-generation.
 
 <a name='88'/>
 
-## #88
+## #88 — Failed
 
 Any player that votes for this proposal receives 35 land. Any player that votes against this proposal or abstains loses all of their land and gains two strikes.
 
