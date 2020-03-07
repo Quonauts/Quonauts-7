@@ -740,3 +740,10 @@ Any player that votes for this proposal receives 35 land. Any player that votes 
 
 bread
 
+<a name='90'/>
+
+## #90
+
+Make a new rule named "Hyper Speed Walking":
+> Any player may move 32768*4 tiles in any direction, so long as they build up speed for 12 hours. They must be in shallow water, and also must hold A down the entire time.
+
