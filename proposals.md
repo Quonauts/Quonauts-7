@@ -971,3 +971,19 @@ bread
 
 All players gain 1 strike.
 
+<a name='126'/>
+
+## #126
+
+Edit rule 5.1 "Proposal content":
+> A proposal must describe any number of changes to the game rules or alterations of the game state.
+> 
+> If a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified.
+> 
+> If a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.
+> 
+> A proposal may not target or exclude a specific player.
+
+Create rule "Spam proposals" (%spam-proposals) within %proposal-content:
+> If a player violates rule [%proposal-content], a rule violation poll may be conducted as usual, but if it passes, the violating proposals may be deleted. If punitive action poll then passes, the number of strikes the convicted player gains is equal to the number of violating proposals they posted.
+
