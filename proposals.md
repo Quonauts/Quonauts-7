@@ -893,3 +893,9 @@ Create rule 6.2.1, "Potatoes" (%potatoes) with the following content:
 This depends on any non-failed Adr proposal that contain any mention of "potatoes".
 Everybody but adr is to be considered a potato.
 
+<a name='113'/>
+
+## #113
+
+The next 10 proposals all depend on eachother.
+
