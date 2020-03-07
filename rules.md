@@ -360,11 +360,7 @@ The Land is an infinite square lattice. A 'land tile' is a point of this lattice
 
 ### <a name='land-actions'/> Actions
 
-Players may take various Actions in regard to the land or related things. After taking an action, the player has a 12 hour cooldown before being allowed to take another action. 
-
-Each action has to be announced in <#680403819699765285>.
-
-A special case of an Action is an Interaction, aimed at another player. The other player must be on the same map tile to perform an Interaction.
+As an action, a player may produce one "goods" for each land tile they own.
 
 #### <a name='land-movement'/> Land movement
 
