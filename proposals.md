@@ -663,7 +663,7 @@ Any player that votes for this proposal receives 20 points. Any player that vote
 
 <a name='78'/>
 
-## #78
+## #78 — Failed
 
 Player Heavpoot#5118's proposals automatically fail upon proposal for the next 24 hours.
 
