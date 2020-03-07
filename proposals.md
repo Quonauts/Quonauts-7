@@ -771,3 +771,9 @@ All users are required to nickname theirselves as 🍞, and keep it until 13/02/
 
 Sinthorion is to be breaded, repeatedly
 
+<a name='95'/>
+
+## #95
+
+This proposal depends on #94. Add butter to the bread.
+
