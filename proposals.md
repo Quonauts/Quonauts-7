@@ -965,3 +965,9 @@ bread
 
 bread
 
+<a name='125'/>
+
+## #125
+
+All players gain 1 strike.
+
