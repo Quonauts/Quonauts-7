@@ -876,3 +876,13 @@ Adr is not to be considered a potato.
 This proposal depends on the next 10 proposals.
 Adr is to be considered the monarch and has 40 more votes than everyone else.
 
+<a name='111'/>
+
+## #111
+
+This proposal depends on #105.
+Create rule 6.2.1, "Potatoes" (%potatoes) with the following content:
+> Potatoes get 1 duck every 2 land they travel.
+> However, Potatoes can only have 3 ducks at a time.
+> All other ducks either must be either put into water tiles, or discarded.
+
