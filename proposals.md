@@ -886,3 +886,10 @@ Create rule 6.2.1, "Potatoes" (%potatoes) with the following content:
 > However, Potatoes can only have 3 ducks at a time.
 > All other ducks either must be either put into water tiles, or discarded.
 
+<a name='112'/>
+
+## #112
+
+This depends on any non-failed Adr proposal that contain any mention of "potatoes".
+Everybody but adr is to be considered a potato.
+
