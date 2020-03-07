@@ -809,3 +809,10 @@ Invalidate proposal #100.
 This proposal depends on proposal #99.
 Invalidate proposal #99.
 
+<a name='101'/>
+
+## #101
+
+This proposal depends on the next 3 proposals made by Adr.
+Invalidate the next 3 proposals made by Adr.
+
