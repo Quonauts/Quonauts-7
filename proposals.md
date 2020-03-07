@@ -856,7 +856,7 @@ This proposal is to be treated as all failed proposals, joined together by newli
 
 <a name='108'/>
 
-## #108
+## #108 — Failed
 
 This proposal depends on #105.
 Create rule 6.2.1, "Potatoes" (%potatoes) with the following content:
