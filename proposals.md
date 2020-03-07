@@ -713,7 +713,7 @@ Create a new quantity, "bread".
 
 <a name='86'/>
 
-## #86
+## #86 — Passed
 
 This proposal depends on #85.
 
