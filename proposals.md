@@ -736,7 +736,7 @@ Any player that votes for this proposal receives 35 land. Any player that votes 
 
 <a name='89'/>
 
-## #89
+## #89 — Passed
 
 bread
 
