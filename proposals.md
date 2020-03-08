@@ -1021,3 +1021,10 @@ Add the following new rules under %land-actions:
 "Woodcutting" (%woodcutting)
 > As an action, a player can chop wood if they are standing in a forest (type ??) tile they own to get 5 lumber.
 
+<a name='131'/>
+
+## #131
+
+Every player which has a strike currently is to have all strikes removed from them.
+Bread. 🍞
+
