@@ -243,11 +243,13 @@ A proposal is either open or closed. When it is first submitted a proposal is op
 
 ### <a name='proposal-content'/> Proposal content
 
-A proposal can describe any number of actions that make changes to the game rules or otherwise alter the game state.
+A proposal must describe any number of changes to the game rules or alterations of the game state.
 
 If a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified.
 
 If a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.
+
+A proposal may not target or exclude a specific player.
 
 #### <a name='conflict-resolution'/> Conflict resolution
 
