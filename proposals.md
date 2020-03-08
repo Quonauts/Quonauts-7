@@ -973,7 +973,7 @@ All players gain 1 strike.
 
 <a name='126'/>
 
-## #126
+## #126 — Passed
 
 Edit rule 5.1 "Proposal content":
 > A proposal must describe any number of changes to the game rules or alterations of the game state.
