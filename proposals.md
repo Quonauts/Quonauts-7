@@ -1009,3 +1009,15 @@ Wheat is a quantity. Failure to recognize this as absolute fact is punishable by
 
 This proposal depends on #127. Delete the rule %production. Remove all goods produced through this rule so far. As there is currently no other way to get goods, this means resetting the goods quantity for all players back to 0.
 
+<a name='130'/>
+
+## #130
+
+Rename the goods quantity and all mentions of it in the rules to "stone". Create a new quantity "lumber".
+
+Add the following new rules under %land-actions:
+"Mining" (%mining)
+> As an action, a player can mine if they are standing in a mountain (type ??) tile they own to get 5 stone.
+"Woodcutting" (%woodcutting)
+> As an action, a player can chop wood if they are standing in a forest (type ??) tile they own to get 5 lumber.
+
