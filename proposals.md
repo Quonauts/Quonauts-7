@@ -1035,3 +1035,10 @@ Bread. 🍞
 Every player which has a strike currently is to have all strikes removed from them.
 Bread. 🍞
 
+<a name='133'/>
+
+## #133
+
+Every player which has a strike currently is to have all strikes removed from them.
+Bread. 🍞
+
