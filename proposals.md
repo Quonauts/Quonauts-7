@@ -1028,3 +1028,10 @@ Add the following new rules under %land-actions:
 Every player which has a strike currently is to have all strikes removed from them.
 Bread. 🍞
 
+<a name='132'/>
+
+## #132
+
+Every player which has a strike currently is to have all strikes removed from them.
+Bread. 🍞
+
