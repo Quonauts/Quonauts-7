@@ -1063,3 +1063,12 @@ Bread. 🍞
 Every player which has a strike currently is to have all strikes removed from them.
 Bread. 🍞
 
+<a name='137'/>
+
+## #137
+
+Create a new rule section named "Bread":
+> bread
+> 🍞
+Remove the rule section named "Bread".
+
