@@ -34,6 +34,7 @@
         * [**5.1.1. Conflict resolution**](#conflict-resolution)
         * [**5.1.2. Dependency resolution**](#dependency-resolution)
         * [**5.1.3. Proposal linking**](#proposal-linking)
+        * [**5.1.4. Spam proposals**](#spam-proposals)
     * [**5.2. Voting on proposals**](#voting-on-proposals)
     * [**5.3. Closing proposals**](#closing-proposals)
         * [**5.3.1. Passing and failing proposals**](#passing-and-failing-proposals)
@@ -267,6 +268,10 @@ If both A and B share the same author, the author may link the two proposals as 
 To actually link the proposals once the author/authors decide to do so, one of the following actions must be taken:
 Edit both proposals to state linkage.
 Submit a third "helper" proposal saying that A and B are linked. If the proposals have different authors, they must both upvote the "helper" proposal to make the linkage official.
+
+#### <a name='spam-proposals'/> Spam proposals
+
+If a player violates rule [**5.1. Proposal content**](#proposal-content), a rule violation poll may be conducted as usual, but if it passes, the violating proposals may be deleted. If punitive action poll then passes, the number of strikes the convicted player gains is equal to the number of violating proposals they posted.
 
 ### <a name='voting-on-proposals'/> Voting on proposals
 
