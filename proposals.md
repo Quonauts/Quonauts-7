@@ -1003,3 +1003,9 @@ Add the following under %land-actions (%land-farming):
 
 Wheat is a quantity. Failure to recognize this as absolute fact is punishable by permanent ban from the game's host Discord server.
 
+<a name='129'/>
+
+## #129
+
+This proposal depends on #127. Delete the rule %production. Remove all goods produced through this rule so far. As there is currently no other way to get goods, this means resetting the goods quantity for all players back to 0.
+
