@@ -987,3 +987,13 @@ Edit rule 5.1 "Proposal content":
 Create rule "Spam proposals" (%spam-proposals) within %proposal-content:
 > If a player violates rule [%proposal-content], a rule violation poll may be conducted as usual, but if it passes, the violating proposals may be deleted. If punitive action poll then passes, the number of strikes the convicted player gains is equal to the number of violating proposals they posted.
 
+<a name='127'/>
+
+## #127
+
+Add the following under %land-actions (%land-farming):
+
+> A grass (type 1) tile can be converted to farmland (type 5) as an action if it is adjacent to a water (type 2) tile and both tiles are owned by the moving player.
+> 
+> Farmland tiles can be harvested every 24 hours. This gains the owner 1 wheat.
+
