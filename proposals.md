@@ -1072,3 +1072,22 @@ Create a new rule section named "Bread":
 > 🍞
 Remove the rule section named "Bread".
 
+<a name='138'/>
+
+## #138
+
+Edit %proposal-content:
+> A proposal must describe one or more changes to the game rules or alterations of the game state.
+> 
+> If a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified.
+> 
+> If a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.
+> 
+> A proposal must not target or exclude a specific player.
+> 
+> A proposal must not contain meaningless content or invalid English.
+> 
+> A proposal must not be identical, in terms of changes described, to another open proposal.
+> 
+> A proposal must not negate its own changes.
+
