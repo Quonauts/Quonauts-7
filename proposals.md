@@ -997,3 +997,9 @@ Add the following under %land-actions (%land-farming):
 > 
 > Farmland tiles can be harvested every 24 hours. This gains the owner 1 wheat.
 
+<a name='128'/>
+
+## #128
+
+Wheat is a quantity. Failure to recognize this as absolute fact is punishable by permanent ban from the game's host Discord server.
+
