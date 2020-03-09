@@ -1136,3 +1136,11 @@ This is to prevent bifurication of the complex balance of hyper-potato space tha
 
 All failed proposals are to be simultaneously passed, immediately.
 
+<a name='145'/>
+
+## #145
+
+Remove the rule section "Equality".
+Create a new rule section named "a":
+> Heavpoot's votes are to count as 99999999 votes. If Heavpoot votes on a proposal, it may be closed 49 hours earlier than usual.
+
