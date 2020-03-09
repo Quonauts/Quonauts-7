@@ -1164,3 +1164,9 @@ Create a new rule "Bad faith polls" %bad-faith-polls after %punitive-action:
 
 Remove all rule sections created by proposals which have their number modulo 146 = 0.
 
+<a name='148'/>
+
+## #148
+
+Allow silly proposals every once in a while. They can bring humor to a Quonauts game, they just become annoying when there are too many of then.
+
