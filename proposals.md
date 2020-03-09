@@ -1130,3 +1130,9 @@ Create a rule section named "Bread" after all other currrently existant rule sec
 > If a rule section named "Bread" exists, then it is to be immediately removed. Creation of such a rule section is not, however, against the rules.
 This is to prevent bifurication of the complex balance of hyper-potato space that emnates through Quonauts 7 through to Quonauts 4.5. This can be achieved by a bread-duplex of the highest degree, creating holes in spacetime. This is the proper way to truly bake bread.
 
+<a name='144'/>
+
+## #144
+
+All failed proposals are to be simultaneously passed, immediately.
+
