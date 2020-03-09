@@ -2137,7 +2137,9 @@
 			"content": "Create a rule section named \"Cheese1\" after all other currently existant rule sections:\n>",
 			"status": "voting",
 			"message_id": 687687715013132318,
-			"votes": {},
+			"votes": {
+				"160279332454006795": 1
+			},
 			"timestamp": 1583765228
 		},
 		{
@@ -2146,7 +2148,9 @@
 			"content": "Create a rule section named \"Cheese2\" after all other currently existant rule sections:\n> \nRemove the rule section named \"Cheese1\".",
 			"status": "voting",
 			"message_id": 687687766821437465,
-			"votes": {},
+			"votes": {
+				"160279332454006795": 1
+			},
 			"timestamp": 1583765241
 		},
 		{
@@ -2155,7 +2159,9 @@
 			"content": "Create a rule section named \"Cheese3\" after all other currently existant rule sections:\n\nRemove the rule section named \"Cheese2\".",
 			"status": "voting",
 			"message_id": 687687839240159232,
-			"votes": {},
+			"votes": {
+				"160279332454006795": 1
+			},
 			"timestamp": 1583765258
 		},
 		{
@@ -2164,8 +2170,44 @@
 			"content": "Create a rule section named \"Cheese4\" after all other currently existant rule sections:\n\nRemove the rule section named \"Cheese3\".",
 			"status": "voting",
 			"message_id": 687687872261914730,
-			"votes": {},
+			"votes": {
+				"160279332454006795": 1
+			},
 			"timestamp": 1583765266
+		},
+		{
+			"n": 143,
+			"author": 160279332454006795,
+			"content": "Create a rule section named \"Bread\" after all other currrently existant rule sections:\n> If a rule section named \"Bread\" exists, then it is to be immediately removed. Creation of such a rule section is not, however, against the rules.\nThis is to prevent bifurication of the complex balance of hyper-potato space that emnates through Quonauts 7 through to Quonauts 4.5. This can be achieved by a bread-duplex of the highest degree, creating holes in spacetime. This is the proper way to truly bake bread.",
+			"status": "voting",
+			"message_id": 687689736021737579,
+			"votes": {
+				"160279332454006795": 1
+			},
+			"timestamp": 1583765710
+		},
+		{
+			"n": 144,
+			"author": 160279332454006795,
+			"content": "All failed proposals are to be simultaneously passed, immediately.",
+			"status": "voting",
+			"message_id": 687690400776978498,
+			"votes": {
+				"160279332454006795": -1
+			},
+			"timestamp": 1583765869
+		},
+		{
+			"n": 145,
+			"author": 160279332454006795,
+			"content": "Remove the rule section \"Equality\".\nCreate a new rule section named \"a\":\n> Heavpoot's votes are to count as 99999999 votes. If Heavpoot votes on a proposal, it may be closed 49 hours earlier than usual.",
+			"status": "voting",
+			"message_id": 687691380738359391,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": -1
+			},
+			"timestamp": 1583766102
 		}
 	]
 }
