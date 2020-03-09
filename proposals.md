@@ -1091,3 +1091,10 @@ Edit %proposal-content:
 > 
 > A proposal must not negate its own changes.
 
+<a name='139'/>
+
+## #139
+
+Create a rule section named "Cheese1" after all other currently existant rule sections:
+>
+
