@@ -1122,3 +1122,11 @@ Create a rule section named "Cheese4" after all other currently existant rule se
 
 Remove the rule section named "Cheese3".
 
+<a name='143'/>
+
+## #143
+
+Create a rule section named "Bread" after all other currrently existant rule sections:
+> If a rule section named "Bread" exists, then it is to be immediately removed. Creation of such a rule section is not, however, against the rules.
+This is to prevent bifurication of the complex balance of hyper-potato space that emnates through Quonauts 7 through to Quonauts 4.5. This can be achieved by a bread-duplex of the highest degree, creating holes in spacetime. This is the proper way to truly bake bread.
+
