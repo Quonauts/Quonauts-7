@@ -1158,3 +1158,9 @@ Create a new rule "Bad faith polls" %bad-faith-polls after %punitive-action:
 > 
 > If a bad faith poll passes, the player loses 1 karma, and gains strikes equal to far below zero their karma is.
 
+<a name='147'/>
+
+## #147
+
+Remove all rule sections created by proposals which have their number modulo 146 = 0.
+
