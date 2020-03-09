@@ -1074,7 +1074,7 @@ Remove the rule section named "Bread".
 
 <a name='138'/>
 
-## #138
+## #138 — Passed
 
 Edit %proposal-content:
 > A proposal must describe one or more changes to the game rules or alterations of the game state.
