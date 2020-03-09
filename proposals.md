@@ -1148,13 +1148,9 @@ Create a new rule section named "a":
 
 ## #146
 
-end me
-
-Create a new quantity "karma", which can be negative.
-
 Create a new rule "Bad faith polls" %bad-faith-polls after %punitive-action:
 
-> If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has, whilst not violating the rules, repeatedly acted in "bad faith", they may conduct a poll (called a "bad faith poll"). Players should vote in favour of this only if they believe the accused player acted to disrupt or damage the game, or consistently annoy other players. A bad faith poll must list the alleged violations.
+> If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has, whilst not violating the rules, repeatedly acted in "bad faith", they may conduct a poll (called a "bad faith poll"). Players should vote in favour of this only if they believe the accused player acted to disrupt or damage the game, or annoy other players. A bad faith poll must list the alleged violations.
 > 
 > Any vote in such a poll cast by the accused player is not counted.
 > 
