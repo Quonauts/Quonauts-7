@@ -58,7 +58,7 @@
 				"passing-and-failing-proposals"
 			],
 			"message_ids": [
-				684664462052950061
+				687383467381489790
 			]
 		},
 		"conflict-resolution": {
@@ -108,7 +108,7 @@
 			"parent_tag": "quantities",
 			"child_tags": [],
 			"message_ids": [
-				684664484765106215
+				687383488290357307
 			]
 		},
 		"editing-proposals": {
@@ -118,7 +118,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				684664482177220608
+				687383469688487951
 			]
 		},
 		"equality": {
@@ -128,7 +128,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				684664547285663764
+				687383552345899160
 			]
 		},
 		"errors": {
@@ -139,6 +139,16 @@
 			"child_tags": [],
 			"message_ids": [
 				684664350895898659
+			]
+		},
+		"feeding-ducks": {
+			"tag": "feeding-ducks",
+			"title": "Feeding ducks",
+			"content": "A player on a land tile with type water and duck count above 1 may spend 1 bread to take a duck from the tile.",
+			"parent_tag": "land-actions",
+			"child_tags": [],
+			"message_ids": [
+				687383530291986561
 			]
 		},
 		"formatting": {
@@ -189,24 +199,25 @@
 			"child_tags": [
 				"land-actions",
 				"land-generation",
-				"production",
 				"land-ownership"
 			],
 			"message_ids": [
-				684664504625266701
+				687383508552908865
 			]
 		},
 		"land-actions": {
 			"tag": "land-actions",
 			"title": "Actions",
-			"content": "Players may take various Actions in regard to the land or related things. After taking an action, the player has a 12 hour cooldown before being allowed to take another action. \n\nEach action has to be announced in <#680403819699765285>.\n\nA special case of an Action is an Interaction, aimed at another player. The other player must be on the same map tile to perform an Interaction.",
+			"content": "As an action, a player may produce one \"goods\" for each land tile they own.",
 			"parent_tag": "land",
 			"child_tags": [
 				"land-movement",
-				"land-claiming"
+				"land-claiming",
+				"production",
+				"feeding-ducks"
 			],
 			"message_ids": [
-				684664505522978844
+				687383509815656632
 			]
 		},
 		"land-channel": {
@@ -226,7 +237,7 @@
 			"parent_tag": "land-actions",
 			"child_tags": [],
 			"message_ids": [
-				684664506907099136
+				687383511577133058
 			]
 		},
 		"land-generation": {
@@ -236,7 +247,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				684664525588529189
+				687383531281973361
 			]
 		},
 		"land-movement": {
@@ -246,7 +257,7 @@
 			"parent_tag": "land-actions",
 			"child_tags": [],
 			"message_ids": [
-				684664506223558661
+				687383510729752621
 			]
 		},
 		"land-ownership": {
@@ -256,7 +267,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				684664527098347566
+				687383532548784128
 			]
 		},
 		"lists": {
@@ -307,7 +318,7 @@
 				"royal-election"
 			],
 			"message_ids": [
-				684664527505326081
+				687383532951437460
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -317,7 +328,7 @@
 			"parent_tag": "closing-proposals",
 			"child_tags": [],
 			"message_ids": [
-				684664463248326667
+				687383468459819132
 			]
 		},
 		"polls-channel": {
@@ -344,21 +355,22 @@
 			"tag": "production",
 			"title": "Production",
 			"content": "Each land tile Owned by a player may be used to produce one unit of goods per day.",
-			"parent_tag": "land",
+			"parent_tag": "land-actions",
 			"child_tags": [],
 			"message_ids": [
-				684664526355824647
+				687383512835555359
 			]
 		},
 		"proposal-content": {
 			"tag": "proposal-content",
 			"title": "Proposal content",
-			"content": "A proposal can describe any number of actions that make changes to the game rules or otherwise alter the game state.\n\nIf a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified.\n\nIf a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.",
+			"content": "A proposal must describe any number of changes to the game rules or alterations of the game state.\n\nIf a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified.\n\nIf a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.\n\nA proposal may not target or exclude a specific player.",
 			"parent_tag": "proposals",
 			"child_tags": [
 				"conflict-resolution",
 				"dependency-resolution",
-				"proposal-linking"
+				"proposal-linking",
+				"spam-proposals"
 			],
 			"message_ids": [
 				684664441106595840
@@ -416,20 +428,20 @@
 			"parent_tag": "quantities",
 			"child_tags": [],
 			"message_ids": [
-				684664484010262559
+				687383487254495449
 			]
 		},
 		"quantities": {
 			"tag": "quantities",
 			"title": "Quantities",
-			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n* applies to all players.\n* is instantiated at zero.\n* must always be an integer.\n* must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n* **strike**: The number of rule violations a player has committed.\n* **point**: The number of points a player has scored.\n* **ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.\n* **land-x**: A player's horizontal position in the land.\n* **land-y**: A player's vertical position in the land.\n* **goods**: The amount of goods produced by a player's land.\n* **land**: The amount of land a player owns.\n\nWhen a new quantity is created, this rule should be edited to add it, along with a short description, to the above list. The description has no relevance to the game.",
+			"content": "A quantity is a named property with a numerical value for each player.\n\nBy default any unique quantity added to the game:\n\u2022 applies to all players.\n\u2022 is instantiated at zero.\n\u2022 must always be an integer.\n\u2022 must never have a negative value.\n\nQuantities may be traded or exchanged in ways specifically allowed by the rules.\n\nThe following quantities exist:\n\n* **strike**: The number of rule violations a player has committed.\n* **point**: The number of points a player has scored.\n* **ducks**: Each duck earned adds the number of ducks to the points earned from a proposal.\n* **land-x**: A player's horizontal position in the land.\n* **land-y**: A player's vertical position in the land.\n* **goods**: The amount of goods produced by a player's land.\n* **land**: The amount of land a player owns.\n* **bread**: Bread! (can be fed to ducks)\n\nWhen a new quantity is created, this rule should be edited to add it, along with a short description, to the above list. The description has no relevance to the game.",
 			"parent_tag": "root",
 			"child_tags": [
 				"purchase",
 				"ducks"
 			],
 			"message_ids": [
-				684664482957361192
+				687383486541070463
 			]
 		},
 		"roles": {
@@ -463,10 +475,10 @@
 				"equality"
 			],
 			"message_ids": [
-				684664547784785935,
-				684664548606607425,
-				684664549479415904,
-				684664550406357012
+				687383553360789573,
+				687383554165964890,
+				687383555017670692,
+				687383555361472557
 			]
 		},
 		"royal-election": {
@@ -476,7 +488,7 @@
 			"parent_tag": "monarch",
 			"child_tags": [],
 			"message_ids": [
-				684664528495050772
+				687383534431764530
 			]
 		},
 		"rule-offender": {
@@ -523,6 +535,16 @@
 				684664397561331745
 			]
 		},
+		"spam-proposals": {
+			"tag": "spam-proposals",
+			"title": "Spam proposals",
+			"content": "If a player violates rule [%proposal-content], a rule violation poll may be conducted as usual, but if it passes, the violating proposals may be deleted. If punitive action poll then passes, the number of strikes the convicted player gains is equal to the number of violating proposals they posted.",
+			"parent_tag": "proposal-content",
+			"child_tags": [],
+			"message_ids": [
+				687383464361590795
+			]
+		},
 		"style-conventions": {
 			"tag": "style-conventions",
 			"title": "Style conventions",
@@ -545,7 +567,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				684664503459250191
+				687383489729003672
 			]
 		},
 		"timezones": {
@@ -575,7 +597,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				684664461461684225
+				687383465905487913
 			]
 		},
 		"winning": {
@@ -585,7 +607,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				684664485533057073
+				687383488923697187
 			]
 		}
 	}

@@ -1231,13 +1231,14 @@
 			"n": 77,
 			"author": 160279332454006795,
 			"content": "Any player that votes for this proposal receives 20 points. Any player that votes against this proposal or abstains loses 15 points.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 685095852259279011,
 			"votes": {
 				"160279332454006795": 1,
 				"261243340752814085": 1,
 				"330678593904443393": 0,
-				"364562317645709336": 0
+				"364562317645709336": 0,
+				"474424490382589952": 1
 			},
 			"timestamp": 1583409979
 		},
@@ -1245,10 +1246,11 @@
 			"n": 78,
 			"author": 364562317645709336,
 			"content": "Player Heavpoot#5118's proposals automatically fail upon proposal for the next 24 hours.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 685201574477561921,
 			"votes": {
 				"160279332454006795": -1,
+				"261243340752814085": -1,
 				"309787486278909952": 0,
 				"330678593904443393": 0,
 				"364562317645709336": 0
@@ -1270,15 +1272,848 @@
 			"n": 80,
 			"author": 330678593904443393,
 			"content": "Everyone is allowed to claim 5 goods within 24h of passing this proposal.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 685399699469107211,
 			"votes": {
+				"160279332454006795": -1,
+				"261243340752814085": -1,
+				"309787486278909952": 0,
 				"330678593904443393": 1,
 				"364562317645709336": 1,
 				"427589146295664667": 1,
 				"474424490382589952": 1
 			},
 			"timestamp": 1583482422
+		},
+		{
+			"n": 81,
+			"author": 309787486278909952,
+			"content": "Move %production into a subrule of %land-actions and edit:\n> As an action, a player may produce one \"goods\" for each land tile they ovn.",
+			"status": "passed",
+			"message_id": 685996152281104445,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"364562317645709336": 1,
+				"474424490382589952": 1
+			},
+			"timestamp": 1583370459
+		},
+		{
+			"n": 82,
+			"author": 330678593904443393,
+			"content": "Remove the points quantity. Remove every mention of it in the rules. Fail every open proposal that uses it.",
+			"status": "voting",
+			"message_id": 685996510818861114,
+			"votes": {
+				"160279332454006795": -1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583370544
+		},
+		{
+			"n": 83,
+			"author": 427589146295664667,
+			"content": "Every timestamp by <@427589146295664667> is assumed to be in whatever time that New York State is currently using.",
+			"status": "failed",
+			"message_id": 685997060637458686,
+			"votes": {
+				"160279332454006795": -1,
+				"261243340752814085": 0,
+				"364562317645709336": 0,
+				"427589146295664667": 1
+			},
+			"timestamp": 1583370676
+		},
+		{
+			"n": 84,
+			"author": 309787486278909952,
+			"content": "Append to %passing-and-failing-proposals:\n> When a proposal passes, its author receives 1 duck.",
+			"status": "failed",
+			"message_id": 685997634347073546,
+			"votes": {
+				"309787486278909952": 1,
+				"330678593904443393": -1,
+				"427589146295664667": 1
+			},
+			"timestamp": 1583370812
+		},
+		{
+			"n": 85,
+			"author": 309787486278909952,
+			"content": "Create a new quantity, \"bread\".",
+			"status": "passed",
+			"message_id": 685998204688662530,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"364562317645709336": 1,
+				"427589146295664667": 1,
+				"474424490382589952": 1
+			},
+			"timestamp": 1583370948
+		},
+		{
+			"n": 86,
+			"author": 309787486278909952,
+			"content": "This proposal depends on #85.\n\nCreate a new rule \"Feeding ducks\", %feeding-ducks, within %land-actions:\n\n> A player on a land tile with type water and duck count above 1 may spend 1 bread to take a duck from the tile.",
+			"status": "passed",
+			"message_id": 685999542239625329,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"364562317645709336": -1,
+				"427589146295664667": 1,
+				"474424490382589952": 1
+			},
+			"timestamp": 1583371267
+		},
+		{
+			"n": 87,
+			"author": 474424490382589952,
+			"content": "Append this to %land-generation.\n> All land generated before this message (https://discordapp.com/channels/547529950404542476/680403819699765285/686003310775500866) are land of type 1, grass.",
+			"status": "failed",
+			"message_id": 686005182731255896,
+			"votes": {
+				"309787486278909952": -1
+			},
+			"timestamp": 1583372612
+		},
+		{
+			"n": 88,
+			"author": 160279332454006795,
+			"content": "Any player that votes for this proposal receives 35 land. Any player that votes against this proposal or abstains loses all of their land and gains two strikes.",
+			"status": "failed",
+			"message_id": 686831301113806884,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": -1,
+				"309787486278909952": -1,
+				"330678593904443393": -1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583539804
+		},
+		{
+			"n": 89,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "passed",
+			"message_id": 687252578794602507,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"364562317645709336": 1,
+				"427589146295664667": -1,
+				"474424490382589952": 1
+			},
+			"timestamp": 1583611038
+		},
+		{
+			"n": 90,
+			"author": 160279332454006795,
+			"content": "Make a new rule named \"Hyper Speed Walking\":\n> Any player may move 32768*4 tiles in any direction, so long as they build up speed for 12 hours. They must be in shallow water, and also must hold A down the entire time.",
+			"status": "voting",
+			"message_id": 687258055821492276,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 0,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583612343
+		},
+		{
+			"n": 91,
+			"author": 330678593904443393,
+			"content": "Ban Heavpoot from the game until he promises to take it seriously",
+			"status": "voting",
+			"message_id": 687258544986390582,
+			"votes": {
+				"160279332454006795": -1,
+				"261243340752814085": 0,
+				"309787486278909952": -1,
+				"330678593904443393": 1,
+				"364562317645709336": 0,
+				"427589146295664667": 1
+			},
+			"timestamp": 1583612460
+		},
+		{
+			"n": 92,
+			"author": 160279332454006795,
+			"content": "Ban Sinthorion from the game until he promises to not disallow players from playing the game due to their proposal content, as this game relies on people having different opinions of what should and shouldn't be allowed into the ruleset and this inherently goes against the spirit of the game.",
+			"status": "voting",
+			"message_id": 687258959182037012,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": -1,
+				"309787486278909952": -1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583612559
+		},
+		{
+			"n": 93,
+			"author": 160279332454006795,
+			"content": "All users are required to nickname theirselves as \ud83c\udf5e, and keep it until 13/02/2020 (dd/mm/yyyy) UTC. Not doing this within 24 hours of this proposal passing will be considered a rule violation.",
+			"status": "voting",
+			"message_id": 687267394019655683,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": -1,
+				"309787486278909952": 0,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583614570
+		},
+		{
+			"n": 94,
+			"author": 160279332454006795,
+			"content": "Sinthorion is to be breaded, repeatedly",
+			"status": "voting",
+			"message_id": 687268208213753857,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"364562317645709336": 1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583614764
+		},
+		{
+			"n": 95,
+			"author": 330678593904443393,
+			"content": "This proposal depends on #94. Add butter to the bread.",
+			"status": "voting",
+			"message_id": 687268515912220752,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583614837
+		},
+		{
+			"n": 96,
+			"author": 160279332454006795,
+			"content": "This is proposal #96.",
+			"status": "voting",
+			"message_id": 687269154348204070,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 0,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583614989
+		},
+		{
+			"n": 97,
+			"author": 160279332454006795,
+			"content": "This is proposal #97.",
+			"status": "voting",
+			"message_id": 687269216012730373,
+			"votes": {
+				"309787486278909952": 0,
+				"364562317645709336": 1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615004
+		},
+		{
+			"n": 98,
+			"author": 160279332454006795,
+			"content": "This is proposal #98.",
+			"status": "voting",
+			"message_id": 687269258350034944,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 0,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615014
+		},
+		{
+			"n": 99,
+			"author": 160279332454006795,
+			"content": "This proposal depends on proposal #100.\nInvalidate proposal #100.",
+			"status": "voting",
+			"message_id": 687269341255041037,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583615034
+		},
+		{
+			"n": 100,
+			"author": 474424490382589952,
+			"content": "This proposal depends on proposal #99.\nInvalidate proposal #99.",
+			"status": "voting",
+			"message_id": 687269484578340868,
+			"votes": {
+				"160279332454006795": -1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": -1,
+				"474424490382589952": 1
+			},
+			"timestamp": 1583615068
+		},
+		{
+			"n": 101,
+			"author": 160279332454006795,
+			"content": "This proposal depends on the next 3 proposals made by Adr.\nInvalidate the next 3 proposals made by Adr.",
+			"status": "voting",
+			"message_id": 687269606368477184,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": -1,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583615097
+		},
+		{
+			"n": 102,
+			"author": 474424490382589952,
+			"content": "This proposal depends on #101.\nThese messages will be split into multiple proposals.\nInvalidate",
+			"status": "voting",
+			"message_id": 687269815202611222,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 0,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583615147
+		},
+		{
+			"n": 103,
+			"author": 474424490382589952,
+			"content": "proposal",
+			"status": "voting",
+			"message_id": 687269849549766671,
+			"votes": {
+				"160279332454006795": -1,
+				"309787486278909952": 0,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583615155
+		},
+		{
+			"n": 104,
+			"author": 474424490382589952,
+			"content": "#101",
+			"status": "voting",
+			"message_id": 687269884476129301,
+			"votes": {
+				"160279332454006795": 0,
+				"309787486278909952": 0,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583615164
+		},
+		{
+			"n": 105,
+			"author": 160279332454006795,
+			"content": "Adr is to be considered a potato.",
+			"status": "voting",
+			"message_id": 687269951983321118,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 0,
+				"330678593904443393": 1,
+				"427589146295664667": -1,
+				"474424490382589952": 1
+			},
+			"timestamp": 1583615180
+		},
+		{
+			"n": 106,
+			"author": 160279332454006795,
+			"content": "Baba is you.",
+			"status": "voting",
+			"message_id": 687270095835496479,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 0,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583615214
+		},
+		{
+			"n": 107,
+			"author": 160279332454006795,
+			"content": "This proposal is to be treated as all failed proposals, joined together by newlines.",
+			"status": "voting",
+			"message_id": 687270398597005313,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": -1,
+				"330678593904443393": 0,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615286
+		},
+		{
+			"n": 108,
+			"author": 474424490382589952,
+			"content": "This proposal depends on #105.\nCreate rule 6.2.1, \"Potatoes\" (%potatoes) with the following content:\n> Potatoes get ducks every 2 land they travel.",
+			"status": "failed",
+			"message_id": 687270804446117939,
+			"votes": {},
+			"timestamp": 1583615383
+		},
+		{
+			"n": 109,
+			"author": 160279332454006795,
+			"content": "This proposal depends on proposal #108.\nAdr is not to be considered a potato.",
+			"status": "failed",
+			"message_id": 687270892895862785,
+			"votes": {
+				"160279332454006795": 1
+			},
+			"timestamp": 1583615404
+		},
+		{
+			"n": 110,
+			"author": 160279332454006795,
+			"content": "This proposal depends on the next 10 proposals.\nAdr is to be considered the monarch and has 40 more votes than everyone else.",
+			"status": "voting",
+			"message_id": 687271185540710417,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": -1,
+				"330678593904443393": 0,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615474
+		},
+		{
+			"n": 111,
+			"author": 474424490382589952,
+			"content": "This proposal depends on #105.\nCreate rule 6.2.1, \"Potatoes\" (%potatoes) with the following content:\n> Potatoes get 1 duck every 2 land they travel.\n> However, Potatoes can only have 3 ducks at a time.\n> All other ducks either must be either put into water tiles, or discarded.",
+			"status": "voting",
+			"message_id": 687271277978976274,
+			"votes": {
+				"160279332454006795": -1,
+				"261243340752814085": 0,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"364562317645709336": 1,
+				"427589146295664667": 1,
+				"474424490382589952": 1
+			},
+			"timestamp": 1583615496
+		},
+		{
+			"n": 112,
+			"author": 160279332454006795,
+			"content": "This depends on any non-failed Adr proposal that contain any mention of \"potatoes\".\nEverybody but adr is to be considered a potato.",
+			"status": "voting",
+			"message_id": 687271557785321532,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": -1,
+				"309787486278909952": -1,
+				"330678593904443393": -1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615563
+		},
+		{
+			"n": 113,
+			"author": 160279332454006795,
+			"content": "The next 10 proposals all depend on eachother.",
+			"status": "voting",
+			"message_id": 687272025366200393,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": -1,
+				"309787486278909952": -1,
+				"330678593904443393": -1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615674
+		},
+		{
+			"n": 114,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272328014331938,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": -1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615746
+		},
+		{
+			"n": 115,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272343734976513,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615750
+		},
+		{
+			"n": 116,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272354250096640,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": -1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615752
+		},
+		{
+			"n": 117,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272364513296414,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 0,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615755
+		},
+		{
+			"n": 118,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272380183347241,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615758
+		},
+		{
+			"n": 119,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272392103428146,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 0,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615761
+		},
+		{
+			"n": 120,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272401624760380,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615763
+		},
+		{
+			"n": 121,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272412814770226,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615766
+		},
+		{
+			"n": 122,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272423749713926,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615769
+		},
+		{
+			"n": 123,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272437087469581,
+			"votes": {
+				"160279332454006795": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583615772
+		},
+		{
+			"n": 124,
+			"author": 160279332454006795,
+			"content": "bread",
+			"status": "voting",
+			"message_id": 687272447178965001,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": 0,
+				"309787486278909952": 1,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583615774
+		},
+		{
+			"n": 125,
+			"author": 160279332454006795,
+			"content": "All players gain 1 strike.",
+			"status": "voting",
+			"message_id": 687273451819761688,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": -1,
+				"309787486278909952": 0,
+				"330678593904443393": 1,
+				"427589146295664667": -1,
+				"474424490382589952": -1
+			},
+			"timestamp": 1583616014
+		},
+		{
+			"n": 126,
+			"author": 309787486278909952,
+			"content": "Edit rule 5.1 \"Proposal content\":\n> A proposal must describe any number of changes to the game rules or alterations of the game state.\n> \n> If a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified.\n> \n> If a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.\n> \n> A proposal may not target or exclude a specific player.\n\nCreate rule \"Spam proposals\" (%spam-proposals) within %proposal-content:\n> If a player violates rule [%proposal-content], a rule violation poll may be conducted as usual, but if it passes, the violating proposals may be deleted. If punitive action poll then passes, the number of strikes the convicted player gains is equal to the number of violating proposals they posted.",
+			"status": "passed",
+			"message_id": 687281844613545993,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"364562317645709336": 1,
+				"427589146295664667": 1
+			},
+			"timestamp": 1583618015
+		},
+		{
+			"n": 127,
+			"author": 364562317645709336,
+			"content": "Add the following under %land-actions (%land-farming):\n\n> A grass (type 1) tile can be converted to farmland (type 5) as an action if it is adjacent to a water (type 2) tile and both tiles are owned by the moving player.\n> \n> Farmland tiles can be harvested every 24 hours. This gains the owner 1 wheat.",
+			"status": "voting",
+			"message_id": 687383194743734310,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": 1
+			},
+			"timestamp": 1583692625
+		},
+		{
+			"n": 128,
+			"author": 364562317645709336,
+			"content": "Wheat is a quantity. Failure to recognize this as absolute fact is punishable by permanent ban from the game's host Discord server.",
+			"status": "voting",
+			"message_id": 687383691986600047,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"364562317645709336": 1
+			},
+			"timestamp": 1583692744
+		},
+		{
+			"n": 129,
+			"author": 330678593904443393,
+			"content": "This proposal depends on #127. Delete the rule %production. Remove all goods produced through this rule so far. As there is currently no other way to get goods, this means resetting the goods quantity for all players back to 0.",
+			"status": "voting",
+			"message_id": 687391064968921300,
+			"votes": {
+				"261243340752814085": -1,
+				"309787486278909952": 0,
+				"330678593904443393": 1
+			},
+			"timestamp": 1583694501
+		},
+		{
+			"n": 130,
+			"author": 330678593904443393,
+			"content": "Rename the goods quantity and all mentions of it in the rules to \"stone\". Create a new quantity \"lumber\".\n\nAdd the following new rules under %land-actions:\n\"Mining\" (%mining)\n> As an action, a player can mine if they are standing in a mountain (type ??) tile they own to get 5 stone.\n\"Woodcutting\" (%woodcutting)\n> As an action, a player can chop wood if they are standing in a forest (type ??) tile they own to get 5 lumber.",
+			"status": "voting",
+			"message_id": 687393230282686557,
+			"votes": {
+				"160279332454006795": 0,
+				"261243340752814085": 1,
+				"309787486278909952": 1,
+				"330678593904443393": 1,
+				"427589146295664667": 1
+			},
+			"timestamp": 1583695018
+		},
+		{
+			"n": 131,
+			"author": 160279332454006795,
+			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
+			"status": "voting",
+			"message_id": 687403280069820499,
+			"votes": {
+				"160279332454006795": 1,
+				"261243340752814085": -1,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583697414
+		},
+		{
+			"n": 132,
+			"author": 160279332454006795,
+			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
+			"status": "voting",
+			"message_id": 687403305005088790,
+			"votes": {
+				"160279332454006795": 1,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583697420
+		},
+		{
+			"n": 133,
+			"author": 160279332454006795,
+			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
+			"status": "voting",
+			"message_id": 687403317164376154,
+			"votes": {
+				"160279332454006795": 1,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583697423
+		},
+		{
+			"n": 134,
+			"author": 160279332454006795,
+			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
+			"status": "voting",
+			"message_id": 687403333228429354,
+			"votes": {
+				"160279332454006795": 1,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583697426
+		},
+		{
+			"n": 135,
+			"author": 160279332454006795,
+			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
+			"status": "voting",
+			"message_id": 687403343408005204,
+			"votes": {
+				"160279332454006795": 1,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583697429
+		},
+		{
+			"n": 136,
+			"author": 160279332454006795,
+			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
+			"status": "voting",
+			"message_id": 687403358058971216,
+			"votes": {
+				"160279332454006795": 1,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583697432
+		},
+		{
+			"n": 137,
+			"author": 160279332454006795,
+			"content": "Create a new rule section named \"Bread\":\n> bread\n> \ud83c\udf5e\nRemove the rule section named \"Bread\".",
+			"status": "voting",
+			"message_id": 687403827934265361,
+			"votes": {
+				"160279332454006795": 1,
+				"330678593904443393": -1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583697544
+		},
+		{
+			"n": 138,
+			"author": 309787486278909952,
+			"content": "Edit %proposal-content:\n> A proposal must describe one or more changes to the game rules or alterations of the game state.\n> \n> If a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified.\n> \n> If a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.\n> \n> A proposal must not target or exclude a specific player.\n> \n> A proposal must not contain meaningless content or invalid English.\n> \n> A proposal must not be identical, in terms of changes described, to another open proposal.\n> \n> A proposal must not negate its own changes.",
+			"status": "voting",
+			"message_id": 687413324484313100,
+			"votes": {
+				"261243340752814085": 1,
+				"309787486278909952": 1
+			},
+			"timestamp": 1583699808
 		}
 	]
 }
