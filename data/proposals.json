@@ -2221,7 +2221,7 @@
 		{
 			"n": 146,
 			"author": 309787486278909952,
-			"content": "Create a new rule \"Bad faith polls\" %bad-faith-polls after %punitive-action:\n\n> If any player (hereby \"the accusing player\") believes that another player (hereby \"the accused player\") has, whilst not violating the rules, repeatedly acted in \"bad faith\", they may conduct a poll (called a \"bad faith poll\"). Players should vote in favour of this only if they believe the accused player acted to disrupt or damage the game, or annoy other players. A bad faith poll must list the alleged violations.\n> \n> Any vote in such a poll cast by the accused player is not counted.\n> \n> A bad faith poll must be available for voting for at least 24 hours before it may be passed. If after 48 hours, the poll has not passed, it fails. The poll may only be passed if it has more votes in favour than against.\n> \n> If a bad faith poll passes, the player loses 1 karma, and gains strikes equal to far below zero their karma is.",
+			"content": "Create a new quantity \"karma\", which can be negative.\n\nCreate a new rule \"Bad faith polls\" %bad-faith-polls after %punitive-action:\n\n> If any player (hereby \"the accusing player\") believes that another player (hereby \"the accused player\") has, whilst not violating the rules, repeatedly acted in \"bad faith\", they may conduct a poll (called a \"bad faith poll\"). Players should vote in favour of this only if they believe the accused player acted to disrupt or damage the game, or consistently annoy other players. A bad faith poll must list the alleged violations.\n> \n> Any vote in such a poll cast by the accused player is not counted.\n> \n> A bad faith poll must be available for voting for at least 24 hours before it may be passed. If after 48 hours, the poll has not passed, it fails. The poll may only be passed if it has more votes in favour than against.\n> \n> If a bad faith poll passes, the player loses 1 karma, and gains strikes equal to far below zero their karma is.",
 			"status": "voting",
 			"message_id": 687723055677833299,
 			"votes": {
@@ -2239,6 +2239,7 @@
 			"message_id": 687731576355815440,
 			"votes": {
 				"160279332454006795": 1,
+				"309787486278909952": -1,
 				"427589146295664667": -1
 			},
 			"timestamp": 1583775686
@@ -2251,6 +2252,7 @@
 			"message_id": 687733768471183474,
 			"votes": {
 				"160279332454006795": 0,
+				"309787486278909952": 1,
 				"427589146295664667": 1
 			},
 			"timestamp": 1583776208
