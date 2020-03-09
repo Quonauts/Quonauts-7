@@ -1114,3 +1114,11 @@ Create a rule section named "Cheese3" after all other currently existant rule se
 
 Remove the rule section named "Cheese2".
 
+<a name='142'/>
+
+## #142
+
+Create a rule section named "Cheese4" after all other currently existant rule sections:
+
+Remove the rule section named "Cheese3".
+
