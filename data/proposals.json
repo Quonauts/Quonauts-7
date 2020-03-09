@@ -2226,9 +2226,45 @@
 			"message_id": 687723055677833299,
 			"votes": {
 				"160279332454006795": -1,
-				"309787486278909952": 1
+				"309787486278909952": 1,
+				"427589146295664667": 1
 			},
 			"timestamp": 1583773654
+		},
+		{
+			"n": 147,
+			"author": 160279332454006795,
+			"content": "Remove all rule sections created by proposals which have their number modulo 146 = 0.",
+			"status": "voting",
+			"message_id": 687731576355815440,
+			"votes": {
+				"160279332454006795": 1,
+				"427589146295664667": -1
+			},
+			"timestamp": 1583775686
+		},
+		{
+			"n": 148,
+			"author": 427589146295664667,
+			"content": "Allow silly proposals every once in a while. They can bring humor to a Quonauts game, they just become annoying when there are too many of then.",
+			"status": "voting",
+			"message_id": 687733768471183474,
+			"votes": {
+				"160279332454006795": 0,
+				"427589146295664667": 1
+			},
+			"timestamp": 1583776208
+		},
+		{
+			"n": 149,
+			"author": 160279332454006795,
+			"content": "Everybody that abstains from this proposal will gain 1 point.",
+			"status": "voting",
+			"message_id": 687734581407121423,
+			"votes": {
+				"160279332454006795": 0
+			},
+			"timestamp": 1583776402
 		}
 	]
 }
