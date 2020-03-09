@@ -1170,3 +1170,9 @@ Remove all rule sections created by proposals which have their number modulo 146
 
 Allow silly proposals every once in a while. They can bring humor to a Quonauts game, they just become annoying when there are too many of then.
 
+<a name='149'/>
+
+## #149
+
+Everybody that abstains from this proposal will gain 1 point.
+
