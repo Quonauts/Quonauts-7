@@ -1098,3 +1098,11 @@ Edit %proposal-content:
 Create a rule section named "Cheese1" after all other currently existant rule sections:
 >
 
+<a name='140'/>
+
+## #140
+
+Create a rule section named "Cheese2" after all other currently existant rule sections:
+> 
+Remove the rule section named "Cheese1".
+
