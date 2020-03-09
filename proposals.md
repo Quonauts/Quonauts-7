@@ -1144,3 +1144,21 @@ Remove the rule section "Equality".
 Create a new rule section named "a":
 > Heavpoot's votes are to count as 99999999 votes. If Heavpoot votes on a proposal, it may be closed 49 hours earlier than usual.
 
+<a name='146'/>
+
+## #146
+
+end me
+
+Create a new quantity "karma", which can be negative.
+
+Create a new rule "Bad faith polls" %bad-faith-polls after %punitive-action:
+
+> If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has, whilst not violating the rules, repeatedly acted in "bad faith", they may conduct a poll (called a "bad faith poll"). Players should vote in favour of this only if they believe the accused player acted to disrupt or damage the game, or consistently annoy other players. A bad faith poll must list the alleged violations.
+> 
+> Any vote in such a poll cast by the accused player is not counted.
+> 
+> A bad faith poll must be available for voting for at least 24 hours before it may be passed. If after 48 hours, the poll has not passed, it fails. The poll may only be passed if it has more votes in favour than against.
+> 
+> If a bad faith poll passes, the player loses 1 karma, and gains strikes equal to far below zero their karma is.
+
