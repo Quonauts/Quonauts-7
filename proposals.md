@@ -1158,7 +1158,7 @@ Create a new rule "Bad faith polls" %bad-faith-polls after %punitive-action:
 > 
 > A bad faith poll must be available for voting for at least 24 hours before it may be passed. If after 48 hours, the poll has not passed, it fails. The poll may only be passed if it has more votes in favour than against.
 > 
-> If a bad faith poll passes, the player loses 1 karma, and gains strikes equal to far below zero their karma is.
+> If a bad faith poll passes, the player loses 1 karma, and gains strikes equal to how far below zero their karma is.
 
 <a name='147'/>
 
