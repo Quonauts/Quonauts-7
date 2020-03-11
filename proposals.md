@@ -811,7 +811,7 @@ Invalidate proposal #99.
 
 <a name='101'/>
 
-## #101
+## #101 — Failed
 
 This proposal depends on the next 3 proposals made by Adr.
 Invalidate the next 3 proposals made by Adr.
