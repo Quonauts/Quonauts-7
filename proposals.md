@@ -1044,7 +1044,7 @@ Bread. 🍞
 
 <a name='134'/>
 
-## #134
+## #134 — Failed
 
 Every player which has a strike currently is to have all strikes removed from them.
 Bread. 🍞
