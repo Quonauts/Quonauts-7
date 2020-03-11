@@ -1146,7 +1146,7 @@ Create a new rule section named "a":
 
 <a name='146'/>
 
-## #146
+## #146 — Passed
 
 Create a new quantity "karma", which can be negative.
 
