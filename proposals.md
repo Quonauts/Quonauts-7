@@ -895,7 +895,7 @@ Everybody but adr is to be considered a potato.
 
 <a name='113'/>
 
-## #113
+## #113 — Failed
 
 The next 10 proposals all depend on eachother.
 
