@@ -850,7 +850,7 @@ Baba is you.
 
 <a name='107'/>
 
-## #107
+## #107 — Failed
 
 This proposal is to be treated as all failed proposals, joined together by newlines.
 
