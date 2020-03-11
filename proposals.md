@@ -871,7 +871,7 @@ Adr is not to be considered a potato.
 
 <a name='110'/>
 
-## #110
+## #110 — Failed
 
 This proposal depends on the next 10 proposals.
 Adr is to be considered the monarch and has 40 more votes than everyone else.
