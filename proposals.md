@@ -779,7 +779,7 @@ This proposal depends on #94. Add butter to the bread.
 
 <a name='96'/>
 
-## #96
+## #96 — Failed
 
 This is proposal #96.
 
