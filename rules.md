@@ -10,6 +10,7 @@
         * [**1.4.1. Errors**](#errors)
         * [**1.4.2. Rule violation polls**](#rule-violation-polls)
         * [**1.4.3. Punitive action**](#punitive-action)
+        * [**1.4.4. Bad faith proposals**](#bad-faith-proposals)
     * [**1.5. Timezones**](#timezones)
     * [**1.6. Bots**](#bots)
     * [**1.7. Style conventions**](#style-conventions)
@@ -110,6 +111,16 @@ Any vote in such a poll cast by the convicted player is not counted.
 A punitive action poll must be available for voting for at least 24 hours before any action may be taken as a result.
 
 If a punitive action poll passes, then the convicted player gains one strike.
+
+#### <a name='bad-faith-proposals'/> Bad faith proposals
+
+If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has, whilst not violating the rules, repeatedly acted in "bad faith", they may conduct a poll (called a "bad faith poll"). Players should vote in favour of this only if they believe the accused player acted to disrupt or damage the game, or consistently annoy other players. A bad faith poll must list the alleged violations.
+
+Any vote in such a poll cast by the accused player is not counted.
+
+A bad faith poll must be available for voting for at least 24 hours before it may be passed. If after 48 hours, the poll has not passed, it fails. The poll may only be passed if it has more votes in favour than against.
+
+If a bad faith poll passes, the player loses 1 karma, and gains strikes equal to how far below zero their karma is.
 
 ### <a name='timezones'/> Timezones
 
