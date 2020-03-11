@@ -967,7 +967,7 @@ bread
 
 <a name='125'/>
 
-## #125
+## #125 — Failed
 
 All players gain 1 strike.
 
