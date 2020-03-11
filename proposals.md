@@ -791,7 +791,7 @@ This is proposal #97.
 
 <a name='98'/>
 
-## #98
+## #98 — Failed
 
 This is proposal #98.
 
