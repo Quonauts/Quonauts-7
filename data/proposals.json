@@ -1421,7 +1421,7 @@
 			"n": 90,
 			"author": 160279332454006795,
 			"content": "Make a new rule named \"Hyper Speed Walking\":\n> Any player may move 32768*4 tiles in any direction, so long as they build up speed for 12 hours. They must be in shallow water, and also must hold A down the entire time.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687258055821492276,
 			"votes": {
 				"160279332454006795": 1,
@@ -1451,7 +1451,7 @@
 			"n": 92,
 			"author": 160279332454006795,
 			"content": "Ban Sinthorion from the game until he promises to not disallow players from playing the game due to their proposal content, as this game relies on people having different opinions of what should and shouldn't be allowed into the ruleset and this inherently goes against the spirit of the game.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687258959182037012,
 			"votes": {
 				"160279332454006795": 1,
@@ -1466,7 +1466,7 @@
 			"n": 93,
 			"author": 160279332454006795,
 			"content": "All users are required to nickname theirselves as \ud83c\udf5e, and keep it until 13/02/2020 (dd/mm/yyyy) UTC. Not doing this within 24 hours of this proposal passing will be considered a rule violation.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687267394019655683,
 			"votes": {
 				"160279332454006795": 1,
@@ -1511,7 +1511,7 @@
 			"n": 96,
 			"author": 160279332454006795,
 			"content": "This is proposal #96.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687269154348204070,
 			"votes": {
 				"160279332454006795": 1,
@@ -1525,7 +1525,7 @@
 			"n": 97,
 			"author": 160279332454006795,
 			"content": "This is proposal #97.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687269216012730373,
 			"votes": {
 				"309787486278909952": 0,
@@ -1539,7 +1539,7 @@
 			"n": 98,
 			"author": 160279332454006795,
 			"content": "This is proposal #98.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687269258350034944,
 			"votes": {
 				"160279332454006795": 1,
@@ -1582,7 +1582,7 @@
 			"n": 101,
 			"author": 160279332454006795,
 			"content": "This proposal depends on the next 3 proposals made by Adr.\nInvalidate the next 3 proposals made by Adr.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687269606368477184,
 			"votes": {
 				"160279332454006795": 1,
@@ -1609,7 +1609,7 @@
 			"n": 103,
 			"author": 474424490382589952,
 			"content": "proposal",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687269849549766671,
 			"votes": {
 				"160279332454006795": -1,
@@ -1622,7 +1622,7 @@
 			"n": 104,
 			"author": 474424490382589952,
 			"content": "#101",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687269884476129301,
 			"votes": {
 				"160279332454006795": 0,
@@ -1663,7 +1663,7 @@
 			"n": 107,
 			"author": 160279332454006795,
 			"content": "This proposal is to be treated as all failed proposals, joined together by newlines.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687270398597005313,
 			"votes": {
 				"160279332454006795": 1,
@@ -1698,7 +1698,7 @@
 			"n": 110,
 			"author": 160279332454006795,
 			"content": "This proposal depends on the next 10 proposals.\nAdr is to be considered the monarch and has 40 more votes than everyone else.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687271185540710417,
 			"votes": {
 				"160279332454006795": 1,
@@ -1730,7 +1730,7 @@
 			"n": 112,
 			"author": 160279332454006795,
 			"content": "This depends on any non-failed Adr proposal that contain any mention of \"potatoes\".\nEverybody but adr is to be considered a potato.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687271557785321532,
 			"votes": {
 				"160279332454006795": 1,
@@ -1746,7 +1746,7 @@
 			"n": 113,
 			"author": 160279332454006795,
 			"content": "The next 10 proposals all depend on eachother.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687272025366200393,
 			"votes": {
 				"160279332454006795": 1,
@@ -1762,7 +1762,7 @@
 			"n": 114,
 			"author": 160279332454006795,
 			"content": "bread",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687272328014331938,
 			"votes": {
 				"160279332454006795": 1,
@@ -1792,7 +1792,7 @@
 			"n": 116,
 			"author": 160279332454006795,
 			"content": "bread",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687272354250096640,
 			"votes": {
 				"160279332454006795": 1,
@@ -1927,7 +1927,7 @@
 			"n": 125,
 			"author": 160279332454006795,
 			"content": "All players gain 1 strike.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687273451819761688,
 			"votes": {
 				"160279332454006795": 1,
@@ -2021,7 +2021,7 @@
 			"n": 131,
 			"author": 160279332454006795,
 			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687403280069820499,
 			"votes": {
 				"160279332454006795": 1,
@@ -2037,7 +2037,7 @@
 			"n": 132,
 			"author": 160279332454006795,
 			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687403305005088790,
 			"votes": {
 				"160279332454006795": 1,
@@ -2051,7 +2051,7 @@
 			"n": 133,
 			"author": 160279332454006795,
 			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687403317164376154,
 			"votes": {
 				"160279332454006795": 1,
@@ -2065,7 +2065,7 @@
 			"n": 134,
 			"author": 160279332454006795,
 			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687403333228429354,
 			"votes": {
 				"160279332454006795": 1,
@@ -2079,7 +2079,7 @@
 			"n": 135,
 			"author": 160279332454006795,
 			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687403343408005204,
 			"votes": {
 				"160279332454006795": 1,
@@ -2092,7 +2092,7 @@
 			"n": 136,
 			"author": 160279332454006795,
 			"content": "Every player which has a strike currently is to have all strikes removed from them.\nBread. \ud83c\udf5e",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687403358058971216,
 			"votes": {
 				"160279332454006795": 1,
@@ -2106,7 +2106,7 @@
 			"n": 137,
 			"author": 160279332454006795,
 			"content": "Create a new rule section named \"Bread\":\n> bread\n> \ud83c\udf5e\nRemove the rule section named \"Bread\".",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687403827934265361,
 			"votes": {
 				"160279332454006795": 1,
