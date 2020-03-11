@@ -761,7 +761,7 @@ Ban Sinthorion from the game until he promises to not disallow players from play
 
 <a name='93'/>
 
-## #93
+## #93 — Failed
 
 All users are required to nickname theirselves as 🍞, and keep it until 13/02/2020 (dd/mm/yyyy) UTC. Not doing this within 24 hours of this proposal passing will be considered a rule violation.
 
