@@ -888,7 +888,7 @@ Create rule 6.2.1, "Potatoes" (%potatoes) with the following content:
 
 <a name='112'/>
 
-## #112
+## #112 — Failed
 
 This depends on any non-failed Adr proposal that contain any mention of "potatoes".
 Everybody but adr is to be considered a potato.
