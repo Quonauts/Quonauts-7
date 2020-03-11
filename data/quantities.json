@@ -21,6 +21,12 @@
 		},
 		"default_value": 0
 	},
+	"karma": {
+		"name": "karma",
+		"aliases": [],
+		"players": {},
+		"default_value": 0
+	},
 	"land": {
 		"name": "land",
 		"aliases": [],

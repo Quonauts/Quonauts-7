@@ -18,7 +18,17 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				684664439227940881
+				688359384341807202
+			]
+		},
+		"bad-faith-proposals": {
+			"tag": "bad-faith-proposals",
+			"title": "Bad faith proposals",
+			"content": "If any player (hereby \"the accusing player\") believes that another player (hereby \"the accused player\") has, whilst not violating the rules, repeatedly acted in \"bad faith\", they may conduct a poll (called a \"bad faith poll\"). Players should vote in favour of this only if they believe the accused player acted to disrupt or damage the game, or consistently annoy other players. A bad faith poll must list the alleged violations.\n\nAny vote in such a poll cast by the accused player is not counted.\n\nA bad faith poll must be available for voting for at least 24 hours before it may be passed. If after 48 hours, the poll has not passed, it fails. The poll may only be passed if it has more votes in favour than against.\n\nIf a bad faith poll passes, the player loses 1 karma, and gains strikes equal to how far below zero their karma is.",
+			"parent_tag": "rule-violations",
+			"child_tags": [],
+			"message_ids": [
+				688359313747607612
 			]
 		},
 		"bots": {
@@ -28,7 +38,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				684664354062598144
+				688359315362545729
 			]
 		},
 		"channels": {
@@ -46,7 +56,7 @@
 				"map-channel"
 			],
 			"message_ids": [
-				684664396026478611
+				688359338640932872
 			]
 		},
 		"closing-proposals": {
@@ -58,7 +68,7 @@
 				"passing-and-failing-proposals"
 			],
 			"message_ids": [
-				687383467381489790
+				688359426473984004
 			]
 		},
 		"conflict-resolution": {
@@ -68,7 +78,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				684664441467305985
+				688359404843958322
 			]
 		},
 		"content": {
@@ -78,7 +88,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				684664373381300245
+				688359317056782471
 			]
 		},
 		"dependency-resolution": {
@@ -88,7 +98,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				684664460236947481
+				688359405544144971
 			]
 		},
 		"disallowed-by-default": {
@@ -108,7 +118,7 @@
 			"parent_tag": "quantities",
 			"child_tags": [],
 			"message_ids": [
-				687383488290357307
+				688359449135677490
 			]
 		},
 		"editing-proposals": {
@@ -118,7 +128,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				687383469688487951
+				688359428755685445
 			]
 		},
 		"equality": {
@@ -128,7 +138,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				687383552345899160
+				688359513006538843
 			]
 		},
 		"errors": {
@@ -148,7 +158,7 @@
 			"parent_tag": "land-actions",
 			"child_tags": [],
 			"message_ids": [
-				687383530291986561
+				688359490503835658
 			]
 		},
 		"formatting": {
@@ -158,7 +168,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				684664375700619269
+				688359337080782859
 			]
 		},
 		"general-channel": {
@@ -168,7 +178,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				684664396324405249
+				688359357129424917
 			]
 		},
 		"glossary": {
@@ -178,7 +188,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				684664394914988062
+				688359338028695562
 			]
 		},
 		"headers-and-tags": {
@@ -188,7 +198,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				684664374216228874
+				688359335532691555
 			]
 		},
 		"land": {
@@ -202,7 +212,7 @@
 				"land-ownership"
 			],
 			"message_ids": [
-				687383508552908865
+				688359468362366997
 			]
 		},
 		"land-actions": {
@@ -217,7 +227,7 @@
 				"feeding-ducks"
 			],
 			"message_ids": [
-				687383509815656632
+				688359469507543083
 			]
 		},
 		"land-channel": {
@@ -227,7 +237,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				684664418142781476
+				688359381397798925
 			]
 		},
 		"land-claiming": {
@@ -237,7 +247,7 @@
 			"parent_tag": "land-actions",
 			"child_tags": [],
 			"message_ids": [
-				687383511577133058
+				688359471541387276
 			]
 		},
 		"land-generation": {
@@ -247,7 +257,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				687383531281973361
+				688359491070197762
 			]
 		},
 		"land-movement": {
@@ -257,7 +267,7 @@
 			"parent_tag": "land-actions",
 			"child_tags": [],
 			"message_ids": [
-				687383510729752621
+				688359470597931048
 			]
 		},
 		"land-ownership": {
@@ -267,7 +277,7 @@
 			"parent_tag": "land",
 			"child_tags": [],
 			"message_ids": [
-				687383532548784128
+				688359492089282602
 			]
 		},
 		"lists": {
@@ -277,7 +287,7 @@
 			"parent_tag": "style-conventions",
 			"child_tags": [],
 			"message_ids": [
-				684664374702505997
+				688359336375746600
 			]
 		},
 		"map-channel": {
@@ -287,7 +297,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				684664418667069557
+				688359382320152629
 			]
 		},
 		"meta-rules": {
@@ -318,7 +328,7 @@
 				"royal-election"
 			],
 			"message_ids": [
-				687383532951437460
+				688359493108760825
 			]
 		},
 		"passing-and-failing-proposals": {
@@ -328,7 +338,7 @@
 			"parent_tag": "closing-proposals",
 			"child_tags": [],
 			"message_ids": [
-				687383468459819132
+				688359427451125891
 			]
 		},
 		"polls-channel": {
@@ -338,7 +348,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				684664416599670784
+				688359360031883292
 			]
 		},
 		"precedence": {
@@ -358,7 +368,7 @@
 			"parent_tag": "land-actions",
 			"child_tags": [],
 			"message_ids": [
-				687383512835555359
+				688359472590356495
 			]
 		},
 		"proposal-content": {
@@ -373,7 +383,7 @@
 				"spam-proposals"
 			],
 			"message_ids": [
-				684664441106595840
+				688359403866554369
 			]
 		},
 		"proposal-linking": {
@@ -383,7 +393,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				684664460937265154
+				688359406139998287
 			]
 		},
 		"proposals": {
@@ -398,7 +408,7 @@
 				"editing-proposals"
 			],
 			"message_ids": [
-				684664440318329027
+				688359403094802512
 			]
 		},
 		"proposals-channel": {
@@ -408,7 +418,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				684664398358380580
+				688359359054741514
 			]
 		},
 		"punitive-action": {
@@ -428,7 +438,7 @@
 			"parent_tag": "quantities",
 			"child_tags": [],
 			"message_ids": [
-				687383487254495449
+				688359448128913427
 			]
 		},
 		"quantities": {
@@ -441,7 +451,7 @@
 				"ducks"
 			],
 			"message_ids": [
-				687383486541070463
+				688359446912434235
 			]
 		},
 		"roles": {
@@ -453,7 +463,7 @@
 				"rule-offender"
 			],
 			"message_ids": [
-				684664419514318898
+				688359382857154587
 			]
 		},
 		"root": {
@@ -475,10 +485,10 @@
 				"equality"
 			],
 			"message_ids": [
-				687383553360789573,
-				687383554165964890,
-				687383555017670692,
-				687383555361472557
+				688359513442484334,
+				688359514634059827,
+				688359515514470430,
+				688359515896414262
 			]
 		},
 		"royal-election": {
@@ -488,7 +498,7 @@
 			"parent_tag": "monarch",
 			"child_tags": [],
 			"message_ids": [
-				687383534431764530
+				688359494492618782
 			]
 		},
 		"rule-offender": {
@@ -498,7 +508,7 @@
 			"parent_tag": "roles",
 			"child_tags": [],
 			"message_ids": [
-				684664438065725463
+				688359383947935841
 			]
 		},
 		"rule-violation-polls": {
@@ -519,7 +529,8 @@
 			"child_tags": [
 				"errors",
 				"rule-violation-polls",
-				"punitive-action"
+				"punitive-action",
+				"bad-faith-proposals"
 			],
 			"message_ids": [
 				684664332499288114
@@ -532,7 +543,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				684664397561331745
+				688359358064492548
 			]
 		},
 		"spam-proposals": {
@@ -542,7 +553,7 @@
 			"parent_tag": "proposal-content",
 			"child_tags": [],
 			"message_ids": [
-				687383464361590795
+				688359424519176226
 			]
 		},
 		"style-conventions": {
@@ -557,7 +568,7 @@
 				"formatting"
 			],
 			"message_ids": [
-				684664372374536199
+				688359316297875499
 			]
 		},
 		"the-end": {
@@ -567,7 +578,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				687383489729003672
+				688359451723694184
 			]
 		},
 		"timezones": {
@@ -577,7 +588,7 @@
 			"parent_tag": "meta-rules",
 			"child_tags": [],
 			"message_ids": [
-				684664353315880960
+				688359314200592482
 			]
 		},
 		"transactions-channel": {
@@ -587,7 +598,7 @@
 			"parent_tag": "channels",
 			"child_tags": [],
 			"message_ids": [
-				684664417258045450
+				688359360765755421
 			]
 		},
 		"voting-on-proposals": {
@@ -597,7 +608,7 @@
 			"parent_tag": "proposals",
 			"child_tags": [],
 			"message_ids": [
-				687383465905487913
+				688359425215561801
 			]
 		},
 		"winning": {
@@ -607,7 +618,7 @@
 			"parent_tag": "root",
 			"child_tags": [],
 			"message_ids": [
-				687383488923697187
+				688359450372735079
 			]
 		}
 	}
