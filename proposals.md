@@ -755,7 +755,7 @@ Ban Heavpoot from the game until he promises to take it seriously
 
 <a name='92'/>
 
-## #92
+## #92 — Failed
 
 Ban Sinthorion from the game until he promises to not disallow players from playing the game due to their proposal content, as this game relies on people having different opinions of what should and shouldn't be allowed into the ruleset and this inherently goes against the spirit of the game.
 
