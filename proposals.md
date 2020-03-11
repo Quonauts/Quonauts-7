@@ -1023,7 +1023,7 @@ Add the following new rules under %land-actions:
 
 <a name='131'/>
 
-## #131
+## #131 — Failed
 
 Every player which has a strike currently is to have all strikes removed from them.
 Bread. 🍞
