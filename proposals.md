@@ -1138,7 +1138,7 @@ All failed proposals are to be simultaneously passed, immediately.
 
 <a name='145'/>
 
-## #145
+## #145 — Failed
 
 Remove the rule section "Equality".
 Create a new rule section named "a":
