@@ -1481,7 +1481,7 @@
 			"n": 94,
 			"author": 160279332454006795,
 			"content": "Sinthorion is to be breaded, repeatedly",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687268208213753857,
 			"votes": {
 				"160279332454006795": 1,
@@ -1496,7 +1496,7 @@
 			"n": 95,
 			"author": 330678593904443393,
 			"content": "This proposal depends on #94. Add butter to the bread.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687268515912220752,
 			"votes": {
 				"160279332454006795": 1,
@@ -1553,7 +1553,7 @@
 			"n": 99,
 			"author": 160279332454006795,
 			"content": "This proposal depends on proposal #100.\nInvalidate proposal #100.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687269341255041037,
 			"votes": {
 				"160279332454006795": 1,
@@ -1567,7 +1567,7 @@
 			"n": 100,
 			"author": 474424490382589952,
 			"content": "This proposal depends on proposal #99.\nInvalidate proposal #99.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687269484578340868,
 			"votes": {
 				"160279332454006795": -1,
@@ -1635,7 +1635,7 @@
 			"n": 105,
 			"author": 160279332454006795,
 			"content": "Adr is to be considered a potato.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687269951983321118,
 			"votes": {
 				"160279332454006795": 1,
@@ -1713,7 +1713,7 @@
 			"n": 111,
 			"author": 474424490382589952,
 			"content": "This proposal depends on #105.\nCreate rule 6.2.1, \"Potatoes\" (%potatoes) with the following content:\n> Potatoes get 1 duck every 2 land they travel.\n> However, Potatoes can only have 3 ducks at a time.\n> All other ducks either must be either put into water tiles, or discarded.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687271277978976274,
 			"votes": {
 				"160279332454006795": -1,
@@ -1777,7 +1777,7 @@
 			"n": 115,
 			"author": 160279332454006795,
 			"content": "bread",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687272343734976513,
 			"votes": {
 				"160279332454006795": 1,
@@ -1822,7 +1822,7 @@
 			"n": 118,
 			"author": 160279332454006795,
 			"content": "bread",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687272380183347241,
 			"votes": {
 				"160279332454006795": 1,
@@ -1852,7 +1852,7 @@
 			"n": 120,
 			"author": 160279332454006795,
 			"content": "bread",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687272401624760380,
 			"votes": {
 				"160279332454006795": 1,
@@ -1867,7 +1867,7 @@
 			"n": 121,
 			"author": 160279332454006795,
 			"content": "bread",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687272412814770226,
 			"votes": {
 				"160279332454006795": 1,
@@ -1882,7 +1882,7 @@
 			"n": 122,
 			"author": 160279332454006795,
 			"content": "bread",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687272423749713926,
 			"votes": {
 				"160279332454006795": 1,
@@ -1897,7 +1897,7 @@
 			"n": 123,
 			"author": 160279332454006795,
 			"content": "bread",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687272437087469581,
 			"votes": {
 				"160279332454006795": 1,
@@ -1958,7 +1958,7 @@
 			"n": 127,
 			"author": 364562317645709336,
 			"content": "Add the following under %land-actions (%land-farming):\n\n> A grass (type 1) tile can be converted to farmland (type 5) as an action if it is adjacent to a water (type 2) tile and both tiles are owned by the moving player.\n> \n> Farmland tiles can be harvested every 24 hours. This gains the owner 1 wheat.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687383194743734310,
 			"votes": {
 				"261243340752814085": 1,
@@ -1973,7 +1973,7 @@
 			"n": 128,
 			"author": 364562317645709336,
 			"content": "Wheat is a quantity. Failure to recognize this as absolute fact is punishable by permanent ban from the game's host Discord server.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687383691986600047,
 			"votes": {
 				"160279332454006795": 1,
@@ -1989,7 +1989,7 @@
 			"n": 129,
 			"author": 330678593904443393,
 			"content": "This proposal depends on #127. Delete the rule %production. Remove all goods produced through this rule so far. As there is currently no other way to get goods, this means resetting the goods quantity for all players back to 0.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687391064968921300,
 			"votes": {
 				"261243340752814085": -1,
@@ -2004,7 +2004,7 @@
 			"n": 130,
 			"author": 330678593904443393,
 			"content": "Rename the goods quantity and all mentions of it in the rules to \"stone\". Create a new quantity \"lumber\".\n\nAdd the following new rules under %land-actions:\n\"Mining\" (%mining)\n> As an action, a player can mine if they are standing in a mountain (type ??) tile they own to get 5 stone.\n\"Woodcutting\" (%woodcutting)\n> As an action, a player can chop wood if they are standing in a forest (type ??) tile they own to get 5 lumber.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687393230282686557,
 			"votes": {
 				"160279332454006795": 0,
@@ -2135,7 +2135,7 @@
 			"n": 139,
 			"author": 160279332454006795,
 			"content": "Create a rule section named \"Cheese1\" after all other currently existant rule sections:\n>",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687687715013132318,
 			"votes": {
 				"160279332454006795": 1,
@@ -2149,7 +2149,7 @@
 			"n": 140,
 			"author": 160279332454006795,
 			"content": "Create a rule section named \"Cheese2\" after all other currently existant rule sections:\n> \nRemove the rule section named \"Cheese1\".",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687687766821437465,
 			"votes": {
 				"160279332454006795": 1,
@@ -2162,7 +2162,7 @@
 			"n": 141,
 			"author": 160279332454006795,
 			"content": "Create a rule section named \"Cheese3\" after all other currently existant rule sections:\n\nRemove the rule section named \"Cheese2\".",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687687839240159232,
 			"votes": {
 				"160279332454006795": 1,
@@ -2176,7 +2176,7 @@
 			"n": 142,
 			"author": 160279332454006795,
 			"content": "Create a rule section named \"Cheese4\" after all other currently existant rule sections:\n\nRemove the rule section named \"Cheese3\".",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687687872261914730,
 			"votes": {
 				"160279332454006795": 1,
@@ -2190,7 +2190,7 @@
 			"n": 143,
 			"author": 160279332454006795,
 			"content": "Create a rule section named \"Bread\" after all other currrently existant rule sections:\n> If a rule section named \"Bread\" exists, then it is to be immediately removed. Creation of such a rule section is not, however, against the rules.\nThis is to prevent bifurication of the complex balance of hyper-potato space that emnates through Quonauts 7 through to Quonauts 4.5. This can be achieved by a bread-duplex of the highest degree, creating holes in spacetime. This is the proper way to truly bake bread.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687689736021737579,
 			"votes": {
 				"160279332454006795": 1,
@@ -2206,7 +2206,7 @@
 			"n": 144,
 			"author": 160279332454006795,
 			"content": "All failed proposals are to be simultaneously passed, immediately.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687690400776978498,
 			"votes": {
 				"160279332454006795": -1,
@@ -2221,7 +2221,7 @@
 			"n": 145,
 			"author": 160279332454006795,
 			"content": "Remove the rule section \"Equality\".\nCreate a new rule section named \"a\":\n> Heavpoot's votes are to count as 99999999 votes. If Heavpoot votes on a proposal, it may be closed 49 hours earlier than usual.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687691380738359391,
 			"votes": {
 				"160279332454006795": 1,
@@ -2250,7 +2250,7 @@
 			"n": 147,
 			"author": 160279332454006795,
 			"content": "Remove all rule sections created by proposals which have their number modulo 146 = 0.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 687731576355815440,
 			"votes": {
 				"160279332454006795": 1,
@@ -2266,7 +2266,7 @@
 			"n": 148,
 			"author": 427589146295664667,
 			"content": "Allow silly proposals every once in a while. They can bring humor to a Quonauts game, they just become annoying when there are too many of then.",
-			"status": "voting",
+			"status": "passed",
 			"message_id": 687733768471183474,
 			"votes": {
 				"160279332454006795": 0,
