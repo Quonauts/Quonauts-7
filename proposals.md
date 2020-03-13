@@ -1178,3 +1178,11 @@ Allow silly proposals every once in a while. They can bring humor to a Quonauts 
 
 Everybody that abstains from this proposal will gain 1 point.
 
+<a name='150'/>
+
+## #150
+
+CatIsFluffy is to be given the "Covid-19", as per this new rule section:
+Create a new rule section under "Land" named "Covid-19":
+> When any player moves and they have Covid-19, they must roll one 6 sided die via the bot. If it gives a 1, all surrounding players of distance sqrt(2) or less (according to Euclidean metric) will attain the Covid-19 status if they do not have it already.
+
