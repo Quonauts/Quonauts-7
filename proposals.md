@@ -1093,7 +1093,7 @@ Edit %proposal-content:
 
 <a name='139'/>
 
-## #139
+## #139 — Failed
 
 Create a rule section named "Cheese1" after all other currently existant rule sections:
 >
