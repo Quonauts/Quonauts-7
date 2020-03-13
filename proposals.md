@@ -1132,7 +1132,7 @@ This is to prevent bifurication of the complex balance of hyper-potato space tha
 
 <a name='144'/>
 
-## #144
+## #144 — Failed
 
 All failed proposals are to be simultaneously passed, immediately.
 
