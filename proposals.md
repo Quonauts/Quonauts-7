@@ -773,7 +773,7 @@ Sinthorion is to be breaded, repeatedly
 
 <a name='95'/>
 
-## #95
+## #95 — Passed
 
 This proposal depends on #94. Add butter to the bread.
 
