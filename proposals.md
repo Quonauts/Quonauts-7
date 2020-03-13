@@ -1162,7 +1162,7 @@ Create a new rule "Bad faith polls" %bad-faith-polls after %punitive-action:
 
 <a name='147'/>
 
-## #147
+## #147 — Failed
 
 Remove all rule sections created by proposals which have their number modulo 146 = 0.
 
