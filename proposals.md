@@ -1174,7 +1174,7 @@ Allow silly proposals every once in a while. They can bring humor to a Quonauts 
 
 <a name='149'/>
 
-## #149
+## #149 — Passed
 
 Everybody that abstains from this proposal will gain 1 point.
 
