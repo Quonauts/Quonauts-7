@@ -1011,7 +1011,7 @@ This proposal depends on #127. Delete the rule %production. Remove all goods pro
 
 <a name='130'/>
 
-## #130
+## #130 — Passed
 
 Rename the goods quantity and all mentions of it in the rules to "stone". Create a new quantity "lumber".
 
