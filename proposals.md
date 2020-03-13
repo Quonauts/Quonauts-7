@@ -1116,7 +1116,7 @@ Remove the rule section named "Cheese2".
 
 <a name='142'/>
 
-## #142
+## #142 — Failed
 
 Create a rule section named "Cheese4" after all other currently existant rule sections:
 
