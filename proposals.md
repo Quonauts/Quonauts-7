@@ -804,7 +804,7 @@ Invalidate proposal #100.
 
 <a name='100'/>
 
-## #100
+## #100 — Passed
 
 This proposal depends on proposal #99.
 Invalidate proposal #99.
