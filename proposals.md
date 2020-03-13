@@ -797,7 +797,7 @@ This is proposal #98.
 
 <a name='99'/>
 
-## #99
+## #99 — Passed
 
 This proposal depends on proposal #100.
 Invalidate proposal #100.
