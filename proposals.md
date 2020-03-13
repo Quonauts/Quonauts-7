@@ -838,7 +838,7 @@ proposal
 
 <a name='105'/>
 
-## #105
+## #105 — Passed
 
 Adr is to be considered a potato.
 
