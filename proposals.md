@@ -878,7 +878,7 @@ Adr is to be considered the monarch and has 40 more votes than everyone else.
 
 <a name='111'/>
 
-## #111
+## #111 — Passed
 
 This proposal depends on #105.
 Create rule 6.2.1, "Potatoes" (%potatoes) with the following content:
