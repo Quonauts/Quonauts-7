@@ -1124,7 +1124,7 @@ Remove the rule section named "Cheese3".
 
 <a name='143'/>
 
-## #143
+## #143 — Failed
 
 Create a rule section named "Bread" after all other currrently existant rule sections:
 > If a rule section named "Bread" exists, then it is to be immediately removed. Creation of such a rule section is not, however, against the rules.
