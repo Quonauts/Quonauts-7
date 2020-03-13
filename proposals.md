@@ -989,7 +989,7 @@ Create rule "Spam proposals" (%spam-proposals) within %proposal-content:
 
 <a name='127'/>
 
-## #127
+## #127 — Passed
 
 Add the following under %land-actions (%land-farming):
 
