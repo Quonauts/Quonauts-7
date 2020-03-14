@@ -1180,7 +1180,7 @@ Everybody that abstains from this proposal will gain 1 point.
 
 <a name='150'/>
 
-## #150
+## #150 — Failed
 
 CatIsFluffy is to be given the "Covid-19", as per this new rule section:
 Create a new rule section under "Land" named "Covid-19":
