@@ -2297,7 +2297,7 @@
 			"n": 150,
 			"author": 160279332454006795,
 			"content": "CatIsFluffy is to be given the \"Covid-19\", as per this new rule section:\nCreate a new rule section under \"Land\" named \"Covid-19\":\n> When any player moves and they have Covid-19, they must roll one 6 sided die via the bot. If it gives a 1, all surrounding players of distance sqrt(2) or less (according to Euclidean metric) will attain the Covid-19 status if they do not have it already.",
-			"status": "voting",
+			"status": "failed",
 			"message_id": 689269771669340249,
 			"votes": {
 				"160279332454006795": 1,
